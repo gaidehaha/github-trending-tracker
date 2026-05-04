@@ -2,19 +2,17 @@ name: Daily GitHub Trending
 
 on:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: '0 12 * * *'  # UTC 12:00 = Beijing 20:00
   workflow_dispatch:
 
 jobs:
   trending:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
