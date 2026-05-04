@@ -1,1 +1,30 @@
-name: Daily GitHub Trending\n\non:\n  schedule:\n    - cron: '0 12 * * *'  # UTC 12:00 = Beijing 20:00\n  workflow_dispatch:\n\njobs:\n  trending:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - uses: actions/checkout@v4\n      - uses: actions/setup-node@v4\n        with:\n          node-version: 22\n      - name: Fetch trending data\n        run: node scripts/fetch-trending.js\n        env:\n          DATA_DIR: ./data\n      - name: Generate report\n        run: node scripts/generate-report.js\n        env:\n          DATA_DIR: ./data\n          REPORT_DIR: ./reports\n      - name: Commit via API\n        run: node scripts/commit-api.js\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+name: Daily GitHub Trending
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  trending:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch trending data
+        run: node scripts/fetch-trending.js
+        env:
+          DATA_DIR: ./data
+      - name: Generate report
+        run: node scripts/generate-report.js
+        env:
+          DATA_DIR: ./data
+          REPORT_DIR: ./reports
+      - name: Commit via API
+        run: node scripts/commit-api.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
