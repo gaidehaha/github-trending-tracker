@@ -8,10 +8,11 @@ on:
 jobs:
   trending:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.PAT_TOKEN }}
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -24,7 +25,11 @@ jobs:
         env:
           DATA_DIR: ./data
           REPORT_DIR: ./reports
-      - name: Commit via API
-        run: node scripts/commit-api.js
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/
+          git diff --staged --quiet && echo 'No changes' && exit 0
+          git commit -m "trending: $(date -u +%Y-%m-%d)"
+          git push
