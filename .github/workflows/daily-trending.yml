@@ -22,7 +22,23 @@ jobs:
         env:
           DATA_DIR: ./data
           REPORT_DIR: ./reports
-      - name: Commit via API
-        run: node scripts/commit-api.js
+      - name: Debug token
+        run: 'echo "Token length: ${#PAT_TOKEN}" && curl -s -o /dev/null -w "%{http_code}" -H "Authorization: token $PAT_TOKEN" https://api.github.com/user'
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+      - name: Commit via curl
+        run: |
+          for dir in data reports; do
+            [ -d "$dir" ] || continue
+            for f in $(find $dir -type f); do
+              CONTENT=$(base64 -w0 "$f")
+              SHA=$(curl -s -H "Authorization: token $PAT_TOKEN" "https://api.github.com/repos/$GITHUB_REPOSITORY/contents/$f?ref=main" | python3 -c "import sys,json; print(json.load(sys.stdin).get('sha',''))" 2>/dev/null || true)
+              BODY="{\"message\":\"update $f\",\"content\":\"$CONTENT\",\"branch\":\"main\"${SHA:+,\"sha\":\"$SHA\"}}"
+          
+              echo "Uploading $f ..."
+              curl -s -w "\nHTTP %{http_code}" -X PUT -H "Authorization: token $PAT_TOKEN" -H "Content-Type: application/json" -d "$BODY" "https://api.github.com/repos/$GITHUB_REPOSITORY/contents/$f"
+              echo ""
+            done
+          done
+        env:
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
