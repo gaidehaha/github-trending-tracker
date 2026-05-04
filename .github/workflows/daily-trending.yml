@@ -1,44 +1,26 @@
 name: Daily GitHub Trending
 
 on:
-  schedule:
-    - cron: '0 12 * * *'
   workflow_dispatch:
 
 jobs:
-  trending:
+  debug:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-      - name: Fetch trending data
-        run: node scripts/fetch-trending.js
-        env:
-          DATA_DIR: ./data
-      - name: List files
-        run: ls -laR data/ reports/ 2>&1 || echo 'dirs not found'
-      - name: Generate report
-        run: node scripts/generate-report.js
-        env:
-          DATA_DIR: ./data
-          REPORT_DIR: ./reports
-      - name: List output
-        run: ls -laR data/ reports/ 2>&1 || echo 'dirs not found'
-      - name: Upload via API
+      - name: Test fetch
         run: |
-          echo "PAT_TOKEN length: ${#PAT_TOKEN}"
-          for dir in data reports; do
-            [ -d "$dir" ] || { echo "skip $dir (not found)"; continue; }
-            find "$dir" -type f | while read f; do
-              CONTENT=$(base64 -w0 "$f")
-              SHA=$(curl -sf -H "Authorization: token $PAT_TOKEN" "https://api.github.com/repos/$GITHUB_REPOSITORY/contents/$f?ref=main" | python3 -c "import sys,json;d=json.load(sys.stdin);print(d.get('sha',''))" 2>/dev/null || echo "")
-              BODY=$(jq -n --arg msg "update $f" --arg content "$CONTENT" --arg branch "main" '{message:$msg,content:$content,branch:$branch}')
-              if [ -n "$SHA" ]; then BODY=$(echo "$BODY" | jq --arg sha "$SHA" '. + {sha:$sha}'); fi
-              echo "PUT $f (sha=${SHA:-new})"
-              curl -sf -X PUT -H "Authorization: token $PAT_TOKEN" -H "Content-Type: application/json" -d "$BODY" "https://api.github.com/repos/$GITHUB_REPOSITORY/contents/$f" | jq '{status: .status, message: .message}' 2>/dev/null || echo "curl failed"
-            done
-          done
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+          echo '--- Testing github.com/trending ---'
+          curl -sL -o /tmp/trending.html -w 'HTTP %{http_code}' 'https://github.com/trending'
+          echo ''
+          echo 'File size:' $(wc -c < /tmp/trending.html)
+          echo 'First 500 chars:'
+          head -c 500 /tmp/trending.html
+          echo ''
+          echo '--- Box-row count ---'
+          grep -c 'Box-row' /tmp/trending.html || echo '0 matches'
+          echo '--- Running fetch script ---'
+          DATA_DIR=./data node scripts/fetch-trending.js
+          echo '--- Result ---'
+          ls -la data/ 2>&1 || echo 'no data dir'
+          cat data/daily-*.json 2>/dev/null | head -c 500 || echo 'no daily json'
