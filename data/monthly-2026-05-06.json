@@ -1,0 +1,176 @@
+{
+  "date": "2026-05-06",
+  "timeframe": "monthly",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "totalStars": "115,802",
+      "forks": "11,592",
+      "starsGained": 105745,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 2,
+      "name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "totalStars": "135,316",
+      "forks": "20,696",
+      "starsGained": 108753,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 3,
+      "name": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "totalStars": "25,201",
+      "forks": "3,063",
+      "starsGained": 22722,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 4,
+      "name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "62,312",
+      "forks": "5,369",
+      "starsGained": 48299,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 5,
+      "name": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "language": "Python",
+      "totalStars": "21,865",
+      "forks": "3,173",
+      "starsGained": 19956,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 6,
+      "name": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "totalStars": "23,098",
+      "forks": "4,047",
+      "starsGained": 11523,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 7,
+      "name": "coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "totalStars": "20,901",
+      "forks": "3,189",
+      "starsGained": 7050,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 8,
+      "name": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "totalStars": "29,334",
+      "forks": "3,556",
+      "starsGained": 25759,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 9,
+      "name": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "totalStars": "121,007",
+      "forks": "8,101",
+      "starsGained": 27791,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 10,
+      "name": "HKUDS/DeepTutor",
+      "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
+      "language": "Python",
+      "totalStars": "23,453",
+      "forks": "3,111",
+      "starsGained": 12179,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 11,
+      "name": "lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "language": "Python",
+      "totalStars": "9,306",
+      "forks": "1,082",
+      "starsGained": 8364,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 12,
+      "name": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "totalStars": "12,576",
+      "forks": "1,906",
+      "starsGained": 7995,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 13,
+      "name": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "totalStars": "72,768",
+      "forks": "6,247",
+      "starsGained": 27468,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 14,
+      "name": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "totalStars": "72,164",
+      "forks": "8,153",
+      "starsGained": 14223,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 15,
+      "name": "ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "totalStars": "7,036",
+      "forks": "461",
+      "starsGained": 6091,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 16,
+      "name": "hugohe3/ppt-master",
+      "description": "AI generates natively editable PPTX from any document — real PowerPoint shapes with native animations, not images · by Hugo He",
+      "language": "Python",
+      "totalStars": "12,121",
+      "forks": "1,246",
+      "starsGained": 7829,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 17,
+      "name": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "totalStars": "69,964",
+      "forks": "13,502",
+      "starsGained": 21862,
+      "gainPeriod": "this month"
+    }
+  ]
+}
