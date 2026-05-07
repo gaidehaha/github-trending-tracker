@@ -1,0 +1,156 @@
+{
+  "date": "2026-05-07",
+  "timeframe": "weekly",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "totalStars": "70,836",
+      "forks": "13,709",
+      "starsGained": 15576,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 2,
+      "name": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "totalStars": "45,800",
+      "forks": "5,063",
+      "starsGained": 10993,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 3,
+      "name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "64,173",
+      "forks": "5,551",
+      "starsGained": 20777,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 4,
+      "name": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "totalStars": "26,121",
+      "forks": "1,818",
+      "starsGained": 5990,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 5,
+      "name": "warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "totalStars": "56,141",
+      "forks": "4,156",
+      "starsGained": 15633,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 6,
+      "name": "1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "totalStars": "4,714",
+      "forks": "458",
+      "starsGained": 3332,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 7,
+      "name": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "totalStars": "24,621",
+      "forks": "2,996",
+      "starsGained": 2668,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 8,
+      "name": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "totalStars": "10,087",
+      "forks": "1,347",
+      "starsGained": 906,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 9,
+      "name": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "totalStars": "13,187",
+      "forks": "1,981",
+      "starsGained": 5048,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 10,
+      "name": "D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "totalStars": "46,927",
+      "forks": "4,342",
+      "starsGained": 6699,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 11,
+      "name": "docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "totalStars": "15,320",
+      "forks": "1,389",
+      "starsGained": 2747,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 12,
+      "name": "LearningCircuit/local-deep-research",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local &amp; Encrypted.",
+      "language": "Python",
+      "totalStars": "6,013",
+      "forks": "536",
+      "starsGained": 1102,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 13,
+      "name": "cocoindex-io/cocoindex",
+      "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "language": "Python",
+      "totalStars": "8,700",
+      "forks": "643",
+      "starsGained": 1474,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 14,
+      "name": "fspecii/ace-step-ui",
+      "description": "🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno!",
+      "language": "JavaScript",
+      "totalStars": "3,172",
+      "forks": "465",
+      "starsGained": 1081,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 15,
+      "name": "ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "totalStars": "7,346",
+      "forks": "483",
+      "starsGained": 2539,
+      "gainPeriod": "this week"
+    }
+  ]
+}
