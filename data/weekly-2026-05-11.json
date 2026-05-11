@@ -1,0 +1,196 @@
+{
+  "date": "2026-05-11",
+  "timeframe": "weekly",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "totalStars": "24,908",
+      "forks": "2,055",
+      "starsGained": 22034,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 2,
+      "name": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "totalStars": "19,913",
+      "forks": "2,588",
+      "starsGained": 10272,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 3,
+      "name": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "totalStars": "48,855",
+      "forks": "5,420",
+      "starsGained": 10779,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 4,
+      "name": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "totalStars": "32,768",
+      "forks": "3,243",
+      "starsGained": 2191,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 5,
+      "name": "LearningCircuit/local-deep-research",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local &amp; Encrypted.",
+      "language": "Python",
+      "totalStars": "7,174",
+      "forks": "634",
+      "starsGained": 2483,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 6,
+      "name": "docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "totalStars": "16,325",
+      "forks": "1,481",
+      "starsGained": 4020,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 7,
+      "name": "decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
+      "totalStars": "7,944",
+      "forks": "1,292",
+      "starsGained": 3318,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 8,
+      "name": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "totalStars": "73,607",
+      "forks": "14,353",
+      "starsGained": 8872,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 9,
+      "name": "bwya77/vscode-dark-islands",
+      "description": "VSCode theme based off the easemate IDE and Jetbrains islands theme",
+      "language": "PowerShell",
+      "totalStars": "8,400",
+      "forks": "263",
+      "starsGained": 1588,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 10,
+      "name": "virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "totalStars": "25,246",
+      "forks": "3,082",
+      "starsGained": 2741,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 11,
+      "name": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "totalStars": "15,060",
+      "forks": "2,193",
+      "starsGained": 5038,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 12,
+      "name": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "totalStars": "39,237",
+      "forks": "4,335",
+      "starsGained": 10738,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 13,
+      "name": "cocoindex-io/cocoindex",
+      "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "language": "Python",
+      "totalStars": "9,563",
+      "forks": "735",
+      "starsGained": 1831,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 14,
+      "name": "VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "totalStars": "30,587",
+      "forks": "2,606",
+      "starsGained": 4328,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 15,
+      "name": "InsForge/InsForge",
+      "description": "The all-in-one, open-source backend platform for agentic coding. InsForge gives your coding agent database, auth, storage, compute, hosting, and AI gateway to ship full-stack apps end-to-end.",
+      "language": "TypeScript",
+      "totalStars": "9,419",
+      "forks": "780",
+      "starsGained": 1377,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 16,
+      "name": "PriorLabs/TabPFN",
+      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
+      "language": "Python",
+      "totalStars": "6,941",
+      "forks": "683",
+      "starsGained": 748,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 17,
+      "name": "1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "totalStars": "5,707",
+      "forks": "582",
+      "starsGained": 2328,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 18,
+      "name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "71,126",
+      "forks": "6,148",
+      "starsGained": 12722,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 19,
+      "name": "yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "totalStars": "10,388",
+      "forks": "1,966",
+      "starsGained": 789,
+      "gainPeriod": "this week"
+    }
+  ]
+}
