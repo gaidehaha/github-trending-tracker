@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-11",
+  "timeframe": "monthly",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "totalStars": "124,840",
+      "forks": "12,688",
+      "starsGained": 112371,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 2,
+      "name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "71,126",
+      "forks": "6,148",
+      "starsGained": 55276,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 3,
+      "name": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "language": "Python",
+      "totalStars": "23,714",
+      "forks": "3,490",
+      "starsGained": 21766,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 4,
+      "name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "totalStars": "143,991",
+      "forks": "22,491",
+      "starsGained": 92870,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 5,
+      "name": "lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "language": "Python",
+      "totalStars": "10,853",
+      "forks": "1,229",
+      "starsGained": 9574,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 6,
+      "name": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "totalStars": "15,060",
+      "forks": "2,193",
+      "starsGained": 11017,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 7,
+      "name": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "totalStars": "39,237",
+      "forks": "4,335",
+      "starsGained": 26792,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 8,
+      "name": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "totalStars": "27,195",
+      "forks": "3,273",
+      "starsGained": 21605,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 9,
+      "name": "ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "totalStars": "8,096",
+      "forks": "533",
+      "starsGained": 7228,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 10,
+      "name": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "totalStars": "73,586",
+      "forks": "8,305",
+      "starsGained": 15661,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 11,
+      "name": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "totalStars": "27,720",
+      "forks": "1,977",
+      "starsGained": 7958,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 12,
+      "name": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "totalStars": "73,607",
+      "forks": "14,353",
+      "starsGained": 24174,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 13,
+      "name": "thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "totalStars": "74,737",
+      "forks": "6,412",
+      "starsGained": 27652,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 14,
+      "name": "Anil-matcha/Open-Generative-AI",
+      "description": "Unrestricted, open-source alternative to AI video platforms — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "language": "JavaScript",
+      "totalStars": "12,776",
+      "forks": "2,267",
+      "starsGained": 8591,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 15,
+      "name": "hugohe3/ppt-master",
+      "description": "AI generates natively editable PPTX from any document — real PowerPoint shapes with native animations, not images · by Hugo He",
+      "language": "Python",
+      "totalStars": "14,657",
+      "forks": "1,466",
+      "starsGained": 10059,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 16,
+      "name": "z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "totalStars": "4,355",
+      "forks": "306",
+      "starsGained": 3219,
+      "gainPeriod": "this month"
+    }
+  ]
+}
