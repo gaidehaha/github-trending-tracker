@@ -1,0 +1,176 @@
+{
+  "date": "2026-05-12",
+  "timeframe": "monthly",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "totalStars": "126,495",
+      "forks": "12,858",
+      "starsGained": 112987,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 2,
+      "name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "74,831",
+      "forks": "6,457",
+      "starsGained": 57314,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 3,
+      "name": "Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "language": "Python",
+      "totalStars": "23,984",
+      "forks": "3,559",
+      "starsGained": 22043,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 4,
+      "name": "lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "language": "Python",
+      "totalStars": "11,043",
+      "forks": "1,256",
+      "starsGained": 10019,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 5,
+      "name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "totalStars": "146,280",
+      "forks": "22,899",
+      "starsGained": 88781,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 6,
+      "name": "AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "totalStars": "15,499",
+      "forks": "2,246",
+      "starsGained": 11635,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 7,
+      "name": "Tracer-Cloud/opensre",
+      "description": "Build your own AI SRE agents. The open source toolkit for the AI era.",
+      "language": "Python",
+      "totalStars": "4,840",
+      "forks": "618",
+      "starsGained": 4339,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 8,
+      "name": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "totalStars": "40,119",
+      "forks": "4,422",
+      "starsGained": 27000,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 9,
+      "name": "ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "totalStars": "8,621",
+      "forks": "642",
+      "starsGained": 7415,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 10,
+      "name": "Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "totalStars": "73,815",
+      "forks": "8,331",
+      "starsGained": 15885,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 11,
+      "name": "soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "totalStars": "28,012",
+      "forks": "2,008",
+      "starsGained": 8398,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 12,
+      "name": "TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "totalStars": "74,194",
+      "forks": "14,477",
+      "starsGained": 24574,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 13,
+      "name": "multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "totalStars": "27,593",
+      "forks": "3,322",
+      "starsGained": 20178,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 14,
+      "name": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "totalStars": "21,106",
+      "forks": "2,812",
+      "starsGained": 12642,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 15,
+      "name": "Anil-matcha/Open-Generative-AI",
+      "description": "Unrestricted, open-source alternative to AI video platforms — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "language": "JavaScript",
+      "totalStars": "12,936",
+      "forks": "2,291",
+      "starsGained": 8596,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 16,
+      "name": "hugohe3/ppt-master",
+      "description": "AI generates natively editable PPTX from any document — real PowerPoint shapes with native animations, not images · by Hugo He",
+      "language": "Python",
+      "totalStars": "15,165",
+      "forks": "1,500",
+      "starsGained": 10239,
+      "gainPeriod": "this month"
+    },
+    {
+      "rank": 17,
+      "name": "z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "totalStars": "4,451",
+      "forks": "313",
+      "starsGained": 3377,
+      "gainPeriod": "this month"
+    }
+  ]
+}
