@@ -1,0 +1,166 @@
+{
+  "date": "2026-05-14",
+  "timeframe": "weekly",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "totalStars": "22,610",
+      "forks": "3,083",
+      "starsGained": 13555,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 2,
+      "name": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "totalStars": "10,320",
+      "forks": "773",
+      "starsGained": 8328,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 3,
+      "name": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "totalStars": "33,862",
+      "forks": "3,362",
+      "starsGained": 4096,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 4,
+      "name": "Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "totalStars": "28,712",
+      "forks": "2,384",
+      "starsGained": 15975,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 5,
+      "name": "rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "totalStars": "8,641",
+      "forks": "714",
+      "starsGained": 4450,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 6,
+      "name": "yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "totalStars": "13,600",
+      "forks": "2,308",
+      "starsGained": 3302,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 7,
+      "name": "decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
+      "totalStars": "10,151",
+      "forks": "1,563",
+      "starsGained": 5796,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 8,
+      "name": "HKUDS/AI-Trader",
+      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+      "language": "Python",
+      "totalStars": "17,141",
+      "forks": "2,656",
+      "starsGained": 2962,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 9,
+      "name": "Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "totalStars": "7,072",
+      "forks": "810",
+      "starsGained": 1968,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 10,
+      "name": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "totalStars": "41,402",
+      "forks": "4,551",
+      "starsGained": 11732,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 11,
+      "name": "playcanvas/supersplat",
+      "description": "3D Gaussian Splat Editor",
+      "language": "TypeScript",
+      "totalStars": "7,910",
+      "forks": "858",
+      "starsGained": 2745,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 12,
+      "name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "80,970",
+      "forks": "6,993",
+      "starsGained": 15813,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 13,
+      "name": "ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "totalStars": "50,757",
+      "forks": "5,670",
+      "starsGained": 5510,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 14,
+      "name": "apernet/hysteria",
+      "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+      "language": "Go",
+      "totalStars": "20,733",
+      "forks": "2,143",
+      "starsGained": 692,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 15,
+      "name": "datawhalechina/easy-vibe",
+      "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+      "language": "JavaScript",
+      "totalStars": "10,763",
+      "forks": "1,009",
+      "starsGained": 2869,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 16,
+      "name": "LearningCircuit/local-deep-research",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local &amp; Encrypted.",
+      "language": "Python",
+      "totalStars": "7,558",
+      "forks": "652",
+      "starsGained": 2046,
+      "gainPeriod": "this week"
+    }
+  ]
+}
