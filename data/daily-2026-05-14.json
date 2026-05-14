@@ -1,0 +1,156 @@
+{
+  "date": "2026-05-14",
+  "timeframe": "daily",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "55,156",
+      "forks": "7,333",
+      "starsGained": 1757,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 2,
+      "name": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "totalStars": "7,219",
+      "forks": "574",
+      "starsGained": 3476,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 3,
+      "name": "rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "totalStars": "8,641",
+      "forks": "714",
+      "starsGained": 1978,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 4,
+      "name": "obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "190,665",
+      "forks": "16,954",
+      "starsGained": 1801,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 5,
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "totalStars": "21,529",
+      "forks": "2,357",
+      "starsGained": 637,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 6,
+      "name": "shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "totalStars": "24,614",
+      "forks": "4,314",
+      "starsGained": 359,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 7,
+      "name": "roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "language": "Python",
+      "totalStars": "38,734",
+      "forks": "3,475",
+      "starsGained": 59,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 8,
+      "name": "influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "totalStars": "17,117",
+      "forks": "5,789",
+      "starsGained": 211,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 9,
+      "name": "supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "totalStars": "4,998",
+      "forks": "485",
+      "starsGained": 1163,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 10,
+      "name": "Genymobile/scrcpy",
+      "description": "Display and control your Android device",
+      "language": "C",
+      "totalStars": "141,054",
+      "forks": "13,034",
+      "starsGained": 589,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 11,
+      "name": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "description": "Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+      "language": "Python",
+      "totalStars": "707",
+      "forks": "239",
+      "starsGained": 28,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 12,
+      "name": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "totalStars": "10,320",
+      "forks": "773",
+      "starsGained": 1369,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 13,
+      "name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "80,970",
+      "forks": "6,993",
+      "starsGained": 2971,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 14,
+      "name": "github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "totalStars": "99,047",
+      "forks": "8,624",
+      "starsGained": 1240,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 15,
+      "name": "garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "totalStars": "96,266",
+      "forks": "14,318",
+      "starsGained": 1083,
+      "gainPeriod": "today"
+    }
+  ]
+}
