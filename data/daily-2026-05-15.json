@@ -1,0 +1,126 @@
+{
+  "date": "2026-05-15",
+  "timeframe": "daily",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "totalStars": "8,472",
+      "forks": "696",
+      "starsGained": 1272,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 2,
+      "name": "obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "192,258",
+      "forks": "17,097",
+      "starsGained": 1646,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 3,
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "totalStars": "22,164",
+      "forks": "2,402",
+      "starsGained": 643,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 4,
+      "name": "supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "totalStars": "5,702",
+      "forks": "562",
+      "starsGained": 712,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 5,
+      "name": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "56,974",
+      "forks": "7,498",
+      "starsGained": 1865,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 6,
+      "name": "influxdata/telegraf",
+      "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+      "language": "Go",
+      "totalStars": "17,322",
+      "forks": "5,799",
+      "starsGained": 213,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 7,
+      "name": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "totalStars": "134,719",
+      "forks": "15,895",
+      "starsGained": 625,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 8,
+      "name": "czlonkowski/n8n-mcp",
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "language": "TypeScript",
+      "totalStars": "20,763",
+      "forks": "3,390",
+      "starsGained": 68,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 9,
+      "name": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "description": "Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+      "language": "Python",
+      "totalStars": "1,014",
+      "forks": "256",
+      "starsGained": 305,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 10,
+      "name": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "totalStars": "90,473",
+      "forks": "4,497",
+      "starsGained": 289,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 11,
+      "name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "84,052",
+      "forks": "7,286",
+      "starsGained": 3155,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 12,
+      "name": "joeseesun/qiaomu-anything-to-notebooklm",
+      "description": "Claude Skill: Multi-source content processor for NotebookLM. Supports WeChat articles, web pages, YouTube, PDF, Markdown, search queries → Podcast/PPT/MindMap/Quiz etc.",
+      "language": "Python",
+      "totalStars": "2,433",
+      "forks": "256",
+      "starsGained": 465,
+      "gainPeriod": "today"
+    }
+  ]
+}
