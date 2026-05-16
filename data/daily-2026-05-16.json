@@ -1,0 +1,96 @@
+{
+  "date": "2026-05-16",
+  "timeframe": "daily",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "totalStars": "90,811",
+      "forks": "4,523",
+      "starsGained": 448,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 2,
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "totalStars": "22,814",
+      "forks": "2,462",
+      "starsGained": 646,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 3,
+      "name": "obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "193,471",
+      "forks": "17,205",
+      "starsGained": 1648,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 4,
+      "name": "Anil-matcha/Open-Generative-AI",
+      "description": "Open-source alternative to AI video platforms — Free AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "language": "JavaScript",
+      "totalStars": "14,095",
+      "forks": "2,480",
+      "starsGained": 356,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 5,
+      "name": "supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "totalStars": "6,414",
+      "forks": "645",
+      "starsGained": 719,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 6,
+      "name": "tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "totalStars": "10,015",
+      "forks": "855",
+      "starsGained": 1271,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 7,
+      "name": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "57,913",
+      "forks": "7,577",
+      "starsGained": 1859,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 8,
+      "name": "pranshuparmar/witr",
+      "description": "Why is this running?",
+      "language": "Go",
+      "totalStars": "16,573",
+      "forks": "499",
+      "starsGained": 484,
+      "gainPeriod": "today"
+    },
+    {
+      "rank": 9,
+      "name": "colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "totalStars": "2,138",
+      "forks": "191",
+      "starsGained": 397,
+      "gainPeriod": "today"
+    }
+  ]
+}
