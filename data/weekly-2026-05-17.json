@@ -1,0 +1,156 @@
+{
+  "date": "2026-05-17",
+  "timeframe": "weekly",
+  "repos": [
+    {
+      "rank": 1,
+      "name": "CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "totalStars": "13,158",
+      "forks": "1,022",
+      "starsGained": 8618,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 2,
+      "name": "rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "totalStars": "10,787",
+      "forks": "912",
+      "starsGained": 6907,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 3,
+      "name": "yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "totalStars": "14,476",
+      "forks": "2,430",
+      "starsGained": 4765,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 4,
+      "name": "anthropics/financial-services",
+      "description": "",
+      "language": "Python",
+      "totalStars": "24,080",
+      "forks": "3,328",
+      "starsGained": 6935,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 5,
+      "name": "oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "totalStars": "91,600",
+      "forks": "4,566",
+      "starsGained": 1328,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 6,
+      "name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "totalStars": "87,939",
+      "forks": "7,660",
+      "starsGained": 18795,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 7,
+      "name": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "totalStars": "58,876",
+      "forks": "7,677",
+      "starsGained": 5861,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 8,
+      "name": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "totalStars": "34,319",
+      "forks": "3,427",
+      "starsGained": 3105,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 9,
+      "name": "apernet/hysteria",
+      "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+      "language": "Go",
+      "totalStars": "21,021",
+      "forks": "2,162",
+      "starsGained": 1042,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 10,
+      "name": "decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
+      "totalStars": "11,335",
+      "forks": "1,738",
+      "starsGained": 4798,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 11,
+      "name": "HKUDS/AI-Trader",
+      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+      "language": "Python",
+      "totalStars": "17,700",
+      "forks": "2,714",
+      "starsGained": 2475,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 12,
+      "name": "millionco/react-doctor",
+      "description": "Your agent writes bad React. This catches it",
+      "language": "TypeScript",
+      "totalStars": "9,852",
+      "forks": "310",
+      "starsGained": 2643,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 13,
+      "name": "Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "totalStars": "30,965",
+      "forks": "2,610",
+      "starsGained": 7543,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 14,
+      "name": "facebook/pyrefly",
+      "description": "A fast type checker and language server for Python",
+      "language": "Rust",
+      "totalStars": "6,070",
+      "forks": "358",
+      "starsGained": 351,
+      "gainPeriod": "this week"
+    },
+    {
+      "rank": 15,
+      "name": "obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "totalStars": "194,682",
+      "forks": "17,307",
+      "starsGained": 9939,
+      "gainPeriod": "this week"
+    }
+  ]
+}
