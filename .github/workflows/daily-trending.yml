@@ -13,12 +13,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Fetch trending data
-        run: node scripts/fetch-trending.js
-        env:
-          DATA_DIR: ./data
-      - name: Generate report
-        run: node scripts/generate-report.js
+      - name: Run tracking pipeline
+        run: node scripts/main.js
         env:
           DATA_DIR: ./data
           REPORT_DIR: ./reports

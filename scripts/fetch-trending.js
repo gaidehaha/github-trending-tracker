@@ -5,7 +5,7 @@ const fs = require("fs");
 const path = require("path");
 const os = require("os");
 
-const DATA_DIR = process.env.DATA_DIR || path.join(os.homedir(), ".claude", "github-trending", "data");
+const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "..", "data");
 const TIMEFRAMES = ["daily", "weekly", "monthly"];
 const GITHUB_TRENDING_URL = "https://github.com/trending";
 

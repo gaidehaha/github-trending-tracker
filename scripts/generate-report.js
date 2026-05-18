@@ -5,10 +5,19 @@ const path = require("path");
 const os = require("os");
 const https = require("https");
 
-const DATA_DIR = process.env.DATA_DIR || path.join(os.homedir(), ".claude", "github-trending", "data");
-const REPORT_DIR = process.env.REPORT_DIR || path.join(os.homedir(), ".claude", "github-trending", "reports");
+const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, "..", "data");
+const REPORT_DIR = process.env.REPORT_DIR || path.join(__dirname, "..", "reports");
 const TIMEFRAMES = ["daily", "weekly", "monthly"];
-const TF_LABELS = { daily: "每日热门", weekly: "每周热门", monthly: "每月热门" };
+const TF_LABELS = { daily: "今日趋势", weekly: "本周趋势", monthly: "本月趋势" };
+const SEEN_FILE = path.join(DATA_DIR, "seen_repos.json");
+
+// 关键词权重配置
+const KEYWORDS = {
+  // 第一优先级：自媒体、视频制作、效率提升
+  HIGH: ["video", "audio", "edit", "subtitle", "creator", "automation", "efficiency", "workflow", "media", "youtube", "tiktok", "short-video", "自媒体", "视频", "剪辑", "效率", "自动化", "录屏", "直播"],
+  // 第二优先级：AI 工具与模型
+  MID: ["ai", "llm", "gpt", "agent", "stable-diffusion", "deepseek", "openai", "model", "llama", "artificial-intelligence", "人工智能", "大模型", "机器人"]
+};
 
 function ensureDir(dir) {
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
@@ -49,10 +58,34 @@ async function translateBatch(texts) {
 
 async function translateRepos(repos) {
   if (!repos.length) return repos;
+  
+  // 加载已见过的项目
+  let seen = {};
+  if (fs.existsSync(SEEN_FILE)) seen = JSON.parse(fs.readFileSync(SEEN_FILE, "utf8"));
+  
   const descriptions = repos.map((r) => r.description || "");
   console.log(`    Translating ${descriptions.filter((d) => d && !isChinese(d)).length} descriptions...`);
   const translated = await translateBatch(descriptions);
-  return repos.map((r, i) => ({ ...r, descriptionZh: translated[i] || r.description || "" }));
+  
+  const updatedRepos = repos.map((r, i) => {
+    const descZh = translated[i] || r.description || "";
+    const nameDesc = (r.name + " " + descZh + " " + (r.description || "")).toLowerCase();
+    
+    // 计算权重
+    let score = 0;
+    if (KEYWORDS.HIGH.some(k => nameDesc.includes(k.toLowerCase()))) score = 100;
+    else if (KEYWORDS.MID.some(k => nameDesc.includes(k.toLowerCase()))) score = 50;
+
+    // 检查是否是全新发现（增量逻辑）
+    const isNewDiscovery = !seen[r.name];
+    if (isNewDiscovery) seen[r.name] = { firstSeen: new Date().toISOString(), description: descZh };
+
+    return { ...r, descriptionZh: descZh, score, isNewDiscovery };
+  });
+
+  // 保存更新后的已见列表
+  fs.writeFileSync(SEEN_FILE, JSON.stringify(seen, null, 2));
+  return updatedRepos;
 }
 
 function loadData(timeframe, date) {
@@ -111,56 +144,51 @@ function formatChangeLabel(change) {
 
 function formatTable(repos) {
   if (!repos.length) return "_暂无数据_\n";
-  let table = "| 排名 | 变化 | 仓库 | Stars | 语言 | 简介 |\n|------|------|------|-------|------|------|\n";
-  for (const r of repos.slice(0, 25)) {
-    const desc = (r.descriptionZh || r.description || "").slice(0, 60).replace(/\|/g, "/");
-    const change = formatChangeLabel(r.change || "");
-    table += `| ${r.rank} | ${change} | [${r.name}](https://github.com/${r.name}) | ${r.totalStars || r.starsGained || ""} | ${r.language || ""} | ${desc} |\n`;
+  
+  // 按权重排序，权重相同按原排名
+  const sorted = [...repos].sort((a, b) => (b.score - a.score) || (a.rank - b.rank));
+  
+  let table = "| 状态 | 优先级 | 仓库 | Stars | 简介 |\n| :--- | :--- | :--- | :--- | :--- |\n";
+  for (const r of sorted.slice(0, 20)) {
+    const desc = (r.descriptionZh || r.description || "").slice(0, 100).replace(/\|/g, "/");
+    const icon = r.score >= 100 ? "⭐ **核心**" : r.score >= 50 ? "🤖 AI" : "🔹 常规";
+    const status = r.isNewDiscovery ? "✨ **全新**" : "⏳ 已见";
+    table += `| ${status} | ${icon} | [${r.name}](https://github.com/${r.name}) | ${r.totalStars || r.starsGained || ""} | ${desc} |\n`;
   }
   return table;
 }
 
 async function generateReport(date) {
   ensureDir(REPORT_DIR);
-  let report = `# GitHub 热门项目报告 - ${date}\n\n生成时间：${new Date().toISOString()}\n\n`;
+  let report = `# 🚀 GitHub 效率与 AI 追踪报告 - ${date}\n\n> 专注于自媒体创作、视频生产力与 AI 前沿工具。生成时间：${new Date().toLocaleString("zh-CN")}\n\n---\n\n`;
 
+  const localSeen = new Set();
   for (const tf of TIMEFRAMES) {
     const current = loadData(tf, date);
-    if (!current) {
-      report += `## ${TF_LABELS[tf]}\n\n_${date} 暂无数据_\n\n`;
-      continue;
-    }
+    if (!current) continue;
+
     const prevDate = findPreviousDate(tf, date);
     const previous = prevDate ? loadData(tf, prevDate) : null;
     const comparison = compareData(current, previous);
 
     console.log(`  [${TF_LABELS[tf]}] ${comparison.repos.length} repos`);
     comparison.repos = await translateRepos(comparison.repos);
-    comparison.newEntries = comparison.repos.filter((r) => r.change === "NEW");
-    if (comparison.dropped.length > 0) comparison.dropped = await translateRepos(comparison.dropped);
+    
+    // 将翻译后的数据存回 JSON
+    fs.writeFileSync(path.join(DATA_DIR, `${tf}-${date}.json`), JSON.stringify({ ...current, repos: comparison.repos }, null, 2));
 
-    report += `## ${TF_LABELS[tf]}\n\n`;
-    report += prevDate ? `_对比日期：${prevDate}_\n\n` : `_首次记录，暂无历史数据可对比_\n\n`;
+    // 跨维度去重
+    const filteredRepos = comparison.repos.filter(r => {
+      if (localSeen.has(r.name)) return false;
+      localSeen.add(r.name);
+      return true;
+    });
 
-    report += `### 排行榜\n\n${formatTable(comparison.repos)}\n`;
+    if (filteredRepos.length === 0) continue;
 
-    if (comparison.newEntries.length > 0) {
-      report += `### 🆕 新上榜项目（${comparison.newEntries.length} 个）\n\n`;
-      for (const r of comparison.newEntries)
-        report += `- **[${r.name}](https://github.com/${r.name})** (${r.language || "N/A"}) - ${(r.descriptionZh || r.description || "").slice(0, 80)}\n`;
-      report += "\n";
-    }
-    if (comparison.dropped.length > 0) {
-      report += `### 📉 掉出榜单（${comparison.dropped.length} 个）\n\n`;
-      for (const r of comparison.dropped) report += `- ~~${r.name}~~ （原排名第${r.rank}名）\n`;
-      report += "\n";
-    }
-    if (comparison.rising.length > 0) {
-      report += `### 🚀 上升最快\n\n`;
-      for (const r of comparison.rising) report += `- **[${r.name}](https://github.com/${r.name})** 上升 ${r.change.slice(1)} 名\n`;
-      report += "\n";
-    }
-    report += "---\n\n";
+    report += `## 📌 ${TF_LABELS[tf]}\n\n`;
+    report += formatTable(filteredRepos);
+    report += "\n---\n\n";
   }
 
   const reportPath = path.join(REPORT_DIR, `report-${date}.md`);
@@ -168,6 +196,7 @@ async function generateReport(date) {
   console.log(`\n报告已保存：${reportPath}`);
   return reportPath;
 }
+
 
 const today = process.argv[2] || new Date().toISOString().slice(0, 10);
 console.log(`Generating report for ${today}...`);

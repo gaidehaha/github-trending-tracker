@@ -1,0 +1,278 @@
+{
+  "tinyhumansai/openhuman": {
+    "firstSeen": "2026-05-14T07:07:57.154Z",
+    "description": "您的个人人工智能超级智能。私密、简单且极其强大。"
+  },
+  "rohitg00/agentmemory": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "#1 基于真实世界基准的人工智能编码代理的持久内存"
+  },
+  "obra/superpowers": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "有效的代理技能框架和软件开发方法。"
+  },
+  "yikart/AiToEarn": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "让我们用AI来赚钱吧！"
+  },
+  "influxdata/telegraf": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "用于收集、处理、聚合和写入指标、日志和其他任意数据的代理。"
+  },
+  "millionco/react-doctor": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "你的代理写了糟糕的 React。这抓住了它"
+  },
+  "K-Dense-AI/scientific-agent-skills": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "一组用于研究、科学、工程、分析、金融和写作的现成可用的代理技能。"
+  },
+  "danielmiessler/Personal_AI_Infrastructure": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "用于放大人类能力的代理人工智能基础设施。"
+  },
+  "supertone-inc/supertonic": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "快如闪电、设备内多语言 TTS — 通过 ONNX 本地运行。"
+  },
+  "CloakHQ/CloakBrowser": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "Stealth Chromium 通过了所有机器人检测测试。使用源级指纹补丁替换 Playwright。 30/30 测试通过。"
+  },
+  "mattpocock/skills": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "真正工程师的技能。直接来自我的 .claude 目录。"
+  },
+  "ArthurBrussee/brush": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "为所有人提供 3D 重建"
+  },
+  "imthenachoman/How-To-Secure-A-Linux-Server": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "不断发展的保护 Linux 服务器的操作指南。"
+  },
+  "apernet/hysteria": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "Hysteria 是一个强大、快如闪电且抗审查的代理。"
+  },
+  "rasbt/LLMs-from-scratch": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "在 PyTorch 中从头开始一步步实现类似 ChatGPT 的 LLM"
+  },
+  "ton-blockchain/acton": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "用于 TON 智能合约开发及其他功能的工具链"
+  },
+  "trycua/cua": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "计算机使用代理的开源基础设施。用于训练和评估可控制完整桌面（macOS、Linux、Windows）的 AI 代理的沙箱、SDK 和基准测试。"
+  },
+  "github/spec-kit": {
+    "firstSeen": "2026-05-14T07:07:57.155Z",
+    "description": "💫 帮助您开始规范驱动开发的工具包"
+  },
+  "anthropics/financial-services": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": ""
+  },
+  "Hmbown/DeepSeek-TUI": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "在终端中运行的 DeepSeek 模型的编码代理"
+  },
+  "bytedance/UI-TARS-desktop": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "开源多模式 AI 代理堆栈：连接尖端 AI 模型和代理基础设施"
+  },
+  "decolua/9router": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "无限免费人工智能编码。通过 40 多个提供商将 Claude Code、Codex、Cursor、Cline、Copilot、Antigravity 连接到免费的 Claude/GPT/Gemini。自动回退，RTK -40% 代币，永远不会达到极限。"
+  },
+  "addyosmani/agent-skills": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "AI 编码代理的生产级工程技能。"
+  },
+  "LearningCircuit/local-deep-research": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "SimpleQA 上约为 95%（例如 3090 上的 Qwen3.6-27B）。支持所有本地和云 LLM（llama.cpp、Ollama、Google...）。 10 多个搜索引擎 - arXiv、PubMed、您的私人文档。一切都是本地和加密的。"
+  },
+  "HKUDS/AI-Trader": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "“AI-Trader：100%全自动代理原生交易”"
+  },
+  "Imbad0202/academic-research-skills": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "克劳德·代码的学术研究技巧：研究→写作→审阅→修改→定稿"
+  },
+  "ruvnet/ruflo": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "🌊 Claude 领先的代理编排平台。部署智能多代理群、协调自主工作流程并构建对话式 AI 系统。具有企业级架构、自学习群体智能、RAG 集成和原生 Claude Code/Codex 集成"
+  },
+  "playcanvas/supersplat": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "3D 高斯 Splat 编辑器"
+  },
+  "VectifyAI/PageIndex": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "📑 PageIndex：无向量、基于推理的 RAG 的文档索引"
+  },
+  "datawhalechina/easy-vibe": {
+    "firstSeen": "2026-05-14T07:08:03.445Z",
+    "description": "💻 氛围编码 2026 |您的第一门现代编码课程，供初学者逐步掌握。"
+  },
+  "multica-ai/andrej-karpathy-skills": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "用于改进 Claude 代码行为的单个 CLAUDE.md 文件，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。"
+  },
+  "Alishahryar1/free-claude-code": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "在终端、VSCode 扩展或像 OpenClaw 这样的 Discord 中免费使用 claude-code（支持语音）"
+  },
+  "lsdefine/GenericAgent": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "自进化代理：从 3.3K 行种子中生长技能树，以减少 6 倍的代币消耗实现完整的系统控制"
+  },
+  "AIDC-AI/Pixelle-Video": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "🚀 AI 短视频引擎 | AI全自动短视频引擎"
+  },
+  "NousResearch/hermes-agent": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "与您共同成长的代理商"
+  },
+  "ComposioHQ/awesome-codex-skills": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "用于跨 Codex CLI 和 API 实现工作流程自动化的实用 Codex 技能精选列表。"
+  },
+  "Tracer-Cloud/opensre": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "构建您自己的 AI SRE 代理。 AI时代的开源工具包。"
+  },
+  "Z4nzu/hackingtool": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "黑客的多合一黑客工具"
+  },
+  "soxoj/maigret": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "🕵️‍♂️ 从 3000 多个网站按用户名收集某人的档案"
+  },
+  "TauricResearch/TradingAgents": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "TradingAgents：多代理LLM金融交易框架"
+  },
+  "Anil-matcha/Open-Generative-AI": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "AI 视频平台的开源替代方案 — 免费 AI 图像和视频生成工作室，拥有 200 多个模型（Flux、Midjourney、Kling、Sora、Veo）。没有内容过滤器。自托管，麻省理工学院许可。"
+  },
+  "multica-ai/multica": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "开源托管代理平台。将编码代理变成真正的队友 - 分配任务、跟踪进度、复合技能。"
+  },
+  "hugohe3/ppt-master": {
+    "firstSeen": "2026-05-14T07:08:09.704Z",
+    "description": "AI 从任何文档生成本机可编辑的 PPTX — 具有本机动画的真实 PowerPoint 形状，而不是图像 · Hugo He"
+  },
+  "ruvnet/RuView": {
+    "firstSeen": "2026-05-15T14:03:53.169Z",
+    "description": "π RuView 将商用 WiFi 信号转化为实时空间智能、生命体征监测和存在检测 - 所有这些都无需视频像素。"
+  },
+  "anthropics/skills": {
+    "firstSeen": "2026-05-15T14:03:53.169Z",
+    "description": "代理技能的公共存储库"
+  },
+  "czlonkowski/n8n-mcp": {
+    "firstSeen": "2026-05-15T14:03:53.169Z",
+    "description": "用于 Claude Desktop / Claude Code / Windsurf / Cursor 的 MCP，为您构建 n8n 工作流程"
+  },
+  "NVIDIA-AI-Blueprints/video-search-and-summarization": {
+    "firstSeen": "2026-05-15T14:03:53.169Z",
+    "description": "用于构建 GPU 加速的视觉代理和人工智能驱动的视频分析应用程序的参考架构套件。"
+  },
+  "oven-sh/bun": {
+    "firstSeen": "2026-05-15T14:03:53.169Z",
+    "description": "令人难以置信的快速 JavaScript 运行时、捆绑器、测试运行器和包管理器 – 全部合而为一"
+  },
+  "joeseesun/qiaomu-anything-to-notebooklm": {
+    "firstSeen": "2026-05-15T14:03:53.169Z",
+    "description": "Claude Skill：NotebookLM 的多源内容处理器。支持微信文章、网页、YouTube、PDF、Markdown、搜索查询→播客/PPT/思维导图/测验等。"
+  },
+  "zilliztech/claude-context": {
+    "firstSeen": "2026-05-15T14:04:07.763Z",
+    "description": "代码搜索 MCP 以获得克劳德代码。使整个代码库成为任何编码代理的上下文。"
+  },
+  "pranshuparmar/witr": {
+    "firstSeen": "2026-05-16T14:28:31.733Z",
+    "description": "这是为什么运行？"
+  },
+  "colbymchenry/codegraph": {
+    "firstSeen": "2026-05-16T14:28:31.733Z",
+    "description": "Claude Code 的预索引代码知识图 — 更少的标记、更少的工具调用、100% 本地化"
+  },
+  "heygen-com/hyperframes": {
+    "firstSeen": "2026-05-16T14:28:45.417Z",
+    "description": "编写 HTML。渲染视频。专为代理商打造。"
+  },
+  "thunderbird/thunderbolt": {
+    "firstSeen": "2026-05-16T14:28:45.417Z",
+    "description": "您控制的人工智能：选择您的模型。拥有您的数据。消除供应商锁定。"
+  },
+  "HKUDS/CLI-Anything": {
+    "firstSeen": "2026-05-17T13:04:55.444Z",
+    "description": "“CLI-Anything：使所有软件代理原生”--CLI-Hub：https://clianything.cc/"
+  },
+  "calcom/cal.diy": {
+    "firstSeen": "2026-05-17T13:04:55.444Z",
+    "description": "为所有人安排基础设施。"
+  },
+  "BigBodyCobain/Shadowbroker": {
+    "firstSeen": "2026-05-17T13:04:55.444Z",
+    "description": "全球战区的开源情报。在一个统一的界面中跟踪从富人的公司/私人飞机、间谍卫星到地震事件的一切信息。连接人工智能代理，让它解析数据并找到以前未见过的相关性。这些知识可供所有人使用，但迄今为止很少公开汇总。"
+  },
+  "tech-leads-club/agent-skills": {
+    "firstSeen": "2026-05-17T13:04:55.444Z",
+    "description": "专业人工智能编码代理的安全、经过验证的技能注册表。绝对有信心扩展反重力、克劳德密码、光标、副驾驶等。"
+  },
+  "NirDiamant/agents-towards-production": {
+    "firstSeen": "2026-05-17T13:04:55.444Z",
+    "description": "用于构建生产级 GenAI 代理的端到端、代码优先教程。从原型到企业部署。"
+  },
+  "dograh-hq/dograh": {
+    "firstSeen": "2026-05-17T13:04:55.444Z",
+    "description": "开源语音代理平台"
+  },
+  "Light-Heart-Labs/DreamServer": {
+    "firstSeen": "2026-05-17T13:04:55.445Z",
+    "description": "随时随地为所有人提供本地 AI — LLM 推理、聊天 UI、语音、代理、工作流程、RAG 和图像生成。没有云，没有订阅。"
+  },
+  "KeygraphHQ/shannon": {
+    "firstSeen": "2026-05-17T13:04:55.445Z",
+    "description": "Shannon Lite 是一个用于 Web 应用程序和 API 的自主白盒 AI 渗透测试程序。它会分析您的源代码，识别攻击向量，并执行真正的漏洞利用，以在漏洞到达生产环境之前证明它们。"
+  },
+  "TryGhost/Ghost": {
+    "firstSeen": "2026-05-17T13:04:55.445Z",
+    "description": "现代出版、会员、订阅和时事通讯的独立技术。"
+  },
+  "medusajs/medusa": {
+    "firstSeen": "2026-05-17T13:04:55.445Z",
+    "description": "全球最灵活的商务平台。"
+  },
+  "knadh/listmonk": {
+    "firstSeen": "2026-05-17T13:04:55.445Z",
+    "description": "具有现代化仪表板的高性能、自托管新闻通讯和邮件列表管理器。单个二进制应用程序。"
+  },
+  "plausible/analytics": {
+    "firstSeen": "2026-05-17T13:04:55.445Z",
+    "description": "开源、隐私第一的网络分析。轻量级、无 cookie 的 Google Analytics 替代品。自托管或云。"
+  },
+  "microsoft/ai-agents-for-beginners": {
+    "firstSeen": "2026-05-17T13:04:55.445Z",
+    "description": "开始构建 AI 代理的 12 课"
+  },
+  "facebook/pyrefly": {
+    "firstSeen": "2026-05-17T13:05:01.448Z",
+    "description": "Python 的快速类型检查器和语言服务器"
+  },
+  "Fincept-Corporation/FinceptTerminal": {
+    "firstSeen": "2026-05-17T13:05:09.065Z",
+    "description": "FinceptTerminal 是一款现代金融应用程序，提供先进的市场分析、投资研究和经济数据工具，专为在用户友好的环境中进行交互式探索和数据驱动的决策而设计。"
+  }
+}
