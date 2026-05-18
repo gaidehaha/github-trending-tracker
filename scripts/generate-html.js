@@ -289,6 +289,11 @@ if (daily || weekly || monthly) {
   if (!fs.existsSync(REPORT_DIR)) fs.mkdirSync(REPORT_DIR, { recursive: true });
   fs.writeFileSync(outPath, html);
   console.log(`\n可视化报告已保存：${outPath}`);
+  
+  // 额外在根目录生成 index.html，作为永远指向最新报告的“免改日期”首页入口
+  const indexPath = path.join(__dirname, "..", "index.html");
+  fs.writeFileSync(indexPath, html);
+  console.log(`首页入口 index.html 已更新：${indexPath}`);
 } else {
   console.log("没有找到今日数据，无法生成可视化报告。");
 }
