@@ -290,5 +290,33 @@
   "ZhuLinsen/daily_stock_analysis": {
     "firstSeen": "2026-05-18T14:51:12.757Z",
     "description": "LLM驱动的A/H/美股智能分析：多数据源行情+实时新闻+LLM决策仪表盘+多渠道个体，零成本定时运行，纯白嫖。适用于 A/H/美国市场的 LLM 驱动的股票分析系统。"
+  },
+  "anthropics/claude-plugins-official": {
+    "firstSeen": "2026-05-19T14:30:41.953Z",
+    "description": "由 Anthropic 管理的官方高品质 Claude 代码插件目录。"
+  },
+  "rtk-ai/rtk": {
+    "firstSeen": "2026-05-19T14:30:41.953Z",
+    "description": "CLI 代理可将常见开发命令的 LLM 令牌消耗减少 60-90%。单个 Rust 二进制文件，零依赖"
+  },
+  "msitarzewski/agency-agents": {
+    "firstSeen": "2026-05-19T14:30:41.953Z",
+    "description": "触手可及的完整人工智能机构 - 从前端向导到 Reddit 社区忍者，从奇思妙想的注入者到现实检查者。每个代理都是一位具有个性、流程和经过验证的可交付成果的专业专家。"
+  },
+  "Diolinux/PhotoGIMP": {
+    "firstSeen": "2026-05-19T14:30:41.954Z",
+    "description": "面向 Photoshop 用户的 GIMP 3+ 补丁"
+  },
+  "pascalorg/editor": {
+    "firstSeen": "2026-05-19T14:30:41.954Z",
+    "description": "创建和共享 3D 建筑项目。"
+  },
+  "frappe/erpnext": {
+    "firstSeen": "2026-05-19T14:30:41.954Z",
+    "description": "免费开源企业资源规划 (ERP)"
+  },
+  "HKUDS/ViMax": {
+    "firstSeen": "2026-05-19T14:30:41.954Z",
+    "description": "“ViMax：代理视频生成（导演、编剧、制片人和视频生成器一体化）”"
   }
 }
