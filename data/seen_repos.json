@@ -318,5 +318,29 @@
   "HKUDS/ViMax": {
     "firstSeen": "2026-05-19T14:30:41.954Z",
     "description": "“ViMax：代理视频生成（导演、编剧、制片人和视频生成器一体化）”"
+  },
+  "rohitg00/ai-engineering-from-scratch": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "学习它。建造它。寄给别人。"
+  },
+  "can1357/oh-my-pi": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "⌥ 终端的 AI 编码代理 — 哈希锚定编辑、优化工具工具、LSP、Python、浏览器、子代理等"
+  },
+  "rmyndharis/OpenWA": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "免费、开源、自托管 WhatsApp API 网关"
+  },
+  "truelockmc/streambert": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "跨平台 Electron 桌面应用程序，用于流式传输和下载世界上的任何电影、电视剧或动漫。零广告和跟踪"
+  },
+  "opentoonz/opentoonz": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "OpenToonz - 一款开源的全功能2D动画创作软件"
+  },
+  "zakirullin/files.md": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "🌱私密、安静的思考空间。一个用于 .md 文件的简单应用程序。"
   }
 }
