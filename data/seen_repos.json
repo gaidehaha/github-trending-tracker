@@ -342,5 +342,37 @@
   "zakirullin/files.md": {
     "firstSeen": "2026-05-20T14:30:35.953Z",
     "description": "🌱私密、安静的思考空间。一个用于 .md 文件的简单应用程序。"
+  },
+  "dotnet/skills": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "使用 .NET 和 C# 协助 AI 编码代理的技能存储库"
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "用于编码代理的 Chrome DevTools"
+  },
+  "teng-lin/notebooklm-py": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "Google NotebookLM 的非官方 Python API 和代理技能。通过 Python、CLI 和 AI 代理（如 Claude Code、Codex 和 OpenClaw）以完全编程方式访问 NotebookLM 的功能（包括 Web UI 未公开的功能）。"
+  },
+  "antoinezambelli/forge": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "用于自托管 LLM 工具调用和多步骤代理工作流程的 Python 框架"
+  },
+  "trimstray/the-book-of-secret-knowledge": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行话、cli/web 工具等。"
+  },
+  "alireza0/s-ui": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "高级 Web 面板 • 专为 SagerNet/Sing-Box 打造"
+  },
+  "Lum1104/Understand-Anything": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "具有教学意义的图表 > 令人印象深刻的图表。将任何代码变成您可以探索、搜索和提问的交互式知识图。适用于 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等。"
+  },
+  "huggingface/ml-intern": {
+    "firstSeen": "2026-05-21T14:35:38.526Z",
+    "description": "🤗 ml-intern：开源 ML 工程师，负责阅读论文、训练模型和发布 ML 模型"
   }
 }
