@@ -374,5 +374,29 @@
   "huggingface/ml-intern": {
     "firstSeen": "2026-05-21T14:35:38.526Z",
     "description": "🤗 ml-intern：开源 ML 工程师，负责阅读论文、训练模型和发布 ML 模型"
+  },
+  "odoo/odoo": {
+    "firstSeen": "2026-05-22T12:12:49.785Z",
+    "description": "奥杜。开源应用程序来发展您的业务。"
+  },
+  "byJoey/cfnew": {
+    "firstSeen": "2026-05-22T12:12:49.785Z",
+    "description": ""
+  },
+  "yt-dlp/yt-dlp": {
+    "firstSeen": "2026-05-22T12:12:49.785Z",
+    "description": "功能丰富的命令行音频/视频下载器"
+  },
+  "karpathy/nn-zero-to-hero": {
+    "firstSeen": "2026-05-22T12:12:49.786Z",
+    "description": "神经网络：从零到英雄"
+  },
+  "Stremio/stremio-web": {
+    "firstSeen": "2026-05-22T12:12:55.925Z",
+    "description": "Stremio - 自由流媒体"
+  },
+  "refactoringhq/tolaria": {
+    "firstSeen": "2026-05-22T12:13:03.076Z",
+    "description": "用于管理 Markdown 知识库的桌面应用程序"
   }
 }
