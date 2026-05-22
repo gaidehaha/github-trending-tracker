@@ -274,5 +274,105 @@
   "Fincept-Corporation/FinceptTerminal": {
     "firstSeen": "2026-05-17T13:05:09.065Z",
     "description": "FinceptTerminal 是一款现代金融应用程序，提供先进的市场分析、投资研究和经济数据工具，专为在用户友好的环境中进行交互式探索和数据驱动的决策而设计。"
+  },
+  "ggml-org/llama.cpp": {
+    "firstSeen": "2026-05-18T14:51:12.757Z",
+    "description": "C/C++ 中的 LLM 推理"
+  },
+  "humanlayer/12-factor-agents": {
+    "firstSeen": "2026-05-18T14:51:12.757Z",
+    "description": "我们可以使用哪些原则来构建由 LLM 驱动的软件，这些软件实际上足够好，可以交付给生产客户？"
+  },
+  "NVlabs/Sana": {
+    "firstSeen": "2026-05-18T14:51:12.757Z",
+    "description": "SANA：使用线性扩散变压器进行高效高分辨率图像合成"
+  },
+  "ZhuLinsen/daily_stock_analysis": {
+    "firstSeen": "2026-05-18T14:51:12.757Z",
+    "description": "LLM驱动的A/H/美股智能分析：多数据源行情+实时新闻+LLM决策仪表盘+多渠道个体，零成本定时运行，纯白嫖。适用于 A/H/美国市场的 LLM 驱动的股票分析系统。"
+  },
+  "anthropics/claude-plugins-official": {
+    "firstSeen": "2026-05-19T14:30:41.953Z",
+    "description": "由 Anthropic 管理的官方高品质 Claude 代码插件目录。"
+  },
+  "rtk-ai/rtk": {
+    "firstSeen": "2026-05-19T14:30:41.953Z",
+    "description": "CLI 代理可将常见开发命令的 LLM 令牌消耗减少 60-90%。单个 Rust 二进制文件，零依赖"
+  },
+  "msitarzewski/agency-agents": {
+    "firstSeen": "2026-05-19T14:30:41.953Z",
+    "description": "触手可及的完整人工智能机构 - 从前端向导到 Reddit 社区忍者，从奇思妙想的注入者到现实检查者。每个代理都是一位具有个性、流程和经过验证的可交付成果的专业专家。"
+  },
+  "Diolinux/PhotoGIMP": {
+    "firstSeen": "2026-05-19T14:30:41.954Z",
+    "description": "面向 Photoshop 用户的 GIMP 3+ 补丁"
+  },
+  "pascalorg/editor": {
+    "firstSeen": "2026-05-19T14:30:41.954Z",
+    "description": "创建和共享 3D 建筑项目。"
+  },
+  "frappe/erpnext": {
+    "firstSeen": "2026-05-19T14:30:41.954Z",
+    "description": "免费开源企业资源规划 (ERP)"
+  },
+  "HKUDS/ViMax": {
+    "firstSeen": "2026-05-19T14:30:41.954Z",
+    "description": "“ViMax：代理视频生成（导演、编剧、制片人和视频生成器一体化）”"
+  },
+  "rohitg00/ai-engineering-from-scratch": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "学习它。建造它。寄给别人。"
+  },
+  "can1357/oh-my-pi": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "⌥ 终端的 AI 编码代理 — 哈希锚定编辑、优化工具工具、LSP、Python、浏览器、子代理等"
+  },
+  "rmyndharis/OpenWA": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "免费、开源、自托管 WhatsApp API 网关"
+  },
+  "truelockmc/streambert": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "跨平台 Electron 桌面应用程序，用于流式传输和下载世界上的任何电影、电视剧或动漫。零广告和跟踪"
+  },
+  "opentoonz/opentoonz": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "OpenToonz - 一款开源的全功能2D动画创作软件"
+  },
+  "zakirullin/files.md": {
+    "firstSeen": "2026-05-20T14:30:35.953Z",
+    "description": "🌱私密、安静的思考空间。一个用于 .md 文件的简单应用程序。"
+  },
+  "dotnet/skills": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "使用 .NET 和 C# 协助 AI 编码代理的技能存储库"
+  },
+  "ChromeDevTools/chrome-devtools-mcp": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "用于编码代理的 Chrome DevTools"
+  },
+  "teng-lin/notebooklm-py": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "Google NotebookLM 的非官方 Python API 和代理技能。通过 Python、CLI 和 AI 代理（如 Claude Code、Codex 和 OpenClaw）以完全编程方式访问 NotebookLM 的功能（包括 Web UI 未公开的功能）。"
+  },
+  "antoinezambelli/forge": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "用于自托管 LLM 工具调用和多步骤代理工作流程的 Python 框架"
+  },
+  "trimstray/the-book-of-secret-knowledge": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "一系列鼓舞人心的列表、手册、备忘单、博客、黑客、单行话、cli/web 工具等。"
+  },
+  "alireza0/s-ui": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "高级 Web 面板 • 专为 SagerNet/Sing-Box 打造"
+  },
+  "Lum1104/Understand-Anything": {
+    "firstSeen": "2026-05-21T14:35:28.124Z",
+    "description": "具有教学意义的图表 > 令人印象深刻的图表。将任何代码变成您可以探索、搜索和提问的交互式知识图。适用于 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等。"
+  },
+  "huggingface/ml-intern": {
+    "firstSeen": "2026-05-21T14:35:38.526Z",
+    "description": "🤗 ml-intern：开源 ML 工程师，负责阅读论文、训练模型和发布 ML 模型"
   }
 }
