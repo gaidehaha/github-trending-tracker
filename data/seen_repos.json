@@ -398,5 +398,25 @@
   "refactoringhq/tolaria": {
     "firstSeen": "2026-05-22T12:13:03.076Z",
     "description": "用于管理 Markdown 知识库的桌面应用程序"
+  },
+  "mukul975/Anthropic-Cybersecurity-Skills": {
+    "firstSeen": "2026-05-23T12:14:10.773Z",
+    "description": "AI 代理的 754 项结构化网络安全技能 · 映射到 5 个框架：MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND 和 NIST AI RMF ·agentskills.io 标准 · 可与 Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI 和 20 多个平台配合使用 · 26 个安全域 · Apache 2.0"
+  },
+  "presenton/presenton": {
+    "firstSeen": "2026-05-23T12:14:10.773Z",
+    "description": "开源 AI 演示生成器和 API（Gamma、Beautiful AI、Decktopus Alternative）"
+  },
+  "NVlabs/LongLive": {
+    "firstSeen": "2026-05-23T12:14:10.773Z",
+    "description": "LongLive 2.0：Infra - 长视频生成"
+  },
+  "janestreet/magic-trace": {
+    "firstSeen": "2026-05-23T12:14:10.773Z",
+    "description": "magic-trace 收集并显示进程正在执行的操作的高分辨率跟踪"
+  },
+  "mattpocock/sandcastle": {
+    "firstSeen": "2026-05-23T12:14:24.846Z",
+    "description": "使用 sandcastle.run() 在 TypeScript 中编排沙盒编码代理"
   }
 }
