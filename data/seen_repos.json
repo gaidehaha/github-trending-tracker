@@ -418,5 +418,45 @@
   "mattpocock/sandcastle": {
     "firstSeen": "2026-05-23T12:14:24.846Z",
     "description": "使用 sandcastle.run() 在 TypeScript 中编排沙盒编码代理"
+  },
+  "anthropics/knowledge-work-plugins": {
+    "firstSeen": "2026-05-24T10:52:58.482Z",
+    "description": "主要供知识工作者在 Claude Cowork 中使用的开源插件存储库"
+  },
+  "earendil-works/pi": {
+    "firstSeen": "2026-05-24T10:52:58.482Z",
+    "description": "AI 代理工具包：编码代理 CLI、统一 LLM API、TUI 和 Web UI 库、Slack 机器人、vLLM pod"
+  },
+  "shiyu-coder/Kronos": {
+    "firstSeen": "2026-05-24T10:52:58.482Z",
+    "description": "Kronos：金融市场语言的基础模型"
+  },
+  "manaflow-ai/cmux": {
+    "firstSeen": "2026-05-24T10:52:58.482Z",
+    "description": "基于 Ghostty 的 macOS 终端，带有垂直选项卡和 AI 编码代理通知"
+  },
+  "666ghj/MiroFish": {
+    "firstSeen": "2026-05-24T10:52:58.482Z",
+    "description": "一个简单且通用的群体智能引擎，可以预测任何事情。 简洁通用的群体智能引擎，预测万物"
+  },
+  "codecrafters-io/build-your-own-x": {
+    "firstSeen": "2026-05-24T10:52:58.482Z",
+    "description": "通过从头开始重新创建您最喜欢的技术来掌握编程。"
+  },
+  "blakeblackshear/frigate": {
+    "firstSeen": "2026-05-24T10:52:58.482Z",
+    "description": "具有 IP 摄像机实时本地对象检测功能的 NVR"
+  },
+  "stablyai/orca": {
+    "firstSeen": "2026-05-24T10:53:03.553Z",
+    "description": "Orca 是与一组并行代理配合使用的下一代 ADE。使用您自己的订阅运行任何编码代理。可在桌面和移动设备上使用。"
+  },
+  "cursor/plugins": {
+    "firstSeen": "2026-05-24T10:53:03.553Z",
+    "description": "光标插件规范和官方插件"
+  },
+  "CJackHwang/ds2api": {
+    "firstSeen": "2026-05-24T10:53:09.702Z",
+    "description": "DeepSeek兼容中间件接口：Go语言的一个技术探索项目，专注于高并发协议适配。它作为将不同的 Web 协议转换为标准化格式的参考实现。"
   }
 }
