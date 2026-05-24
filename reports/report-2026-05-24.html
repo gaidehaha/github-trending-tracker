@@ -1,0 +1,772 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub 趋势内参 - 2026-05-24</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --primary: #38bdf8;
+            --accent: #818cf8;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --warning: #eab308;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            background-image: radial-gradient(circle at 0% 0%, #1e1b4b 0%, transparent 50%),
+                              radial-gradient(circle at 100% 100%, #1e3a8a 0%, transparent 50%);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        .container { max-width: 1000px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 3rem; font-weight: 700; margin-bottom: 10px; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+        
+        /* 控制器样式 */
+        .controls {
+            position: sticky;
+            top: 20px;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(20px);
+            padding: 12px;
+            border-radius: 99px;
+            border: 1px solid rgba(255,255,255,0.1);
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3);
+        }
+        .btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 8px 20px;
+            border-radius: 99px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .btn.active {
+            background: var(--primary);
+            color: var(--bg);
+        }
+        .btn:hover:not(.active) {
+            background: rgba(255,255,255,0.05);
+            color: var(--text);
+        }
+
+        .section-title { font-size: 1.8rem; margin: 40px 0 20px; display: flex; align-items: center; gap: 10px; }
+        .section-title::after { content: ''; flex: 1; height: 1px; background: rgba(255,255,255,0.1); }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 24px;
+            transition: all 0.3s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover { transform: translateY(-5px); border-color: var(--primary); box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.3); }
+        
+        /* 隐藏逻辑 */
+        body.hide-seen .card:not(.has-new-badge) { display: none; }
+        .card.is-dismissed .badge-new { display: none; }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 99px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .badge-core { background: rgba(56, 189, 248, 0.2); color: var(--primary); border: 1px solid var(--primary); }
+        .badge-ai { background: rgba(129, 140, 248, 0.2); color: var(--accent); border: 1px solid var(--accent); }
+        .badge-normal { background: rgba(255, 255, 255, 0.05); color: var(--text-muted); }
+        .badge-new { 
+            background: rgba(234, 179, 8, 0.2); 
+            color: var(--warning); 
+            border: 1px solid var(--warning);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .badge-new:hover { background: var(--warning); color: var(--bg); }
+
+        .repo-name { font-size: 1.25rem; font-weight: 600; margin-bottom: 8px; color: var(--text); text-decoration: none; display: block; }
+        .repo-name:hover { color: var(--primary); }
+        
+        .desc { font-size: 0.95rem; color: var(--text-muted); flex-grow: 1; margin-bottom: 20px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+        
+        .footer-meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.05); margin-top: auto; padding-top: 15px;}
+        .stars { display: flex; align-items: center; gap: 4px; color: #fbbf24; }
+        
+        .tag { background: rgba(255,255,255,0.05); padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GitHub 趋势内参</h1>
+            <p class="subtitle">专注于自媒体创作与 AI 生产力 · 2026-05-24</p>
+        </header>
+
+        <div class="controls">
+            <button class="btn active" onclick="setView('all')" id="btn-all">显示全部</button>
+            <button class="btn" onclick="setView('new')" id="btn-new">只看新发现</button>
+        </div>
+
+        
+              <div class="section-group">
+                <div class="section-title">🔥 今日趋势</div>
+                <div class="grid">
+                    
+                        <div class="card " data-repo="rohitg00/ai-engineering-from-scratch">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/rohitg00/ai-engineering-from-scratch" class="repo-name" target="_blank">rohitg00/ai-engineering-from-scratch</a>
+                            <p class="desc">学习它。建造它。寄给别人。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 14,437</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="multica-ai/andrej-karpathy-skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/multica-ai/andrej-karpathy-skills" class="repo-name" target="_blank">multica-ai/andrej-karpathy-skills</a>
+                            <p class="desc">用于改进 Claude 代码行为的单个 CLAUDE.md 文件，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 150,681</span>
+                                <span class="tag">Code</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card has-new-badge" data-repo="earendil-works/pi">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                <span class="badge badge-new" onclick="dismissNew(this, 'earendil-works/pi', event)" title="点击标记为已看">✨ 全新发现</span>
+                            </div>
+                            <a href="https://github.com/earendil-works/pi" class="repo-name" target="_blank">earendil-works/pi</a>
+                            <p class="desc">AI 代理工具包：编码代理 CLI、统一 LLM API、TUI 和 Web UI 库、Slack 机器人、vLLM pod</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 53,569</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="colbymchenry/codegraph">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/colbymchenry/codegraph" class="repo-name" target="_blank">colbymchenry/codegraph</a>
+                            <p class="desc">Claude Code、Codex、Cursor、OpenCode 和 Hermes Agent 的预索引代码知识图 — 更少的标记、更少的工具调用、100% 本地化</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 20,777</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="multica-ai/multica">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/multica-ai/multica" class="repo-name" target="_blank">multica-ai/multica</a>
+                            <p class="desc">开源托管代理平台。将编码代理变成真正的队友 - 分配任务、跟踪进度、复合技能。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 32,168</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card has-new-badge" data-repo="manaflow-ai/cmux">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                <span class="badge badge-new" onclick="dismissNew(this, 'manaflow-ai/cmux', event)" title="点击标记为已看">✨ 全新发现</span>
+                            </div>
+                            <a href="https://github.com/manaflow-ai/cmux" class="repo-name" target="_blank">manaflow-ai/cmux</a>
+                            <p class="desc">基于 Ghostty 的 macOS 终端，带有垂直选项卡和 AI 编码代理通知</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 18,682</span>
+                                <span class="tag">Swift</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="dotnet/skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/dotnet/skills" class="repo-name" target="_blank">dotnet/skills</a>
+                            <p class="desc">使用 .NET 和 C# 协助 AI 编码代理的技能存储库</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 2,824</span>
+                                <span class="tag">C#</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="mukul975/Anthropic-Cybersecurity-Skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/mukul975/Anthropic-Cybersecurity-Skills" class="repo-name" target="_blank">mukul975/Anthropic-Cybersecurity-Skills</a>
+                            <p class="desc">AI 代理的 754 项结构化网络安全技能 · 映射到 5 个框架：MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND 和 NIST AI RMF · Agentskills.io 标准 · 可与 Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI 和 20 多个平台配合使用 · 26 个安全域 · Apache 2.0</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 7,776</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="Lum1104/Understand-Anything">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/Lum1104/Understand-Anything" class="repo-name" target="_blank">Lum1104/Understand-Anything</a>
+                            <p class="desc">具有教学意义的图表 > 令人印象深刻的图表。将任何代码变成您可以探索、搜索和提问的交互式知识图。适用于 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 23,380</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="anthropics/claude-plugins-official">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/anthropics/claude-plugins-official" class="repo-name" target="_blank">anthropics/claude-plugins-official</a>
+                            <p class="desc">由 Anthropic 管理的官方高品质 Claude 代码插件目录。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 26,982</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card has-new-badge" data-repo="anthropics/knowledge-work-plugins">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                <span class="badge badge-new" onclick="dismissNew(this, 'anthropics/knowledge-work-plugins', event)" title="点击标记为已看">✨ 全新发现</span>
+                            </div>
+                            <a href="https://github.com/anthropics/knowledge-work-plugins" class="repo-name" target="_blank">anthropics/knowledge-work-plugins</a>
+                            <p class="desc">主要供知识工作者在 Claude Cowork 中使用的开源插件存储库</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 13,056</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="Alishahryar1/free-claude-code">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/Alishahryar1/free-claude-code" class="repo-name" target="_blank">Alishahryar1/free-claude-code</a>
+                            <p class="desc">在终端、VSCode 扩展或像 OpenClaw 这样的 Discord 中免费使用 claude-code（支持语音）</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 28,809</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card has-new-badge" data-repo="shiyu-coder/Kronos">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                <span class="badge badge-new" onclick="dismissNew(this, 'shiyu-coder/Kronos', event)" title="点击标记为已看">✨ 全新发现</span>
+                            </div>
+                            <a href="https://github.com/shiyu-coder/Kronos" class="repo-name" target="_blank">shiyu-coder/Kronos</a>
+                            <p class="desc">Kronos：金融市场语言的基础模型</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 25,668</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card has-new-badge" data-repo="666ghj/MiroFish">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                <span class="badge badge-new" onclick="dismissNew(this, '666ghj/MiroFish', event)" title="点击标记为已看">✨ 全新发现</span>
+                            </div>
+                            <a href="https://github.com/666ghj/MiroFish" class="repo-name" target="_blank">666ghj/MiroFish</a>
+                            <p class="desc">一个简单且通用的群体智能引擎，可以预测任何事情。 简洁通用的群体智能引擎，预测万物</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 61,849</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card has-new-badge" data-repo="codecrafters-io/build-your-own-x">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                <span class="badge badge-new" onclick="dismissNew(this, 'codecrafters-io/build-your-own-x', event)" title="点击标记为已看">✨ 全新发现</span>
+                            </div>
+                            <a href="https://github.com/codecrafters-io/build-your-own-x" class="repo-name" target="_blank">codecrafters-io/build-your-own-x</a>
+                            <p class="desc">通过从头开始重新创建您最喜欢的技术来掌握编程。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 503,929</span>
+                                <span class="tag">Markdown</span>
+                            </div>
+                        </div>
+                      
+                </div>
+              </div>
+            
+              <div class="section-group">
+                <div class="section-title">📅 本周趋势</div>
+                <div class="grid">
+                    
+                        <div class="card " data-repo="ruvnet/RuView">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-core">⭐ 核心推荐</span>
+                                
+                            </div>
+                            <a href="https://github.com/ruvnet/RuView" class="repo-name" target="_blank">ruvnet/RuView</a>
+                            <p class="desc">π RuView 将商用 WiFi 信号转化为实时空间智能、生命体征监测和存在检测 - 所有这些都无需视频像素。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 65,036</span>
+                                <span class="tag">Rust</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="tinyhumansai/openhuman">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/tinyhumansai/openhuman" class="repo-name" target="_blank">tinyhumansai/openhuman</a>
+                            <p class="desc">您的个人人工智能超级智能。私密、简单且极其强大。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 26,710</span>
+                                <span class="tag">Rust</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="rohitg00/agentmemory">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/rohitg00/agentmemory" class="repo-name" target="_blank">rohitg00/agentmemory</a>
+                            <p class="desc">#1 基于真实世界基准的人工智能编码代理的持久内存</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 17,072</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="CloakHQ/CloakBrowser">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/CloakHQ/CloakBrowser" class="repo-name" target="_blank">CloakHQ/CloakBrowser</a>
+                            <p class="desc">Stealth Chromium 通过了所有机器人检测测试。使用源级指纹补丁替换 Playwright。 30/30 测试通过。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 19,909</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="can1357/oh-my-pi">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/can1357/oh-my-pi" class="repo-name" target="_blank">can1357/oh-my-pi</a>
+                            <p class="desc">⌥ 终端的 AI 编码代理 — 哈希锚定编辑、优化工具工具、LSP、Python、浏览器、子代理等</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 6,903</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="K-Dense-AI/scientific-agent-skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/K-Dense-AI/scientific-agent-skills" class="repo-name" target="_blank">K-Dense-AI/scientific-agent-skills</a>
+                            <p class="desc">一组用于研究、科学、工程、分析、金融和写作的现成可用的代理技能。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 25,498</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card has-new-badge" data-repo="stablyai/orca">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                <span class="badge badge-new" onclick="dismissNew(this, 'stablyai/orca', event)" title="点击标记为已看">✨ 全新发现</span>
+                            </div>
+                            <a href="https://github.com/stablyai/orca" class="repo-name" target="_blank">stablyai/orca</a>
+                            <p class="desc">Orca 是与一组并行代理配合使用的下一代 ADE。使用您自己的订阅运行任何编码代理。可在桌面和移动设备上使用。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 3,160</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="yikart/AiToEarn">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/yikart/AiToEarn" class="repo-name" target="_blank">yikart/AiToEarn</a>
+                            <p class="desc">让我们用AI来赚钱吧！</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 16,192</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="Imbad0202/academic-research-skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/Imbad0202/academic-research-skills" class="repo-name" target="_blank">Imbad0202/academic-research-skills</a>
+                            <p class="desc">克劳德·代码的学术研究技巧：研究→写作→审阅→修改→定稿</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 20,137</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="supertone-inc/supertonic">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/supertone-inc/supertonic" class="repo-name" target="_blank">supertone-inc/supertonic</a>
+                            <p class="desc">快如闪电、设备内多语言 TTS — 通过 ONNX 本地运行。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 9,963</span>
+                                <span class="tag">Swift</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="datawhalechina/easy-vibe">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/datawhalechina/easy-vibe" class="repo-name" target="_blank">datawhalechina/easy-vibe</a>
+                            <p class="desc">💻 氛围编码 2026 |您的第一门现代编码课程，供初学者逐步掌握。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 14,376</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="obra/superpowers">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/obra/superpowers" class="repo-name" target="_blank">obra/superpowers</a>
+                            <p class="desc">有效的代理技能框架和软件开发方法。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 204,433</span>
+                                <span class="tag">Shell</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="HKUDS/CLI-Anything">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/HKUDS/CLI-Anything" class="repo-name" target="_blank">HKUDS/CLI-Anything</a>
+                            <p class="desc">“CLI-Anything：使所有软件代理原生”--CLI-Hub：https://clianything.cc/</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 39,925</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card has-new-badge" data-repo="cursor/plugins">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                <span class="badge badge-new" onclick="dismissNew(this, 'cursor/plugins', event)" title="点击标记为已看">✨ 全新发现</span>
+                            </div>
+                            <a href="https://github.com/cursor/plugins" class="repo-name" target="_blank">cursor/plugins</a>
+                            <p class="desc">光标插件规范和官方插件</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 694</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                </div>
+              </div>
+            
+              <div class="section-group">
+                <div class="section-title">🏆 本月趋势</div>
+                <div class="grid">
+                    
+                        <div class="card " data-repo="ComposioHQ/awesome-codex-skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-core">⭐ 核心推荐</span>
+                                
+                            </div>
+                            <a href="https://github.com/ComposioHQ/awesome-codex-skills" class="repo-name" target="_blank">ComposioHQ/awesome-codex-skills</a>
+                            <p class="desc">用于跨 Codex CLI 和 API 实现工作流程自动化的实用 Codex 技能精选列表。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 11,355</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="AIDC-AI/Pixelle-Video">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-core">⭐ 核心推荐</span>
+                                
+                            </div>
+                            <a href="https://github.com/AIDC-AI/Pixelle-Video" class="repo-name" target="_blank">AIDC-AI/Pixelle-Video</a>
+                            <p class="desc">🚀 AI 短视频引擎 | AI全自动短视频引擎</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 19,441</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="HKUDS/ViMax">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-core">⭐ 核心推荐</span>
+                                
+                            </div>
+                            <a href="https://github.com/HKUDS/ViMax" class="repo-name" target="_blank">HKUDS/ViMax</a>
+                            <p class="desc">“ViMax：代理视频生成（导演、编剧、制片人和视频生成器一体化）”</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 7,162</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="soxoj/maigret">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/soxoj/maigret" class="repo-name" target="_blank">soxoj/maigret</a>
+                            <p class="desc">🕵️‍♂️ 从 3000 多个网站按用户名收集某人的档案</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 30,116</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="TauricResearch/TradingAgents">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/TauricResearch/TradingAgents" class="repo-name" target="_blank">TauricResearch/TradingAgents</a>
+                            <p class="desc">TradingAgents：多代理LLM金融交易框架</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 79,072</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="decolua/9router">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/decolua/9router" class="repo-name" target="_blank">decolua/9router</a>
+                            <p class="desc">无限免费人工智能编码。通过 40 多个提供商将 Claude Code、Codex、Cursor、Cline、Copilot、Antigravity 连接到免费的 Claude/GPT/Gemini。自动回退，RTK -40% 代币，永远不会达到极限。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 13,896</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="ruvnet/ruflo">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/ruvnet/ruflo" class="repo-name" target="_blank">ruvnet/ruflo</a>
+                            <p class="desc">🌊 Claude 领先的代理编排平台。部署智能多代理群、协调自主工作流程并构建对话式 AI 系统。具有企业级架构、自学习群体智能、RAG 集成和原生 Claude Code/Codex 集成</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 54,610</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="bytedance/UI-TARS-desktop">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/bytedance/UI-TARS-desktop" class="repo-name" target="_blank">bytedance/UI-TARS-desktop</a>
+                            <p class="desc">开源多模式 AI 代理堆栈：连接尖端 AI 模型和代理基础设施</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 35,091</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card has-new-badge" data-repo="CJackHwang/ds2api">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                <span class="badge badge-new" onclick="dismissNew(this, 'CJackHwang/ds2api', event)" title="点击标记为已看">✨ 全新发现</span>
+                            </div>
+                            <a href="https://github.com/CJackHwang/ds2api" class="repo-name" target="_blank">CJackHwang/ds2api</a>
+                            <p class="desc">DeepSeek兼容中间件接口：Go语言的一个技术探索项目，专注于高并发协议适配。它作为将不同的 Web 协议转换为标准化格式的参考实现。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 4,560</span>
+                                <span class="tag">Go</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="addyosmani/agent-skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/addyosmani/agent-skills" class="repo-name" target="_blank">addyosmani/agent-skills</a>
+                            <p class="desc">AI 编码代理的生产级工程技能。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 45,261</span>
+                                <span class="tag">Shell</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="mattpocock/skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/mattpocock/skills" class="repo-name" target="_blank">mattpocock/skills</a>
+                            <p class="desc">真正工程师的技能。直接来自我的 .claude 目录。</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 102,910</span>
+                                <span class="tag">Shell</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="anthropics/financial-services">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/anthropics/financial-services" class="repo-name" target="_blank">anthropics/financial-services</a>
+                            <p class="desc">暂无简介</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 27,174</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="mattpocock/sandcastle">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/mattpocock/sandcastle" class="repo-name" target="_blank">mattpocock/sandcastle</a>
+                            <p class="desc">使用 sandcastle.run() 在 TypeScript 中编排沙盒编码代理</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 4,911</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                </div>
+              </div>
+            
+        
+        <footer style="margin-top: 80px; text-align: center; color: var(--text-muted); font-size: 0.9rem;">
+            生成于 2026/5/24 10:53:09 · 自动化驱动
+        </footer>
+    </div>
+
+    <script>
+        const dismissedKey = 'gh-trending-dismissed';
+        let dismissed = [];
+        try {
+            dismissed = JSON.parse(localStorage.getItem(dismissedKey) || '[]');
+        } catch (e) {
+            console.warn("LocalStorage not available:", e);
+        }
+
+        function setView(mode) {
+            document.body.classList.toggle('hide-seen', mode === 'new');
+            document.getElementById('btn-all').classList.toggle('active', mode === 'all');
+            document.getElementById('btn-new').classList.toggle('active', mode === 'new');
+            try { localStorage.setItem('gh-view-mode', mode); } catch (e) {}
+        }
+
+        function dismissNew(btnElem, repo, event) {
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            const card = btnElem.closest('.card');
+            if (card) {
+                // 强制隐藏标签
+                btnElem.style.display = 'none';
+                card.classList.add('is-dismissed');
+                card.classList.remove('has-new-badge');
+                
+                if (!dismissed.includes(repo)) {
+                    dismissed.push(repo);
+                    try { localStorage.setItem(dismissedKey, JSON.stringify(dismissed)); } catch (e) {}
+                }
+                
+                if (document.body.classList.contains('hide-seen')) {
+                    card.style.display = 'none';
+                }
+            }
+        }
+
+        window.onload = () => {
+            // 恢复记忆
+            dismissed.forEach(repo => {
+                const cards = document.querySelectorAll('.card');
+                cards.forEach(card => {
+                    if (card.getAttribute('data-repo') === repo) {
+                        card.classList.add('is-dismissed');
+                        card.classList.remove('has-new-badge');
+                        const badge = card.querySelector('.badge-new');
+                        if (badge) badge.style.display = 'none';
+                    }
+                });
+            });
+
+            let savedMode = 'new';
+            try { savedMode = localStorage.getItem('gh-view-mode') || 'new'; } catch (e) {}
+            setView(savedMode);
+        };
+    </script>
+</body>
+</html>
+  
