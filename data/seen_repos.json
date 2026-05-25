@@ -458,5 +458,45 @@
   "CJackHwang/ds2api": {
     "firstSeen": "2026-05-24T10:53:09.702Z",
     "description": "DeepSeek兼容中间件接口：Go语言的一个技术探索项目，专注于高并发协议适配。它作为将不同的 Web 协议转换为标准化格式的参考实现。"
+  },
+  "affaan-m/ECC": {
+    "firstSeen": "2026-05-25T12:08:58.459Z",
+    "description": "代理利用性能优化系统。 Claude Code、Codex、Opencode、Cursor 等的技能、直觉、记忆、安全性和研究优先的开发。"
+  },
+  "paperless-ngx/paperless-ngx": {
+    "firstSeen": "2026-05-25T12:08:58.459Z",
+    "description": "社区支持的强大文档管理系统：扫描、索引和归档您的所有文档"
+  },
+  "anthropics/claude-cookbooks": {
+    "firstSeen": "2026-05-25T12:08:58.459Z",
+    "description": "一系列笔记本/食谱展示了一些有趣且有效的使用克劳德的方法。"
+  },
+  "Leonxlnx/taste-skill": {
+    "firstSeen": "2026-05-25T12:08:58.459Z",
+    "description": "品味技能 - 给你的人工智能良好的品味。阻止人工智能产生无聊的、通用的斜坡"
+  },
+  "moeru-ai/airi": {
+    "firstSeen": "2026-05-25T12:08:58.459Z",
+    "description": "💖🧸 自托管，您拥有的 Grok Companion，一个 waifu 灵魂的容器，网络生物将他们带入我们的世界，希望达到 Neuro-sama 的高度。能够实时语音聊天、玩《我的世界》、《异星工厂》。支持网络/macOS/Windows。"
+  },
+  "Axorax/awesome-free-apps": {
+    "firstSeen": "2026-05-25T12:08:58.459Z",
+    "description": "精选的 PC 和移动设备最佳免费应用程序列表"
+  },
+  "hardikpandya/stop-slop": {
+    "firstSeen": "2026-05-25T12:08:58.459Z",
+    "description": "从散文中删除 AI 的技能文件"
+  },
+  "garrytan/gstack": {
+    "firstSeen": "2026-05-25T12:08:58.459Z",
+    "description": "使用 Garry Tan 的精确 Claude Code 设置：23 个固执己见的工具，可充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA"
+  },
+  "wechat-article/wechat-article-exporter": {
+    "firstSeen": "2026-05-25T12:09:05.661Z",
+    "description": "一款在线的微信公众号文章批量下载工具，支持导出阅读量和评论数据，无需搭建任何环境，可通过在线网站使用，支持docker原生化部署和Cloudflare部署。支持下载各种文件格式，其中HTML格式可100%还原文章排版与样式。"
+  },
+  "phodal/routa": {
+    "firstSeen": "2026-05-25T12:09:05.662Z",
+    "description": "用于人工智能开发的工作空间优先的多代理协调平台，具有共享规格、看板编排以及跨 Web 和桌面的 MCP/ACP/A2A 支持。"
   }
 }
