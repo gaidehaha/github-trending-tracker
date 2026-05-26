@@ -522,5 +522,9 @@
   "st-tech/ppf-contact-solver": {
     "firstSeen": "2026-05-26T14:58:29.333Z",
     "description": "用于基于物理的模拟的接触求解器，涉及👚壳、🪵固体和🪢棒。"
+  },
+  "Chachamaru127/claude-code-harness": {
+    "firstSeen": "2026-05-26T18:11:14.158Z",
+    "description": "Claude Code专用开发线束——通过自主计划→工作→审核周期实现高质量开发"
   }
 }
