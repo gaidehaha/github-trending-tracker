@@ -498,5 +498,29 @@
   "phodal/routa": {
     "firstSeen": "2026-05-25T12:09:05.662Z",
     "description": "用于人工智能开发的工作空间优先的多代理协调平台，具有共享规格、看板编排以及跨 Web 和桌面的 MCP/ACP/A2A 支持。"
+  },
+  "DigitalPlatDev/FreeDomain": {
+    "firstSeen": "2026-05-26T14:58:29.332Z",
+    "description": "DigitalPlat FreeDomain：适合所有人的免费域名"
+  },
+  "jellyfin/jellyfin": {
+    "firstSeen": "2026-05-26T14:58:29.333Z",
+    "description": "自由软件媒体系统 - 服务器后端和 API"
+  },
+  "twentyhq/twenty": {
+    "firstSeen": "2026-05-26T14:58:29.333Z",
+    "description": "Salesforce 的开放替代方案，专为 AI 设计。"
+  },
+  "Open-Dev-Society/OpenStock": {
+    "firstSeen": "2026-05-26T14:58:29.333Z",
+    "description": "OpenStock 是昂贵市场平台的开源替代品。跟踪实时价格、设置个性化提醒并探索详细的公司见解 - 为所有人公开构建，并且永远免费。"
+  },
+  "thedotmack/claude-mem": {
+    "firstSeen": "2026-05-26T14:58:29.333Z",
+    "description": "每个座席跨会话的持久上下文 – 捕获座席在会话期间所做的所有操作，使用 AI 对其进行压缩，并将相关上下文注入到未来的会话中。适用于 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等"
+  },
+  "st-tech/ppf-contact-solver": {
+    "firstSeen": "2026-05-26T14:58:29.333Z",
+    "description": "用于基于物理的模拟的接触求解器，涉及👚壳、🪵固体和🪢棒。"
   }
 }
