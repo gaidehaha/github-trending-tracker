@@ -526,5 +526,33 @@
   "Chachamaru127/claude-code-harness": {
     "firstSeen": "2026-05-26T18:11:14.158Z",
     "description": "Claude Code专用开发线束——通过自主计划→工作→审核周期实现高质量开发"
+  },
+  "p-e-w/heretic": {
+    "firstSeen": "2026-05-27T10:40:27.535Z",
+    "description": "全自动消除语言模型审查"
+  },
+  "Yeachan-Heo/oh-my-claudecode": {
+    "firstSeen": "2026-05-27T10:40:27.536Z",
+    "description": "Claude Code 的团队优先多代理编排"
+  },
+  "byoungd/English-level-up-tips": {
+    "firstSeen": "2026-05-27T10:40:27.536Z",
+    "description": "学习英语的高级指南可能会让您受益匪浅🎉。 离谱的英语学习指南/英语学习教程/英语学习/学英语"
+  },
+  "iii-hq/iii": {
+    "firstSeen": "2026-05-27T10:40:27.536Z",
+    "description": "有史以来第一次毫不费力地实时编写、扩展和观察每项服务。"
+  },
+  "aiming-lab/AutoResearchClaw": {
+    "firstSeen": "2026-05-27T10:40:32.068Z",
+    "description": "从想法到论文的完全自主和自我进化的研究。聊天一个想法。拿一张纸。 🦞"
+  },
+  "warpdotdev/warp": {
+    "firstSeen": "2026-05-27T10:40:38.122Z",
+    "description": "Warp 是一个代理开发环境，脱胎于终端。"
+  },
+  "1jehuang/jcode": {
+    "firstSeen": "2026-05-27T10:40:38.122Z",
+    "description": "编码剂线束"
   }
 }
