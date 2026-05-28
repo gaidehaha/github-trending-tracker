@@ -558,5 +558,33 @@
   "harry0703/MoneyPrinterTurbo": {
     "firstSeen": "2026-05-27T16:26:20.447Z",
     "description": "利用AI大模型，一键生成高清短视频 利用AI LLM一键生成短视频。"
+  },
+  "microsoft/markitdown": {
+    "firstSeen": "2026-05-28T16:40:40.351Z",
+    "description": "用于将文件和 Office 文档转换为 Markdown 的 Python 工具。"
+  },
+  "revfactory/harness": {
+    "firstSeen": "2026-05-28T16:40:40.351Z",
+    "description": "一种元技能，用于设计特定领域的代理团队、定义专业代理并生成他们使用的技能。"
+  },
+  "unclecode/crawl4ai": {
+    "firstSeen": "2026-05-28T16:40:40.351Z",
+    "description": "🚀🤖 Crawl4AI：开源 LLM 友好的网络爬虫和爬虫。不要害羞，加入这里：https://discord.gg/jP8KfhDhyN"
+  },
+  "OpenMOSS/MOSS-TTS": {
+    "firstSeen": "2026-05-28T16:40:40.351Z",
+    "description": "MOSS‑TTS 系列是来自 MOSI.AI 和 OpenMOSS 团队的开源语音和声音生成模型系列。它专为高保真、高表现力和复杂的现实场景而设计，涵盖稳定的长篇语音、多人对话、语音/角色设计、环境音效和实时流媒体 TTS。"
+  },
+  "EveryInc/compound-engineering-plugin": {
+    "firstSeen": "2026-05-28T16:40:40.351Z",
+    "description": "适用于 Claude Code、Codex、Cursor 等的官方复合工程插件"
+  },
+  "microsoft/agent-governance-toolkit": {
+    "firstSeen": "2026-05-28T16:40:45.354Z",
+    "description": "AI 代理治理工具包 — 自主 AI 代理的策略执行、零信任身份、执行沙箱和可靠性工程。涵盖 10/10 OWASP Agentic 前 10 名。"
+  },
+  "BenedictKing/ccx": {
+    "firstSeen": "2026-05-28T16:40:45.354Z",
+    "description": "Claude / Codex / Gemini API 代理 - CCX"
   }
 }
