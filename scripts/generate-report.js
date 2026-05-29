@@ -56,7 +56,7 @@ async function translateBatch(texts) {
   return results;
 }
 
-async function translateRepos(repos) {
+async function translateRepos(repos, date) {
   if (!repos.length) return repos;
   
   // 加载已见过的项目
@@ -77,8 +77,17 @@ async function translateRepos(repos) {
     else if (KEYWORDS.MID.some(k => nameDesc.includes(k.toLowerCase()))) score = 50;
 
     // 检查是否是全新发现（增量逻辑）
-    const isNewDiscovery = !seen[r.name];
-    if (isNewDiscovery) seen[r.name] = { firstSeen: new Date().toISOString(), description: descZh };
+    let isNewDiscovery = false;
+    if (!seen[r.name]) {
+      isNewDiscovery = true;
+      seen[r.name] = { firstSeen: new Date().toISOString(), description: descZh };
+    } else {
+      // 如果已在已读数据库中，但其第一次被捕获的日期就是今天的报告日期，在当天内的历次生成中它依然属于全新发现！
+      const firstSeenDate = seen[r.name].firstSeen.slice(0, 10);
+      if (firstSeenDate === date) {
+        isNewDiscovery = true;
+      }
+    }
 
     return { ...r, descriptionZh: descZh, score, isNewDiscovery };
   });
@@ -172,7 +181,7 @@ async function generateReport(date) {
     const comparison = compareData(current, previous);
 
     console.log(`  [${TF_LABELS[tf]}] ${comparison.repos.length} repos`);
-    comparison.repos = await translateRepos(comparison.repos);
+    comparison.repos = await translateRepos(comparison.repos, date);
     
     // 将翻译后的数据存回 JSON
     fs.writeFileSync(path.join(DATA_DIR, `${tf}-${date}.json`), JSON.stringify({ ...current, repos: comparison.repos }, null, 2));
