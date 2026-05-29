@@ -112,7 +112,7 @@
       "change": "NEW",
       "descriptionZh": "用于将文件和 Office 文档转换为 Markdown 的 Python 工具。",
       "score": 0,
-      "isNewDiscovery": false
+      "isNewDiscovery": true
     },
     {
       "rank": 9,
@@ -140,7 +140,7 @@
       "change": "NEW",
       "descriptionZh": "一种元技能，用于设计特定领域的代理团队、定义专业代理并生成他们使用的技能。",
       "score": 50,
-      "isNewDiscovery": false
+      "isNewDiscovery": true
     },
     {
       "rank": 11,
@@ -182,7 +182,7 @@
       "change": "NEW",
       "descriptionZh": "🚀🤖 Crawl4AI：开源 LLM 友好的网络爬虫和爬虫。不要害羞，加入这里：https://discord.gg/jP8KfhDhyN",
       "score": 50,
-      "isNewDiscovery": false
+      "isNewDiscovery": true
     },
     {
       "rank": 14,
@@ -196,7 +196,7 @@
       "change": "NEW",
       "descriptionZh": "MOSS‑TTS 系列是来自 MOSI.AI 和 OpenMOSS 团队的开源语音和声音生成模型系列。它专为高保真、高表现力和复杂的现实场景而设计，涵盖稳定的长篇语音、多人对话、语音/角色设计、环境音效和实时流媒体 TTS。",
       "score": 50,
-      "isNewDiscovery": false
+      "isNewDiscovery": true
     },
     {
       "rank": 15,
@@ -210,7 +210,7 @@
       "change": "NEW",
       "descriptionZh": "适用于 Claude Code、Codex、Cursor 等的官方复合工程插件",
       "score": 0,
-      "isNewDiscovery": false
+      "isNewDiscovery": true
     },
     {
       "rank": 16,

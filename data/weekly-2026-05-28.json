@@ -124,7 +124,7 @@
       "starsGained": 4170,
       "gainPeriod": "this week",
       "change": "+7",
-      "descriptionZh": "AI 代理的 754 项结构化网络安全技能 · 映射到 5 个框架：MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND 和 NIST AI RMF · Agentskills.io 标准 · 可与 Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI 和 20 多个平台配合使用 · 26 个安全域 · Apache 2.0",
+      "descriptionZh": "AI 代理的 754 项结构化网络安全技能 · 映射到 5 个框架：MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND 和 NIST AI RMF ·agentskills.io 标准 · 可与 Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI 和 20 多个平台配合使用 · 26 个安全域 · Apache 2.0",
       "score": 50,
       "isNewDiscovery": false
     },
@@ -238,7 +238,7 @@
       "change": "NEW",
       "descriptionZh": "AI 代理治理工具包 — 自主 AI 代理的策略执行、零信任身份、执行沙箱和可靠性工程。涵盖 10/10 OWASP Agentic 前 10 名。",
       "score": 50,
-      "isNewDiscovery": false
+      "isNewDiscovery": true
     },
     {
       "rank": 18,
@@ -294,7 +294,7 @@
       "change": "NEW",
       "descriptionZh": "Claude / Codex / Gemini API 代理 - CCX",
       "score": 0,
-      "isNewDiscovery": false
+      "isNewDiscovery": true
     }
   ]
 }
