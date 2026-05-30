@@ -610,5 +610,25 @@
   "DataTalksClub/data-engineering-zoomcamp": {
     "firstSeen": "2026-05-29T13:21:10.656Z",
     "description": "数据工程 Zoomcamp 是一门为期 9 周的免费课程，旨在构建可用于生产的数据管道。下一期将于 2026 年 1 月开始。在这里加入课程👇🏼"
+  },
+  "OpenBMB/VoxCPM": {
+    "firstSeen": "2026-05-30T14:16:37.180Z",
+    "description": "VoxCPM2：用于多语言语音生成、创意语音设计和逼真克隆的无分词器 TTS"
+  },
+  "chen08209/FlClash": {
+    "firstSeen": "2026-05-30T14:16:37.180Z",
+    "description": "一款基于ClashMeta的多平台代理客户端，简单易用，开源无广告。"
+  },
+  "FareedKhan-dev/train-llm-from-scratch": {
+    "firstSeen": "2026-05-30T14:16:37.180Z",
+    "description": "培训法学硕士的简单方法，从下载数据到生成文本。"
+  },
+  "dreammis/social-auto-upload": {
+    "firstSeen": "2026-05-30T14:16:37.180Z",
+    "description": "自动上传视频到社交媒体：抖音、小红书、视频号、tiktok、youtube、bilibili"
+  },
+  "ogulcancelik/herdr": {
+    "firstSeen": "2026-05-30T14:16:43.399Z",
+    "description": "位于您终端中的代理多路复用器。"
   }
 }
