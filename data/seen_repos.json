@@ -630,5 +630,29 @@
   "ogulcancelik/herdr": {
     "firstSeen": "2026-05-30T14:16:43.399Z",
     "description": "位于您终端中的代理多路复用器。"
+  },
+  "D4Vinci/Scrapling": {
+    "firstSeen": "2026-05-31T14:20:29.246Z",
+    "description": "🕷️ 一个自适应网页抓取框架，可以处理从单个请求到全面抓取的所有内容！"
+  },
+  "nesquena/hermes-webui": {
+    "firstSeen": "2026-05-31T14:20:29.246Z",
+    "description": "Hermes WebUI：从网络或手机使用 Hermes Agent 的最佳方式！"
+  },
+  "github/docs": {
+    "firstSeen": "2026-05-31T14:20:29.246Z",
+    "description": "docs.github.com 的开源存储库"
+  },
+  "supermemoryai/supermemory": {
+    "firstSeen": "2026-05-31T14:20:29.247Z",
+    "description": "内存引擎和应用程序速度极快，可扩展。 AI时代的内存API。"
+  },
+  "nicobailon/pi-subagents": {
+    "firstSeen": "2026-05-31T14:20:29.247Z",
+    "description": "用于异步子代理委托的 Pi 扩展，具有截断、工件和会话共享功能"
+  },
+  "emmabostian/developer-portfolios": {
+    "firstSeen": "2026-05-31T14:20:29.247Z",
+    "description": "为您提供灵感的开发者组合列表"
   }
 }
