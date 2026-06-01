@@ -654,5 +654,25 @@
   "emmabostian/developer-portfolios": {
     "firstSeen": "2026-05-31T14:20:29.247Z",
     "description": "为您提供灵感的开发者组合列表"
+  },
+  "pbakaus/impeccable": {
+    "firstSeen": "2026-06-01T12:19:33.156Z",
+    "description": "使您的 AI 线束在设计上更加出色的设计语言。"
+  },
+  "godotengine/godot": {
+    "firstSeen": "2026-06-01T12:19:33.156Z",
+    "description": "Godot Engine – 多平台 2D 和 3D 游戏引擎"
+  },
+  "stefan-jansen/machine-learning-for-trading": {
+    "firstSeen": "2026-06-01T12:19:33.156Z",
+    "description": "算法交易机器学习代码，第二版。"
+  },
+  "dmtrKovalenko/fff": {
+    "firstSeen": "2026-06-01T12:19:33.156Z",
+    "description": "适用于 AI 代理、Neovim、Rust、C 和 NodeJS 的最快、最准确的文件搜索工具包"
+  },
+  "Hmbown/CodeWhale": {
+    "firstSeen": "2026-06-01T12:19:41.994Z",
+    "description": "终端中的 DeepSeek + MiMo 编码代理"
   }
 }
