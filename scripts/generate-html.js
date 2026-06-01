@@ -204,6 +204,14 @@ function generateHTML(date, daily, weekly, monthly) {
           }).join('');
         })()}
         
+        <!-- 空状态提示卡片 -->
+        <div id="empty-state" style="display: none; text-align: center; padding: 60px 20px; background: rgba(30, 41, 59, 0.4); border-radius: 20px; border: 1px dashed rgba(255,255,255,0.15); margin-top: 40px; backdrop-filter: blur(10px); box-shadow: 0 10px 30px -10px rgba(0,0,0,0.3);">
+            <div style="font-size: 3rem; margin-bottom: 20px; filter: drop-shadow(0 0 10px var(--primary));">🎉</div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 10px; color: var(--primary); font-weight: 700;">你已全部掌握！</h3>
+            <p style="color: var(--text-muted); margin-bottom: 25px; font-size: 0.95rem; max-width: 400px; margin-left: auto; margin-right: auto;">今天上榜的所有热门项目都在你的“已读名单”中了，今日暂无新上榜的黑马项目。</p>
+            <button onclick="setView('all')" style="background: var(--primary); color: var(--bg); border: none; font-weight: 600; padding: 10px 28px; border-radius: 99px; cursor: pointer; transition: all 0.3s; box-shadow: 0 4px 14px 0 rgba(56, 189, 248, 0.4);" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">显示今日全部热门</button>
+        </div>
+
         <footer style="margin-top: 80px; text-align: center; color: var(--text-muted); font-size: 0.9rem;">
             生成于 ${new Date().toLocaleString('zh-CN')} · 自动化驱动
         </footer>
@@ -223,6 +231,38 @@ function generateHTML(date, daily, weekly, monthly) {
             document.getElementById('btn-all').classList.toggle('active', mode === 'all');
             document.getElementById('btn-new').classList.toggle('active', mode === 'new');
             try { localStorage.setItem('gh-view-mode', mode); } catch (e) {}
+            checkEmptyState(mode);
+        }
+
+        function checkEmptyState(mode) {
+            const emptyState = document.getElementById('empty-state');
+            if (!emptyState) return;
+
+            if (mode === 'new') {
+                const visibleCards = Array.from(document.querySelectorAll('.card')).filter(card => {
+                    return card.classList.contains('has-new-badge') && !card.classList.contains('is-dismissed');
+                });
+                
+                const isEmpty = visibleCards.length === 0;
+                emptyState.style.display = isEmpty ? 'block' : 'none';
+                
+                // 隐藏或显示所有标题组
+                const sections = document.querySelectorAll('.section-group');
+                sections.forEach(s => {
+                    const cardsInSection = Array.from(s.querySelectorAll('.card')).filter(card => {
+                        return card.classList.contains('has-new-badge') && !card.classList.contains('is-dismissed');
+                    });
+                    s.style.display = cardsInSection.length === 0 ? 'none' : 'block';
+                });
+            } else {
+                emptyState.style.display = 'none';
+                const sections = document.querySelectorAll('.section-group');
+                sections.forEach(s => {
+                    s.style.display = 'block';
+                    const cards = s.querySelectorAll('.card');
+                    cards.forEach(card => card.style.display = 'flex');
+                });
+            }
         }
 
         function dismissNew(btnElem, repo, event) {
@@ -245,6 +285,10 @@ function generateHTML(date, daily, weekly, monthly) {
                 if (document.body.classList.contains('hide-seen')) {
                     card.style.display = 'none';
                 }
+
+                let savedMode = 'new';
+                try { savedMode = localStorage.getItem('gh-view-mode') || 'new'; } catch (e) {}
+                checkEmptyState(savedMode);
             }
         }
 
