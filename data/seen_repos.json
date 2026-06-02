@@ -674,5 +674,29 @@
   "Hmbown/CodeWhale": {
     "firstSeen": "2026-06-01T12:19:41.994Z",
     "description": "终端中的 DeepSeek + MiMo 编码代理"
+  },
+  "chopratejas/headroom": {
+    "firstSeen": "2026-06-02T17:05:58.900Z",
+    "description": "在工具输出、日志、文件和 RAG 块到达 LLM 之前对其进行压缩。减少 60-95% 的标记，答案相同。库、代理、MCP 服务器。"
+  },
+  "reconurge/flowsint": {
+    "firstSeen": "2026-06-02T17:05:58.900Z",
+    "description": "一个用于可视化、灵活且可扩展的基于图形的调查的现代平台。适用于网络安全分析师和调查人员。"
+  },
+  "jamwithai/production-agentic-rag-course": {
+    "firstSeen": "2026-06-02T17:05:58.900Z",
+    "description": ""
+  },
+  "Open-LLM-VTuber/Open-LLM-VTuber": {
+    "firstSeen": "2026-06-02T17:05:58.900Z",
+    "description": "通过免提语音交互、语音中断和跨平台本地运行的 Live2D 面部识别功能与任何法学硕士交谈"
+  },
+  "modelscope/FunASR": {
+    "firstSeen": "2026-06-02T17:06:03.864Z",
+    "description": "工业级语音识别工具包：170 倍实时、50 多种语言、说话人分类、情绪检测、流媒体和 OpenAI 兼容 API。"
+  },
+  "fathah/hermes-desktop": {
+    "firstSeen": "2026-06-02T17:06:10.378Z",
+    "description": "Hermes Agent 桌面伴侣"
   }
 }
