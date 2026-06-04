@@ -722,5 +722,29 @@
   "JuliusBrussee/caveman": {
     "firstSeen": "2026-06-04T10:27:36.471Z",
     "description": "🪨 当很少的代币可以做戏时为什么要使用大量的代币 — Claude Code 技能通过像穴居人一样说话来减少 65% 的代币"
+  },
+  "PaddlePaddle/PaddleOCR": {
+    "firstSeen": "2026-06-04T16:03:02.200Z",
+    "description": "将任何 PDF 或图像文档转换为 AI 的结构化数据。一款功能强大、轻量级的 OCR 工具包，可弥合图像/PDF 和法学硕士之间的差距。支持 100 多种语言。"
+  },
+  "NVIDIA/cosmos": {
+    "firstSeen": "2026-06-04T16:03:02.200Z",
+    "description": "NVIDIA Cosmos 是一个包含世界模型、数据集和工具的开放平台，使开发人员能够为机器人、自动驾驶车辆、智能基础设施等构建物理 AI。"
+  },
+  "lfnovo/open-notebook": {
+    "firstSeen": "2026-06-04T16:03:02.200Z",
+    "description": "Notebook LM 的开源实现，具有更多灵活性和功能"
+  },
+  "github/copilot-sdk": {
+    "firstSeen": "2026-06-04T16:03:02.200Z",
+    "description": "用于将 GitHub Copilot Agent 集成到应用程序和服务中的多平台 SDK"
+  },
+  "openclaw/openclaw-windows-node": {
+    "firstSeen": "2026-06-04T16:03:02.200Z",
+    "description": "OpenClaw 的 Windows 配套套件 - 系统托盘应用程序、共享库、节点和 PowerToys 命令面板扩展"
+  },
+  "mvanhorn/last30days-skill": {
+    "firstSeen": "2026-06-04T16:03:02.200Z",
+    "description": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有根据的摘要"
   }
 }
