@@ -746,5 +746,21 @@
   "mvanhorn/last30days-skill": {
     "firstSeen": "2026-06-04T16:03:02.200Z",
     "description": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有根据的摘要"
+  },
+  "CopilotKit/CopilotKit": {
+    "firstSeen": "2026-06-05T15:37:52.699Z",
+    "description": "代理和生成式 UI 的前端堆栈。反应+角度。 AG-UI协议的制定者"
+  },
+  "Panniantong/Agent-Reach": {
+    "firstSeen": "2026-06-05T15:37:52.699Z",
+    "description": "让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。"
+  },
+  "openai/plugins": {
+    "firstSeen": "2026-06-05T15:37:52.700Z",
+    "description": "OpenAI 插件"
+  },
+  "MemPalace/mempalace": {
+    "firstSeen": "2026-06-05T15:37:52.700Z",
+    "description": "最佳基准的开源人工智能存储系统。而且它是免费的。"
   }
 }
