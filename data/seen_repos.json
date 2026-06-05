@@ -762,5 +762,9 @@
   "MemPalace/mempalace": {
     "firstSeen": "2026-06-05T15:37:52.700Z",
     "description": "最佳基准的开源人工智能存储系统。而且它是免费的。"
+  },
+  "withastro/flue": {
+    "firstSeen": "2026-06-05T22:44:39.526Z",
+    "description": "沙箱代理框架。"
   }
 }
