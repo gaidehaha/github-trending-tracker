@@ -766,5 +766,37 @@
   "withastro/flue": {
     "firstSeen": "2026-06-05T22:44:39.526Z",
     "description": "沙箱代理框架。"
+  },
+  "sveltejs/svelte": {
+    "firstSeen": "2026-06-06T14:18:22.566Z",
+    "description": "适合我们其他人的网络开发"
+  },
+  "nginx/nginx": {
+    "firstSeen": "2026-06-06T14:18:22.566Z",
+    "description": "官方 NGINX 开源存储库。"
+  },
+  "golang/go": {
+    "firstSeen": "2026-06-06T14:18:22.566Z",
+    "description": "Go 编程语言"
+  },
+  "santifer/career-ops": {
+    "firstSeen": "2026-06-06T14:18:22.566Z",
+    "description": "基于 Claude Code 构建的人工智能求职系统。 14 种技能模式、Go 仪表板、PDF 生成、批处理。"
+  },
+  "openai/whisper": {
+    "firstSeen": "2026-06-06T14:18:22.566Z",
+    "description": "通过大规模弱监督实现鲁棒语音识别"
+  },
+  "vitejs/vite": {
+    "firstSeen": "2026-06-06T14:18:22.566Z",
+    "description": "下一代前端工具。速度很快！"
+  },
+  "microsoft/mxc": {
+    "firstSeen": "2026-06-06T14:18:22.566Z",
+    "description": "政策驱动，分层隔离、遏制"
+  },
+  "microsoft/VibeVoice": {
+    "firstSeen": "2026-06-06T14:18:22.566Z",
+    "description": "开源前沿语音人工智能"
   }
 }
