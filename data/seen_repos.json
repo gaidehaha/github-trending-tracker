@@ -798,5 +798,29 @@
   "microsoft/VibeVoice": {
     "firstSeen": "2026-06-06T14:18:22.566Z",
     "description": "开源前沿语音人工智能"
+  },
+  "opencv/opencv": {
+    "firstSeen": "2026-06-07T14:31:11.732Z",
+    "description": "开源计算机视觉库"
+  },
+  "aaif-goose/goose": {
+    "firstSeen": "2026-06-07T14:31:11.732Z",
+    "description": "开源、可扩展的 AI 代理，超越代码建议 - 使用任何 LLM 安装、执行、编辑和测试"
+  },
+  "RyanCodrai/turbovec": {
+    "firstSeen": "2026-06-07T14:31:11.732Z",
+    "description": "基于 TurboQuant 构建的向量索引，使用 Rust 编写并结合 Python 绑定"
+  },
+  "TapXWorld/ChinaTextbook": {
+    "firstSeen": "2026-06-07T14:31:11.732Z",
+    "description": "所有小初高、大学PDF教材。"
+  },
+  "HunxByts/GhostTrack": {
+    "firstSeen": "2026-06-07T14:31:11.732Z",
+    "description": "跟踪位置或手机号码的有用工具"
+  },
+  "microsoft/pg_durable": {
+    "firstSeen": "2026-06-07T14:31:11.732Z",
+    "description": "PostgreSQL 数据库内持久执行"
   }
 }
