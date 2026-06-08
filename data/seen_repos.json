@@ -822,5 +822,25 @@
   "microsoft/pg_durable": {
     "firstSeen": "2026-06-07T14:31:11.732Z",
     "description": "PostgreSQL 数据库内持久执行"
+  },
+  "google/skills": {
+    "firstSeen": "2026-06-08T11:28:12.699Z",
+    "description": "Google 产品和技术的代理技能"
+  },
+  "phuryn/pm-skills": {
+    "firstSeen": "2026-06-08T11:28:12.699Z",
+    "description": "PM 技能市场：100 多种代理技能、命令和插件 - 从发现到策略、执行、启动和增长。"
+  },
+  "Andyyyy64/whichllm": {
+    "firstSeen": "2026-06-08T11:28:12.699Z",
+    "description": "找到在您的硬件上实际运行并表现最佳的本地法学硕士。根据真实的、新近度感知的基准排名，而不是参数计数。一条命令，立即运行。"
+  },
+  "roboflow/supervision": {
+    "firstSeen": "2026-06-08T11:28:12.699Z",
+    "description": "我们为您编写可重复使用的计算机视觉工具。 💜"
+  },
+  "luongnv89/claude-howto": {
+    "firstSeen": "2026-06-08T11:28:12.699Z",
+    "description": "克劳德代码的可视化、示例驱动指南——从基本概念到高级代理，以及可带来即时价值的复制粘贴模板。"
   }
 }
