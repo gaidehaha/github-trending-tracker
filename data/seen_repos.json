@@ -842,5 +842,9 @@
   "luongnv89/claude-howto": {
     "firstSeen": "2026-06-08T11:28:12.699Z",
     "description": "克劳德代码的可视化、示例驱动指南——从基本概念到高级代理，以及可带来即时价值的复制粘贴模板。"
+  },
+  "Egonex-AI/Understand-Anything": {
+    "firstSeen": "2026-06-08T16:38:03.022Z",
+    "description": "具有教学意义的图表 > 令人印象深刻的图表。将任何代码变成您可以探索、搜索和提问的交互式知识图。适用于 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等。"
   }
 }
