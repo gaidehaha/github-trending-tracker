@@ -846,5 +846,17 @@
   "Egonex-AI/Understand-Anything": {
     "firstSeen": "2026-06-08T16:38:03.022Z",
     "description": "具有教学意义的图表 > 令人印象深刻的图表。将任何代码变成您可以探索、搜索和提问的交互式知识图。适用于 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等。"
+  },
+  "x1xhlol/system-prompts-and-models-of-ai-tools": {
+    "firstSeen": "2026-06-09T15:43:15.909Z",
+    "description": "完整增强代码、Claude Code、Cluely、CodeBuddy、Comet、Cursor、Devin AI、Junie、Kiro、Leap.new、Lovable、Manus、NotionAI、Orchids.app、Perplexity、Poke、Qoder、Replit、Same.dev、Trae、Traycer AI、VSCode Agent、Warp.dev、Windsurf、Xcode、Z.ai Code、Dia 和 v0。 （和其他开源）系统提示、内部工具和人工智能模型"
+  },
+  "maziyarpanahi/openmed": {
+    "firstSeen": "2026-06-09T15:43:15.909Z",
+    "description": "开源医疗保健人工智能"
+  },
+  "francescopace/espectre": {
+    "firstSeen": "2026-06-09T15:43:15.909Z",
+    "description": "🛜 ESPectre 👻 - 基于 Wi-Fi 频谱分析 (CSI) 的运动检测系统，与 Home Assistant 集成。"
   }
 }
