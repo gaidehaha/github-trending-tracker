@@ -858,5 +858,17 @@
   "francescopace/espectre": {
     "firstSeen": "2026-06-09T15:43:15.909Z",
     "description": "🛜 ESPectre 👻 - 基于 Wi-Fi 频谱分析 (CSI) 的运动检测系统，与 Home Assistant 集成。"
+  },
+  "masterking32/MasterDnsVPN": {
+    "firstSeen": "2026-06-10T16:24:08.597Z",
+    "description": "用于绕过审查的高级 DNS 隧道 VPN，经过优化，超越 DNSTT 和 SlipStream，具有低开销 ARQ、解析器负载平衡、高丢包稳定性和速度。"
+  },
+  "activeloopai/hivemind": {
+    "firstSeen": "2026-06-10T16:24:08.598Z",
+    "description": "一个大脑适合所有代理"
+  },
+  "apple/container": {
+    "firstSeen": "2026-06-10T16:24:08.598Z",
+    "description": "一种在 Mac 上使用轻量级虚拟机创建和运行 Linux 容器的工具。它是用 Swift 编写的，并针对 Apple 芯片进行了优化。"
   }
 }
