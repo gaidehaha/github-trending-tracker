@@ -870,5 +870,37 @@
   "apple/container": {
     "firstSeen": "2026-06-10T16:24:08.598Z",
     "description": "一种在 Mac 上使用轻量级虚拟机创建和运行 Linux 容器的工具。它是用 Swift 编写的，并针对 Apple 芯片进行了优化。"
+  },
+  "NVIDIA/SkillSpector": {
+    "firstSeen": "2026-06-11T11:13:49.688Z",
+    "description": "AI 代理技能的安全扫描器。检测漏洞、恶意模式和安全风险。"
+  },
+  "restic/restic": {
+    "firstSeen": "2026-06-11T11:13:49.688Z",
+    "description": "快速、安全、高效的备份程序"
+  },
+  "chatwoot/chatwoot": {
+    "firstSeen": "2026-06-11T11:13:49.688Z",
+    "description": "开源实时聊天、电子邮件支持、全渠道服务台。 Intercom、Zendesk、Salesforce Service Cloud 等的替代品。🔥💬"
+  },
+  "kenn-io/agentsview": {
+    "firstSeen": "2026-06-11T11:13:49.688Z",
+    "description": "针对编码代理的本地优先会话智能和分析，支持 Claude Code、Codex 和 20 多个其他代理。另外：替换 ccusage 的速度加快 100 倍！"
+  },
+  "alchaincyf/zhangxuefeng-skill": {
+    "firstSeen": "2026-06-11T11:13:49.688Z",
+    "description": "张雪峰.skill — 张雪峰的认知网络。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。"
+  },
+  "hexo-ai/sia": {
+    "firstSeen": "2026-06-11T11:13:49.688Z",
+    "description": "SIA 是一个自我改进的人工智能框架，可以自主提高任何人工智能系统（模型/代理）在基准任务上的性能。"
+  },
+  "mattermost/mattermost": {
+    "firstSeen": "2026-06-11T11:13:49.688Z",
+    "description": "Mattermost 是一个开源平台，用于在整个软件开发生命周期中进行安全协作。"
+  },
+  "bannedbook/fanqiang": {
+    "firstSeen": "2026-06-11T11:13:49.688Z",
+    "description": "翻墙-科学上网"
   }
 }
