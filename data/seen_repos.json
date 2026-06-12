@@ -902,5 +902,21 @@
   "bannedbook/fanqiang": {
     "firstSeen": "2026-06-11T11:13:49.688Z",
     "description": "翻墙-科学上网"
+  },
+  "music-assistant/server": {
+    "firstSeen": "2026-06-12T15:49:54.240Z",
+    "description": "音乐助手是一款免费的开源媒体库管理器，可连接到您的流媒体服务和各种连接的扬声器。服务器是跳动的心脏，是音乐助手的核心，必须在始终在线的设备上运行，例如 Raspberry Pi、NAS 或 Intel NUC 等。"
+  },
+  "iptv-org/iptv": {
+    "firstSeen": "2026-06-12T15:49:54.240Z",
+    "description": "来自世界各地的公开 IPTV 频道集合"
+  },
+  "LMCache/LMCache": {
+    "firstSeen": "2026-06-12T15:49:54.240Z",
+    "description": "LMCache：用最快的 KV 缓存层增强您的 LLM"
+  },
+  "microsoft/PowerToys": {
+    "firstSeen": "2026-06-12T15:49:54.241Z",
+    "description": "Microsoft PowerToys 是一系列实用程序，可提高 Windows 上的工作效率和自定义功能"
   }
 }
