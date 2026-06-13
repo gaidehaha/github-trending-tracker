@@ -918,5 +918,21 @@
   "microsoft/PowerToys": {
     "firstSeen": "2026-06-12T15:49:54.241Z",
     "description": "Microsoft PowerToys 是一系列实用程序，可提高 Windows 上的工作效率和自定义功能"
+  },
+  "andrewyng/aisuite": {
+    "firstSeen": "2026-06-13T14:40:11.346Z",
+    "description": "与多个生成人工智能提供商的简单、统一的接口"
+  },
+  "swc-project/swc": {
+    "firstSeen": "2026-06-13T14:40:11.346Z",
+    "description": "基于 Rust 的 Web 平台"
+  },
+  "huggingface/OpenEnv": {
+    "firstSeen": "2026-06-13T14:40:17.047Z",
+    "description": "用于环境强化学习后期训练的接口库。"
+  },
+  "TencentCloud/TencentDB-Agent-Memory": {
+    "firstSeen": "2026-06-13T14:40:22.087Z",
+    "description": "腾讯数据库代理内存通过 4 层渐进式管道为 AI 代理提供完全本地的长期内存，且外部 API 依赖性为零。"
   }
 }
