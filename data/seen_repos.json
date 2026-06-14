@@ -934,5 +934,37 @@
   "TencentCloud/TencentDB-Agent-Memory": {
     "firstSeen": "2026-06-13T14:40:22.087Z",
     "description": "腾讯数据库代理内存通过 4 层渐进式管道为 AI 代理提供完全本地的长期内存，且外部 API 依赖性为零。"
+  },
+  "freeCodeCamp/freeCodeCamp": {
+    "firstSeen": "2026-06-14T14:56:50.584Z",
+    "description": "freeCodeCamp.org 的开源代码库和课程。免费学习数学、编程和计算机科学。"
+  },
+  "pytest-dev/pytest": {
+    "firstSeen": "2026-06-14T14:56:50.584Z",
+    "description": "pytest 框架可以轻松编写小型测试，并可扩展以支持复杂的功能测试"
+  },
+  "meshery/meshery": {
+    "firstSeen": "2026-06-14T14:56:50.584Z",
+    "description": "Meshery，云原生管理器"
+  },
+  "cypress-io/cypress": {
+    "firstSeen": "2026-06-14T14:56:50.584Z",
+    "description": "对浏览器中运行的任何内容进行快速、简单且可靠的测试。"
+  },
+  "GorvGoyl/Clone-Wars": {
+    "firstSeen": "2026-06-14T14:56:50.584Z",
+    "description": "100 多个流行网站的开源克隆，例如 Airbnb、Amazon、Instagram、Netflix、Tiktok、Spotify、Whatsapp、Youtube 等。查看源代码、演示链接、技术堆栈、github 明星。"
+  },
+  "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots": {
+    "firstSeen": "2026-06-14T14:56:50.584Z",
+    "description": "自主机器人简介"
+  },
+  "Free-TV/IPTV": {
+    "firstSeen": "2026-06-14T14:56:50.584Z",
+    "description": "免费电视频道的 M3U 播放列表"
+  },
+  "puppeteer/puppeteer": {
+    "firstSeen": "2026-06-14T14:56:50.584Z",
+    "description": "适用于 Chrome 和 Firefox 的 JavaScript API"
   }
 }
