@@ -966,5 +966,9 @@
   "puppeteer/puppeteer": {
     "firstSeen": "2026-06-14T14:56:50.584Z",
     "description": "适用于 Chrome 和 Firefox 的 JavaScript API"
+  },
+  "safishamsi/graphify": {
+    "firstSeen": "2026-06-14T22:45:46.510Z",
+    "description": "AI 编码助手技能（Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等）。将任何代码、SQL 架构、R 脚本、shell 脚本、文档、论文、图像或视频文件夹转换为可查询的知识图谱。一张图中的应用程序代码+数据库架构+基础设施。"
   }
 }
