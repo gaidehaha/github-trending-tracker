@@ -970,5 +970,29 @@
   "safishamsi/graphify": {
     "firstSeen": "2026-06-14T22:45:46.510Z",
     "description": "AI 编码助手技能（Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等）。将任何代码、SQL 架构、R 脚本、shell 脚本、文档、论文、图像或视频文件夹转换为可查询的知识图谱。一张图中的应用程序代码+数据库架构+基础设施。"
+  },
+  "teslamate-org/teslamate": {
+    "firstSeen": "2026-06-15T12:51:35.206Z",
+    "description": "特斯拉的自托管数据记录器 🚘 [主要维护者=@JakobLichterfeld]"
+  },
+  "krahets/hello-algo": {
+    "firstSeen": "2026-06-15T12:51:35.206Z",
+    "description": "《Hello算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、英语、日本语，提供Python、Java、C++、C、C#、JS、Go、Swift、Rust、Ruby、Kotlin、TS、Dart等代码实现"
+  },
+  "Raphire/Win11Debloat": {
+    "firstSeen": "2026-06-15T12:51:35.206Z",
+    "description": "一个简单、轻量级的 PowerShell 脚本，允许您删除预安装的应用程序、禁用遥测以及执行各种其他更改以整理和自定义您的 Windows 体验。 Win11Debloat 适用于 Windows 10 和 Windows 11。"
+  },
+  "mikeroyal/Self-Hosting-Guide": {
+    "firstSeen": "2026-06-15T12:51:35.206Z",
+    "description": "自托管指南。了解有关您或您的组织本地托管（本地和私有 Web 服务器）和管理软件应用程序的所有信息。包括云、法学硕士、WireGuard、自动化、家庭助理和网络。"
+  },
+  "itsfatduck/optimizerDuck": {
+    "firstSeen": "2026-06-15T12:51:35.206Z",
+    "description": "免费、开源的 Windows 优化工具，可实现性能、隐私和简单性。"
+  },
+  "asgeirtj/system_prompts_leaks": {
+    "firstSeen": "2026-06-15T12:51:39.816Z",
+    "description": "从 Anthropic 中提取的系统提示 - Claude Fable 5、Opus 4.8、Claude Code、Claude Design。 OpenAI - ChatGPT 5.5 思维、GPT 5.5 即时、Codex。 Google - Gemini 3.5 Flash、3.1 Pro、反重力。 xAI - Grok、Cursor、Copilot、VS Code、Perplexity 等。定期更新。"
   }
 }
