@@ -994,5 +994,21 @@
   "asgeirtj/system_prompts_leaks": {
     "firstSeen": "2026-06-15T12:51:39.816Z",
     "description": "从 Anthropic 中提取的系统提示 - Claude Fable 5、Opus 4.8、Claude Code、Claude Design。 OpenAI - ChatGPT 5.5 思维、GPT 5.5 即时、Codex。 Google - Gemini 3.5 Flash、3.1 Pro、反重力。 xAI - Grok、Cursor、Copilot、VS Code、Perplexity 等。定期更新。"
+  },
+  "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
+    "firstSeen": "2026-06-16T11:54:37.897Z",
+    "description": "使用 Rust 编写的跨平台 GUI，使用 ADB 来消除非 root 的 Android 设备。提高您的隐私、安全性和设备的电池寿命。"
+  },
+  "alibaba/zvec": {
+    "firstSeen": "2026-06-16T11:54:37.897Z",
+    "description": "轻量级、快如闪电的进程内矢量数据库"
+  },
+  "n0-computer/iroh": {
+    "firstSeen": "2026-06-16T11:54:37.897Z",
+    "description": "IP 地址中断，请改为拨号键。 Rust 中的模块化网络堆栈。"
+  },
+  "ml-explore/mlx": {
+    "firstSeen": "2026-06-16T11:54:44.281Z",
+    "description": "MLX：Apple 芯片的阵列框架"
   }
 }
