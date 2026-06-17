@@ -1010,5 +1010,45 @@
   "ml-explore/mlx": {
     "firstSeen": "2026-06-16T11:54:44.281Z",
     "description": "MLX：Apple 芯片的阵列框架"
+  },
+  "DeusData/codebase-memory-mcp": {
+    "firstSeen": "2026-06-17T11:22:41.163Z",
+    "description": "高性能代码智能MCP服务器。将代码库索引到持久知识图谱中——以毫秒为单位的平均存储库。 158 种语言，亚毫秒级查询，标记减少 99%。单个静态二进制文件，零依赖性。"
+  },
+  "google-research/timesfm": {
+    "firstSeen": "2026-06-17T11:22:41.163Z",
+    "description": "TimesFM（时间序列基础模型）是 Google Research 开发的用于时间序列预测的预训练时间序列基础模型。"
+  },
+  "RocketChat/Rocket.Chat": {
+    "firstSeen": "2026-06-17T11:22:41.164Z",
+    "description": "用于关键任务操作的 Secure CommsOS™"
+  },
+  "continuedev/continue": {
+    "firstSeen": "2026-06-17T11:22:41.164Z",
+    "description": "开源编码代理"
+  },
+  "penpot/penpot": {
+    "firstSeen": "2026-06-17T11:22:41.164Z",
+    "description": "Penpot：用于设计和代码协作的开源设计工具"
+  },
+  "yairm210/Unciv": {
+    "firstSeen": "2026-06-17T11:22:41.164Z",
+    "description": "Civ V 的开源 Android/桌面重制版"
+  },
+  "nautechsystems/nautilus_trader": {
+    "firstSeen": "2026-06-17T11:22:41.164Z",
+    "description": "具有确定性事件驱动架构的生产级 Rust 原生交易引擎"
+  },
+  "calesthio/OpenMontage": {
+    "firstSeen": "2026-06-17T11:22:41.164Z",
+    "description": "世界上第一个开源的代理视频制作系统。 12条管道、52种工具、500+座席技能。将您的人工智能编码助手变成一个完整的视频制作工作室。"
+  },
+  "alexzhang13/rlm": {
+    "firstSeen": "2026-06-17T11:22:41.164Z",
+    "description": "用于递归语言模型（RLM）的通用即插即用推理库，支持各种沙箱。"
+  },
+  "makeplane/plane": {
+    "firstSeen": "2026-06-17T11:22:41.164Z",
+    "description": "🔥🔥🔥 开源 Jira、Linear、Monday 和 ClickUp 替代方案。 Plane 是一个现代项目管理平台，用于管理任务、冲刺、文档和分类。"
   }
 }
