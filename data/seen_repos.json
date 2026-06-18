@@ -1050,5 +1050,41 @@
   "makeplane/plane": {
     "firstSeen": "2026-06-17T11:22:41.164Z",
     "description": "🔥🔥🔥 开源 Jira、Linear、Monday 和 ClickUp 替代方案。 Plane 是一个现代项目管理平台，用于管理任务、冲刺、文档和分类。"
+  },
+  "zai-org/GLM-5": {
+    "firstSeen": "2026-06-18T16:02:22.973Z",
+    "description": "GLM-5：从 Vibe 编码到代理工程"
+  },
+  "Kilo-Org/kilocode": {
+    "firstSeen": "2026-06-18T16:02:22.973Z",
+    "description": "Kilo 是一款一体化代理工程平台。使用最流行的开源编码代理更快地构建、发布和迭代。"
+  },
+  "Kong/insomnia": {
+    "firstSeen": "2026-06-18T16:02:22.973Z",
+    "description": "适用于 GraphQL、REST、WebSockets、SSE 和 gRPC 的开源、跨平台 API 客户端。具有云、本地和 Git 存储。"
+  },
+  "dotnet/aspnetcore": {
+    "firstSeen": "2026-06-18T16:02:22.973Z",
+    "description": "ASP.NET Core 是一个跨平台 .NET 框架，用于在 Windows、Mac 或 Linux 上构建基于云的现代 Web 应用程序。"
+  },
+  "owainlewis/awesome-artificial-intelligence": {
+    "firstSeen": "2026-06-18T16:02:22.973Z",
+    "description": "人工智能 (AI) 课程、书籍、视频讲座和论文的精选列表。"
+  },
+  "Lightricks/LTX-2": {
+    "firstSeen": "2026-06-18T16:02:22.973Z",
+    "description": "LTX-2 音视频生成模型的官方 Python 推理和 LoRA 训练包。"
+  },
+  "LibreTranslate/LibreTranslate": {
+    "firstSeen": "2026-06-18T16:02:22.974Z",
+    "description": "免费开源机器翻译 API。自托管、离线功能且易于设置。"
+  },
+  "biomejs/biome": {
+    "firstSeen": "2026-06-18T16:02:29.289Z",
+    "description": "用于网络项目的工具链，旨在提供维护它们的功能。 Biome 提供格式化程序和 linter，可通过 CLI 和 LSP 使用。"
+  },
+  "jenkinsci/jenkins": {
+    "firstSeen": "2026-06-18T16:02:29.289Z",
+    "description": "Jenkins 自动化服务器"
   }
 }
