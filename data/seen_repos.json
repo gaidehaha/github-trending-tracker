@@ -1086,5 +1086,9 @@
   "jenkinsci/jenkins": {
     "firstSeen": "2026-06-18T16:02:29.289Z",
     "description": "Jenkins 自动化服务器"
+  },
+  "yifanfeng97/Hyper-Extract": {
+    "firstSeen": "2026-06-18T21:06:44.387Z",
+    "description": "通过法学硕士将非结构化文本转化为结构化知识。图、超图和时空提取——只需一个命令。"
   }
 }
