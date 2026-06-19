@@ -1090,5 +1090,21 @@
   "yifanfeng97/Hyper-Extract": {
     "firstSeen": "2026-06-18T21:06:44.387Z",
     "description": "通过法学硕士将非结构化文本转化为结构化知识。图、超图和时空提取——只需一个命令。"
+  },
+  "palmier-io/palmier-pro": {
+    "firstSeen": "2026-06-19T15:51:16.945Z",
+    "description": "专为 AI 打造的 macOS 视频编辑器"
+  },
+  "koala73/worldmonitor": {
+    "firstSeen": "2026-06-19T15:51:16.945Z",
+    "description": "实时全球情报仪表板。在统一的态势感知界面中进行人工智能驱动的新闻聚合、地缘政治监控和基础设施跟踪"
+  },
+  "aishwaryanr/awesome-generative-ai-guide": {
+    "firstSeen": "2026-06-19T15:51:16.945Z",
+    "description": "生成式人工智能研究更新、访谈资源、笔记本等的一站式存储库！"
+  },
+  "BuilderIO/agent-native": {
+    "firstSeen": "2026-06-19T15:51:16.945Z",
+    "description": "用于构建代理本机应用程序的框架。"
   }
 }
