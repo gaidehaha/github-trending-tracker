@@ -1106,5 +1106,21 @@
   "BuilderIO/agent-native": {
     "firstSeen": "2026-06-19T15:51:16.945Z",
     "description": "用于构建代理本机应用程序的框架。"
+  },
+  "tursodatabase/turso": {
+    "firstSeen": "2026-06-20T14:54:59.962Z",
+    "description": "Turso 是一个进程内 SQL 数据库，与 SQLite 兼容。"
+  },
+  "tw93/Pake": {
+    "firstSeen": "2026-06-20T14:54:59.962Z",
+    "description": "🤱🏻 只需一个命令即可将任何网页变成桌面应用程序。"
+  },
+  "jamiepine/voicebox": {
+    "firstSeen": "2026-06-20T14:54:59.962Z",
+    "description": "开源人工智能语音工作室。克隆、指令、创造。"
+  },
+  "pppscn/SmsForwarder": {
+    "firstSeen": "2026-06-20T14:54:59.962Z",
+    "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内部机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、服务器酱、PushPlus、手机短信等。包括主动控制服务端与客户端，包括让你轻松远程发短信、查短信、查通话、查话簿、查短信等。（V3.0）新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正"
   }
 }
