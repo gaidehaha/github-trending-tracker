@@ -1126,5 +1126,25 @@
   "esengine/DeepSeek-Reasonix": {
     "firstSeen": "2026-06-21T10:20:12.961Z",
     "description": "DeepSeek-适用于您终端的原生 AI 编码代理。围绕前缀缓存稳定性进行设计 - 让它运行。"
+  },
+  "bytedance/deer-flow": {
+    "firstSeen": "2026-06-21T14:59:13.871Z",
+    "description": "一个开源的长期 SuperAgent 工具，用于研究、编码和创建。借助沙箱、内存、工具、技能、子代理和消息网关，它可以处理可能需要几分钟到几小时的不同级别的任务。"
+  },
+  "mikumifa/biliTickerBuy": {
+    "firstSeen": "2026-06-21T14:59:13.871Z",
+    "description": "b站会员购购票辅助工具"
+  },
+  "smicallef/spiderfoot": {
+    "firstSeen": "2026-06-21T14:59:13.871Z",
+    "description": "SpiderFoot 自动化 OSINT 以获取威胁情报并绘制攻击面图。"
+  },
+  "topoteretes/cognee": {
+    "firstSeen": "2026-06-21T14:59:13.871Z",
+    "description": "Cognee 是面向代理的开源人工智能记忆平台。通过自托管知识图引擎，为您的人工智能代理提供跨会话的持久长期记忆。"
+  },
+  "tashfeenahmed/freellmapi": {
+    "firstSeen": "2026-06-21T14:59:24.928Z",
+    "description": "OpenAI 兼容代理，将 16 个 LLM 提供商的免费层（约 1.7B 代币/月）堆叠在一个 /v1 端点后面 - 以及任何自定义 OpenAI 兼容端点。智能路由、自动故障转移、加密密钥。仅个人实验。"
   }
 }
