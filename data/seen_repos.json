@@ -1146,5 +1146,17 @@
   "tashfeenahmed/freellmapi": {
     "firstSeen": "2026-06-21T14:59:24.928Z",
     "description": "OpenAI 兼容代理，将 16 个 LLM 提供商的免费层（约 1.7B 代币/月）堆叠在一个 /v1 端点后面 - 以及任何自定义 OpenAI 兼容端点。智能路由、自动故障转移、加密密钥。仅个人实验。"
+  },
+  "Stirling-Tools/Stirling-PDF": {
+    "firstSeen": "2026-06-22T12:36:08.961Z",
+    "description": "GitHub 上排名第一的 PDF 应用程序，可让您在任何地方的任何设备上编辑 PDF"
+  },
+  "firecrawl/firecrawl": {
+    "firstSeen": "2026-06-22T12:36:08.961Z",
+    "description": "用于大规模搜索、抓取网络并与网络交互的 API。 🔥"
+  },
+  "JCodesMore/ai-website-cloner-template": {
+    "firstSeen": "2026-06-22T12:36:08.961Z",
+    "description": "使用 AI 编码代理通过一个命令克隆任何网站"
   }
 }
