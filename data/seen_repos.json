@@ -1162,5 +1162,9 @@
   "OpenCut-app/OpenCut": {
     "firstSeen": "2026-06-22T23:04:26.531Z",
     "description": "开源 CapCut 替代方案"
+  },
+  "shanraisshan/claude-code-best-practice": {
+    "firstSeen": "2026-06-23T15:40:27.218Z",
+    "description": "从氛围编码到代理工程 - 实践使克劳德变得完美"
   }
 }
