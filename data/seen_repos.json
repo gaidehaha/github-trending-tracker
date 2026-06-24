@@ -1166,5 +1166,37 @@
   "shanraisshan/claude-code-best-practice": {
     "firstSeen": "2026-06-23T15:40:27.218Z",
     "description": "从氛围编码到代理工程 - 实践使克劳德变得完美"
+  },
+  "interviewstreet/hiring-agent": {
+    "firstSeen": "2026-06-24T15:20:26.557Z",
+    "description": "人工智能代理对简历进行评估和评分。"
+  },
+  "flutter/flutter": {
+    "firstSeen": "2026-06-24T15:20:26.557Z",
+    "description": "Flutter 让您可以轻松快速地为移动设备及其他领域构建精美的应用程序"
+  },
+  "andreknieriem/headunit-revived": {
+    "firstSeen": "2026-06-24T15:20:26.557Z",
+    "description": "用于显示 Android Auto 的主机应用程序"
+  },
+  "google-labs-code/design.md": {
+    "firstSeen": "2026-06-24T15:20:26.557Z",
+    "description": "用于向编码代理描述视觉标识的格式规范。 DESIGN.md 使代理能够对设计系统有持久的、结构化的理解。"
+  },
+  "Flowseal/zapret-discord-youtube": {
+    "firstSeen": "2026-06-24T15:20:26.557Z",
+    "description": ""
+  },
+  "kunchenguid/no-mistakes": {
+    "firstSeen": "2026-06-24T15:20:26.557Z",
+    "description": "git推送无错误"
+  },
+  "microsoft/presidio": {
+    "firstSeen": "2026-06-24T15:20:31.310Z",
+    "description": "一个开源框架，用于跨文本、图像和结构化数据检测、编辑、屏蔽和匿名化敏感数据 (PII)。支持 NLP、模式匹配和可定制管道。"
+  },
+  "microsoft/Webwright": {
+    "firstSeen": "2026-06-24T15:20:36.834Z",
+    "description": "一个简单的 SWE 风格浏览器代理框架，可在长期 Web 任务上实现 SOTA 结果。"
   }
 }
