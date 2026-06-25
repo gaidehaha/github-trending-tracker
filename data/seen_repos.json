@@ -1198,5 +1198,33 @@
   "microsoft/Webwright": {
     "firstSeen": "2026-06-24T15:20:36.834Z",
     "description": "一个简单的 SWE 风格浏览器代理框架，可在长期 Web 任务上实现 SOTA 结果。"
+  },
+  "xbtlin/ai-berkshire": {
+    "firstSeen": "2026-06-25T15:27:55.645Z",
+    "description": "AI时代的伯克希尔：基于克劳德码的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论+多Agent毛研究。 AI时代的伯克希尔：基于克劳德代码构建的价值投资研究框架。 4种大师方法论+多智能体对抗分析。"
+  },
+  "mauriceboe/TREK": {
+    "firstSeen": "2026-06-25T15:27:55.645Z",
+    "description": "自托管旅行/行程规划器，具有实时协作、交互式地图、PWA 支持、SSO、预算、装箱单等功能。"
+  },
+  "aws/agent-toolkit-for-aws": {
+    "firstSeen": "2026-06-25T15:27:55.645Z",
+    "description": "AWS 支持的官方 MCP 服务器、技能和插件可帮助 AI 代理在 AWS 上构建"
+  },
+  "alibaba/page-agent": {
+    "firstSeen": "2026-06-25T15:27:55.645Z",
+    "description": "JavaScript 页内 GUI 代理。使用自然语言控制 Web 界面。"
+  },
+  "IceWhaleTech/CasaOS": {
+    "firstSeen": "2026-06-25T15:27:55.645Z",
+    "description": "CasaOS - 一个简单、易于使用、优雅的开源个人云系统。"
+  },
+  "opendatalab/MinerU": {
+    "firstSeen": "2026-06-25T15:27:55.645Z",
+    "description": "将 PDF 和 Office 文档等复杂文档转换为适合您的 Agentic 工作流程的 LLM 就绪 Markdown/JSON。"
+  },
+  "NanmiCoder/MediaCrawler": {
+    "firstSeen": "2026-06-25T15:27:55.645Z",
+    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫"
   }
 }
