@@ -1230,5 +1230,21 @@
   "every-app/open-seo": {
     "firstSeen": "2026-06-25T20:33:51.820Z",
     "description": "Semrush 和 Ahrefs 的开源替代方案"
+  },
+  "simplex-chat/simplex-chat": {
+    "firstSeen": "2026-06-26T15:14:08.526Z",
+    "description": "SimpleX - 第一个无需任何类型的用户标识符即可运行的消息传递网络 - 设计为 100% 私密！ iOS、Android 和桌面应用程序📱！"
+  },
+  "commaai/openpilot": {
+    "firstSeen": "2026-06-26T15:14:08.526Z",
+    "description": "openpilot 是一个机器人操作系统。目前，它升级了 300 多辆支持的汽车的驾驶员辅助系统。"
+  },
+  "grafana/grafana": {
+    "firstSeen": "2026-06-26T15:14:08.526Z",
+    "description": "开放且可组合的可观测性和数据可视化平台。可视化来自 Prometheus、Loki、Elasticsearch、InfluxDB、Postgres 等多个来源的指标、日志和跟踪。"
+  },
+  "ripienaar/free-for-dev": {
+    "firstSeen": "2026-06-26T15:14:08.526Z",
+    "description": "具有 devops 和 infradev 感兴趣的免费级别的 SaaS、PaaS 和 IaaS 产品列表"
   }
 }
