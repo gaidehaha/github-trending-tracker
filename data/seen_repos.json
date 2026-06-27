@@ -1246,5 +1246,25 @@
   "ripienaar/free-for-dev": {
     "firstSeen": "2026-06-26T15:14:08.526Z",
     "description": "具有 devops 和 infradev 感兴趣的免费级别的 SaaS、PaaS 和 IaaS 产品列表"
+  },
+  "dbt-labs/dbt-core": {
+    "firstSeen": "2026-06-27T14:15:19.895Z",
+    "description": "dbt 使数据分析师和工程师能够使用与软件工程师构建应用程序相同的实践来转换数据。"
+  },
+  "anomalyco/opencode": {
+    "firstSeen": "2026-06-27T14:15:19.895Z",
+    "description": "开源编码代理。"
+  },
+  "Fission-AI/OpenSpec": {
+    "firstSeen": "2026-06-27T14:15:19.895Z",
+    "description": "AI 编码助手的规范驱动开发 (SDD)。"
+  },
+  "keycloak/keycloak": {
+    "firstSeen": "2026-06-27T14:15:19.895Z",
+    "description": "现代应用程序和服务的开源身份和访问管理"
+  },
+  "NVlabs/Eagle": {
+    "firstSeen": "2026-06-27T14:15:29.854Z",
+    "description": "Eagle：具有以数据为中心策略的前沿视觉语言模型"
   }
 }
