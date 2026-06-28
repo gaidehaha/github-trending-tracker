@@ -1266,5 +1266,29 @@
   "NVlabs/Eagle": {
     "firstSeen": "2026-06-27T14:15:29.854Z",
     "description": "Eagle：具有以数据为中心策略的前沿视觉语言模型"
+  },
+  "Robbyant/lingbot-map": {
+    "firstSeen": "2026-06-28T14:25:18.887Z",
+    "description": "用于从流数据重建场景的前馈 3D 基础模型"
+  },
+  "cupy/cupy": {
+    "firstSeen": "2026-06-28T14:25:18.887Z",
+    "description": "用于 GPU 的 NumPy 和 SciPy"
+  },
+  "altic-dev/FluidVoice": {
+    "firstSeen": "2026-06-28T14:25:18.887Z",
+    "description": "FluidVoice - 最快的 macOS 离线听写应用程序 - 完全本地化的语音到文本。一个⭐让我们走了很长的路:))"
+  },
+  "ByteByteGoHq/system-design-101": {
+    "firstSeen": "2026-06-28T14:25:18.887Z",
+    "description": "使用视觉效果和简单术语解释复杂的系统。帮助您准备系统设计面试。"
+  },
+  "usestrix/strix": {
+    "firstSeen": "2026-06-28T14:25:18.887Z",
+    "description": "开源人工智能黑客可以查找并修复您的应用程序的漏洞。"
+  },
+  "browser-use/video-use": {
+    "firstSeen": "2026-06-28T14:25:18.887Z",
+    "description": "使用编码代理编辑视频"
   }
 }
