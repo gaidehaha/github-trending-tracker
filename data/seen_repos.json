@@ -1290,5 +1290,17 @@
   "browser-use/video-use": {
     "firstSeen": "2026-06-28T14:25:18.887Z",
     "description": "使用编码代理编辑视频"
+  },
+  "logto-io/logto": {
+    "firstSeen": "2026-06-29T11:33:41.654Z",
+    "description": "🧑‍🚀 SaaS 和 AI 应用程序的身份验证和授权基础设施，基于 OIDC 和 OAuth 2.1 构建，具有多租户、SSO 和 RBAC。"
+  },
+  "Unclecheng-li/VulnClaw": {
+    "firstSeen": "2026-06-29T11:33:41.654Z",
+    "description": "基于AI Agent + MCP工具链+渗透技能编排，配合大语言模型，自然语言输入→自动完成「信息收集→漏洞发现→漏洞利用→生成报告」全流程。"
+  },
+  "veracrypt/VeraCrypt": {
+    "firstSeen": "2026-06-29T11:33:41.654Z",
+    "description": "基于TrueCrypt的磁盘加密，安全性强"
   }
 }
