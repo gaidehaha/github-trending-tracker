@@ -1302,5 +1302,9 @@
   "veracrypt/VeraCrypt": {
     "firstSeen": "2026-06-29T11:33:41.654Z",
     "description": "基于TrueCrypt的磁盘加密，安全性强"
+  },
+  "0xNyk/council-of-high-intelligence": {
+    "firstSeen": "2026-06-29T16:25:37.904Z",
+    "description": "18 个人工智能角色仔细考虑了您在多个 LLM 提供商中最艰难的决定。亚里士多德、费曼、卡尼曼、托瓦尔兹等——具有真正模型多样性的结构化多轮审议。一条命令：/council"
   }
 }
