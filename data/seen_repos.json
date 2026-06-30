@@ -1326,5 +1326,9 @@
   "facebook/astryx": {
     "firstSeen": "2026-06-30T15:15:16.140Z",
     "description": "完全可定制且可供代理使用的开源设计系统"
+  },
+  "CoreBunch/Instatic": {
+    "firstSeen": "2026-06-30T17:26:13.701Z",
+    "description": "Instatic 是一个现代的自托管视觉 CMS - 1 分钟内即可运行"
   }
 }
