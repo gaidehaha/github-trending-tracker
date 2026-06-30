@@ -1306,5 +1306,25 @@
   "0xNyk/council-of-high-intelligence": {
     "firstSeen": "2026-06-29T16:25:37.904Z",
     "description": "18 个人工智能角色仔细考虑了您在多个 LLM 提供商中最艰难的决定。亚里士多德、费曼、卡尼曼、托瓦尔兹等——具有真正模型多样性的结构化多轮审议。一条命令：/council"
+  },
+  "diegosouzapw/OmniRoute": {
+    "firstSeen": "2026-06-30T15:15:16.139Z",
+    "description": "永远不要停止编码。免费 AI 网关：一个端点，160 多个提供商（50 多个免费），将 Claude Code、Codex、Cursor、Cline 和 Copilot 连接到免费的 Claude/GPT/Gemini。 RTK+Caveman 堆叠压缩可节省 15-95% 的令牌、智能自动回退、MCP/A2A、多模式 API、桌面/PWA。"
+  },
+  "Mebus/cupp": {
+    "firstSeen": "2026-06-30T15:15:16.139Z",
+    "description": "通用用户密码分析器 (CUPP)"
+  },
+  "google/agents-cli": {
+    "firstSeen": "2026-06-30T15:15:16.139Z",
+    "description": "CLI 和技能可将任何编码助理转变为在 Google Cloud 上创建、评估和部署 AI 代理的专家。"
+  },
+  "microsoft/AI-For-Beginners": {
+    "firstSeen": "2026-06-30T15:15:16.140Z",
+    "description": "12 周，24 节课，全民人工智能！"
+  },
+  "facebook/astryx": {
+    "firstSeen": "2026-06-30T15:15:16.140Z",
+    "description": "完全可定制且可供代理使用的开源设计系统"
   }
 }
