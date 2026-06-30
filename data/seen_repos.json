@@ -1330,5 +1330,9 @@
   "CoreBunch/Instatic": {
     "firstSeen": "2026-06-30T17:26:13.701Z",
     "description": "Instatic 是一个现代的自托管视觉 CMS - 1 分钟内即可运行"
+  },
+  "hasaneyldrm/exercises-dataset": {
+    "firstSeen": "2026-06-30T20:31:36.158Z",
+    "description": "包含 433 项健身练习的综合数据集。每个条目包括名称、类别、目标肌肉群、设备、说明、缩略图和动画视频。"
   }
 }
