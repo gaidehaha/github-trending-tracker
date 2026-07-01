@@ -1334,5 +1334,21 @@
   "hasaneyldrm/exercises-dataset": {
     "firstSeen": "2026-06-30T20:31:36.158Z",
     "description": "包含 433 项健身练习的综合数据集。每个条目包括名称、类别、目标肌肉群、设备、说明、缩略图和动画视频。"
+  },
+  "allenai/olmocr": {
+    "firstSeen": "2026-07-01T15:22:11.549Z",
+    "description": "LLM 数据集/训练的 PDF 线性化工具包"
+  },
+  "togatoga/karukan": {
+    "firstSeen": "2026-07-01T15:22:11.549Z",
+    "description": "适用于 Linux、macOS 的日语输入法系统、神经假名-汉字转换引擎"
+  },
+  "TencentCloud/CubeSandbox": {
+    "firstSeen": "2026-07-01T15:22:11.549Z",
+    "description": "适用于 AI 代理的即时、并发、安全和轻量级沙箱。"
+  },
+  "t8y2/dbx": {
+    "firstSeen": "2026-07-01T15:22:21.960Z",
+    "description": "15MB、轻量级、跨平台数据库客户端。支持MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server等。15MB，轻量级跨平台数据库客户端、数据库管理工具。支持MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server等。"
   }
 }
