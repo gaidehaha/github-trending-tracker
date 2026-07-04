@@ -1402,5 +1402,33 @@
   "supabase/supabase": {
     "firstSeen": "2026-07-03T14:55:05.311Z",
     "description": "Postgres 开发平台。 Supabase 为您提供专用的 Postgres 数据库来构建您的 Web、移动和 AI 应用程序。"
+  },
+  "Zackriya-Solutions/meetily": {
+    "firstSeen": "2026-07-04T11:07:43.505Z",
+    "description": "隐私第一，AI 会议助手具有 4 倍快的 Parakeet/Whisper 实时转录、发言者分类和基于 Rust 构建的 Ollama 摘要。 100%本地加工。无需云。 Meetily（Meetly Ai - https://meetily.ai）是适用于 macOS 和 Windows 的排名第一的自托管开源人工智能会议记录工具。"
+  },
+  "immich-app/immich": {
+    "firstSeen": "2026-07-04T11:07:43.506Z",
+    "description": "高性能自托管照片和视频管理解决方案。"
+  },
+  "chthollyphile/folia-major": {
+    "firstSeen": "2026-07-04T11:07:43.506Z",
+    "description": "于专注绚丽的歌词动画效果的本地音乐/navidrome/第三方网易云播放器"
+  },
+  "CoplayDev/unity-mcp": {
+    "firstSeen": "2026-07-04T11:07:43.506Z",
+    "description": "Unity MCP 充当 AI 助手和 Unity 编辑器之间的桥梁。为您提供 LLM 工具来管理资源、控制场景、编辑脚本以及在 Unity 中自动执行任务。"
+  },
+  "alirezarezvani/claude-skills": {
+    "firstSeen": "2026-07-04T11:07:43.506Z",
+    "description": "337 个 Claude Code 技能和代理技能和插件（30 多个代理、70 多个自定义命令、330 多个技能、可自定义参考、脚本），适用于 Claude Code、Codex、Gemini CLI、Cursor 和另外 8 个编码代理 — 工程、营销、产品、合规性、C 级咨询、研究、业务运营、商业和财务以及您的日常生产力技能。"
+  },
+  "crynta/terax-ai": {
+    "firstSeen": "2026-07-04T11:07:43.506Z",
+    "description": "轻量级 (7MB) 终端优先的 AI 原生开发工作区"
+  },
+  "Starmel/OpenSuperWhisper": {
+    "firstSeen": "2026-07-04T11:07:53.138Z",
+    "description": "macOS 听写应用"
   }
 }
