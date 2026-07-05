@@ -1430,5 +1430,25 @@
   "Starmel/OpenSuperWhisper": {
     "firstSeen": "2026-07-04T11:07:53.138Z",
     "description": "macOS 听写应用"
+  },
+  "hesreallyhim/awesome-claude-code": {
+    "firstSeen": "2026-07-05T11:18:16.973Z",
+    "description": "为最出色的特工 Claude Code 精心挑选的最优质资源，Claude Code 是无可争议的编码伙伴冠军，来自 Anthropic PBC 势不可挡的团队。顶级技能、灵巧的代理、闪烁的状态栏、一流的开发人员工具的令人愉快的展示，而且我们还有插件"
+  },
+  "coreyhaines31/marketingskills": {
+    "firstSeen": "2026-07-05T11:18:16.973Z",
+    "description": "Claude Code 和 AI 代理的营销技巧。 CRO、文案、SEO、分析和增长工程。"
+  },
+  "gastownhall/gastown": {
+    "firstSeen": "2026-07-05T11:18:16.973Z",
+    "description": "Gas Town - 多代理工作区管理器"
+  },
+  "OthmanAdi/planning-with-files": {
+    "firstSeen": "2026-07-05T11:18:16.973Z",
+    "description": "针对 AI 编码代理和长期运行的代理任务进行基于文件的持久规划。防崩溃的降价计划可以在上下文丢失和/清除的情况下幸存下来，加上确定性的完成门和磁盘上的多代理共享状态。马努斯风格。通过 SKILL.md 标准与 Claude Code、Codex CLI、Cursor、Kiro、OpenCode 和 60 多个代理配合使用。"
+  },
+  "steipete/CodexBar": {
+    "firstSeen": "2026-07-05T11:18:16.973Z",
+    "description": "显示 OpenAI Codex 和 Claude Code 的使用统计信息，无需登录。"
   }
 }
