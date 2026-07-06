@@ -1450,5 +1450,21 @@
   "steipete/CodexBar": {
     "firstSeen": "2026-07-05T11:18:16.973Z",
     "description": "显示 OpenAI Codex 和 Claude Code 的使用统计信息，无需登录。"
+  },
+  "bradautomates/claude-video": {
+    "firstSeen": "2026-07-06T11:14:41.352Z",
+    "description": "让克劳德能够观看任何视频。 /watch 下载、提取帧、转录，然后将其全部交给 Claude。"
+  },
+  "karakeep-app/karakeep": {
+    "firstSeen": "2026-07-06T11:14:41.352Z",
+    "description": "一个自托管的书签应用程序（链接、注释和图像），具有基于人工智能的自动标记和全文搜索"
+  },
+  "sindresorhus/awesome": {
+    "firstSeen": "2026-07-06T11:14:41.352Z",
+    "description": "😎 关于各种有趣主题的精彩列表"
+  },
+  "huggingface/speech-to-speech": {
+    "firstSeen": "2026-07-06T11:14:46.679Z",
+    "description": "使用开源模型构建本地语音代理"
   }
 }
