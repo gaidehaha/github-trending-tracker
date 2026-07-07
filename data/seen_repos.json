@@ -1466,5 +1466,21 @@
   "huggingface/speech-to-speech": {
     "firstSeen": "2026-07-06T11:14:46.679Z",
     "description": "使用开源模型构建本地语音代理"
+  },
+  "MadsLorentzen/ai-job-search": {
+    "firstSeen": "2026-07-07T15:31:29.567Z",
+    "description": "基于 Claude Code 构建的人工智能驱动的职位申请框架。叉开它，填写你的个人资料，让克劳德评估工作，定制简历，写求职信，并为你的面试做好准备。"
+  },
+  "AhmadIbrahiim/Website-downloader": {
+    "firstSeen": "2026-07-07T15:31:29.567Z",
+    "description": "💡 下载任何网站的完整源代码（包括所有资产）。 [ JavaScript、样式表、图像 ] 使用 Node.js"
+  },
+  "iOfficeAI/OfficeCLI": {
+    "firstSeen": "2026-07-07T15:31:29.567Z",
+    "description": "OfficeCLI 是第一个也是最好的 Office 套件，专为 AI 代理构建，用于读取、编辑和自动化 Word、Excel 和 PowerPoint 文件。免费、开源、单一二进制文件，无需安装 Office。"
+  },
+  "kyutai-labs/pocket-tts": {
+    "firstSeen": "2026-07-07T15:31:29.567Z",
+    "description": "适合您 CPU（和口袋）的 TTS"
   }
 }
