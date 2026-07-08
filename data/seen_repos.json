@@ -1482,5 +1482,17 @@
   "kyutai-labs/pocket-tts": {
     "firstSeen": "2026-07-07T15:31:29.567Z",
     "description": "适合您 CPU（和口袋）的 TTS"
+  },
+  "prisma/prisma": {
+    "firstSeen": "2026-07-08T11:25:26.265Z",
+    "description": "Node.js 和 TypeScript 的下一代 ORM | PostgreSQL、MySQL、MariaDB、SQL Server、SQLite、MongoDB 和 CockroachDB"
+  },
+  "argoproj/argo-cd": {
+    "firstSeen": "2026-07-08T11:25:26.265Z",
+    "description": "Kubernetes 声明式持续部署"
+  },
+  "wonderwhy-er/DesktopCommanderMCP": {
+    "firstSeen": "2026-07-08T11:25:26.266Z",
+    "description": "这是 Claude 的 MCP 服务器，为其提供终端控制、文件系统搜索和 diff 文件编辑功能"
   }
 }
