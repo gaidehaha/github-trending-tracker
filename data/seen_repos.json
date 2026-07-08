@@ -1494,5 +1494,9 @@
   "wonderwhy-er/DesktopCommanderMCP": {
     "firstSeen": "2026-07-08T11:25:26.266Z",
     "description": "这是 Claude 的 MCP 服务器，为其提供终端控制、文件系统搜索和 diff 文件编辑功能"
+  },
+  "huxingyi/autoremesher": {
+    "firstSeen": "2026-07-08T14:58:17.444Z",
+    "description": "自动四边形重新网格化工具"
   }
 }
