@@ -1514,5 +1514,57 @@
   "saadeghi/daisyui": {
     "firstSeen": "2026-07-09T15:44:08.252Z",
     "description": "🌼 🌼 🌼 🌼 🌼 最流行、免费、开源的 Tailwind CSS 组件库"
+  },
+  "abseil/abseil-cpp": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "Abseil 通用库 (C++)"
+  },
+  "jbeder/yaml-cpp": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "C++ 中的 YAML 解析器和发射器"
+  },
+  "microsoft/TypeScript": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "TypeScript 是 JavaScript 的超集，可编译为干净的 JavaScript 输出。"
+  },
+  "catchorg/Catch2": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "用于单元测试、TDD 和 BDD 的现代 C++ 原生测试框架 - 使用 C++14、C++17 及更高版本（C++11 支持位于 v2.x 分支，C++03 支持 Catch1.x 分支）"
+  },
+  "chriskohlhoff/asio": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "Asio C++ 库"
+  },
+  "davila7/claude-code-templates": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "用于配置和监控 Claude Code 的 CLI 工具"
+  },
+  "zeux/meshoptimizer": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "网格优化库，使网格更小、渲染速度更快"
+  },
+  "tailscale/tailscale": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "使用 WireGuard 和 2FA 的最简单、最安全的方法。"
+  },
+  "google-labs-code/stitch-skills": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "旨在与 Stitch MCP 服务器配合使用的代理技能库。每个技能都遵循 Agent Skills 开放标准，以便与 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理兼容。"
+  },
+  "hashicorp/terraform": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "Terraform 使您能够安全且可预测地创建、更改和改进基础设施。它是一个源可用的工具，可将 API 编码为声明性配置文件，这些文件可以在团队成员之间共享、视为代码、进行编辑、审查和版本控制。"
+  },
+  "grpc/grpc": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "基于 C++ 的 gRPC（C++、Python、Ruby、Objective-C、PHP、C#）"
+  },
+  "vercel/next.js": {
+    "firstSeen": "2026-07-10T15:16:22.037Z",
+    "description": "反应框架"
+  },
+  "tt-a1i/archify": {
+    "firstSeen": "2026-07-10T15:16:27.957Z",
+    "description": "任何代理技能：通过深色/浅色主题切换和 PNG/JPEG/WebP/SVG 导出生成漂亮的架构图"
   }
 }
