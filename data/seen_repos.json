@@ -1566,5 +1566,29 @@
   "tt-a1i/archify": {
     "firstSeen": "2026-07-10T15:16:27.957Z",
     "description": "任何代理技能：通过深色/浅色主题切换和 PNG/JPEG/WebP/SVG 导出生成漂亮的架构图"
+  },
+  "home-assistant/core": {
+    "firstSeen": "2026-07-11T14:04:34.257Z",
+    "description": "🏡 开源家庭自动化，将本地控制和隐私放在首位。"
+  },
+  "DayuanJiang/next-ai-draw-io": {
+    "firstSeen": "2026-07-11T14:04:34.257Z",
+    "description": "next.js Web 应用程序将 AI 功能与 draw.io 图表集成在一起。该应用程序允许您通过自然语言命令和人工智能辅助可视化来创建、修改和增强图表。"
+  },
+  "malisper/pgrust": {
+    "firstSeen": "2026-07-11T14:04:34.257Z",
+    "description": "Postgres 用 Rust 重写，现已通过 100% 的 Postgres 回归测试"
+  },
+  "nasa/fprime": {
+    "firstSeen": "2026-07-11T14:04:34.257Z",
+    "description": "F´ - 飞行软件和嵌入式系统框架"
+  },
+  "nuxt/nuxt": {
+    "firstSeen": "2026-07-11T14:04:34.257Z",
+    "description": "全栈Vue框架"
+  },
+  "gabime/spdlog": {
+    "firstSeen": "2026-07-11T14:04:43.983Z",
+    "description": "快速 C++ 日志库。"
   }
 }
