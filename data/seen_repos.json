@@ -1590,5 +1590,45 @@
   "gabime/spdlog": {
     "firstSeen": "2026-07-11T14:04:43.983Z",
     "description": "快速 C++ 日志库。"
+  },
+  "Dicklesworthstone/destructive_command_guard": {
+    "firstSeen": "2026-07-12T10:57:15.724Z",
+    "description": "破坏性命令防护 (dcg) 用于阻止代理执行危险的 git 和 shell 命令。"
+  },
+  "PrefectHQ/prefect": {
+    "firstSeen": "2026-07-12T10:57:15.724Z",
+    "description": "Prefect 是一个工作流程编排框架，用于在 Python 中构建弹性数据管道。"
+  },
+  "Shubhamsaboo/awesome-llm-apps": {
+    "firstSeen": "2026-07-12T10:57:15.724Z",
+    "description": "您可以实际运行 100 多个 AI Agent 和 RAG 应用程序 — 克隆、自定义、发布。"
+  },
+  "ColeMurray/background-agents": {
+    "firstSeen": "2026-07-12T10:57:15.724Z",
+    "description": "一个开源的后台代理编码系统"
+  },
+  "k1tbyte/Wand-Enhancer": {
+    "firstSeen": "2026-07-12T10:57:15.724Z",
+    "description": "Wand (WeMod) 应用程序的高级用户体验和互操作性扩展"
+  },
+  "pingdotgg/t3code": {
+    "firstSeen": "2026-07-12T10:57:15.724Z",
+    "description": ""
+  },
+  "virattt/ai-hedge-fund": {
+    "firstSeen": "2026-07-12T10:57:15.724Z",
+    "description": "人工智能对冲基金团队"
+  },
+  "par274/sharpemu": {
+    "firstSeen": "2026-07-12T10:57:15.724Z",
+    "description": "实验性 PlayStation 5 模拟器项目。"
+  },
+  "Nutlope/hallmark": {
+    "firstSeen": "2026-07-12T10:57:15.724Z",
+    "description": "Claude Code、Cursor、Codex 的防 AI 设计技巧。"
+  },
+  "ocornut/imgui": {
+    "firstSeen": "2026-07-12T10:57:28.648Z",
+    "description": "Dear ImGui：C++ 的无膨胀图形用户界面，具有最小的依赖性"
   }
 }
