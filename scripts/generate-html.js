@@ -158,6 +158,7 @@ function generateHTML(date, daily, weekly, monthly) {
         <div class="controls">
             <button class="btn active" onclick="setView('all')" id="btn-all">显示全部</button>
             <button class="btn" onclick="setView('new')" id="btn-new">只看新发现</button>
+            <button class="btn" onclick="clearCacheAndReset()" style="border: 1px dashed rgba(255,255,255,0.15);" title="清除本地已读记忆并强刷页面">🔄 重置缓存</button>
         </div>
 
         ${(() => {
@@ -224,6 +225,16 @@ function generateHTML(date, daily, weekly, monthly) {
             dismissed = JSON.parse(localStorage.getItem(dismissedKey) || '[]');
         } catch (e) {
             console.warn("LocalStorage not available:", e);
+        }
+
+        function clearCacheAndReset() {
+            if (confirm("是否清除本地已读记忆并重新加载所有项目？")) {
+                try {
+                    localStorage.removeItem(dismissedKey);
+                    localStorage.removeItem('gh-view-mode');
+                } catch (e) {}
+                location.reload(true);
+            }
         }
 
         function setView(mode) {
