@@ -1630,5 +1630,13 @@
   "ocornut/imgui": {
     "firstSeen": "2026-07-12T10:57:28.648Z",
     "description": "Dear ImGui：C++ 的无膨胀图形用户界面，具有最小的依赖性"
+  },
+  "Graphify-Labs/graphify": {
+    "firstSeen": "2026-07-13T15:28:47.610Z",
+    "description": "AI 编码助手技能（Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等）。将任何代码、SQL 架构、R 脚本、shell 脚本、文档、论文、图像或视频文件夹转换为可查询的知识图谱。一张图中的应用程序代码+数据库架构+基础设施。"
+  },
+  "GoogleCloudPlatform/knowledge-catalog": {
+    "firstSeen": "2026-07-13T15:28:57.258Z",
+    "description": "Google Cloud 知识目录工具和示例"
   }
 }
