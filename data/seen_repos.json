@@ -1638,5 +1638,17 @@
   "GoogleCloudPlatform/knowledge-catalog": {
     "firstSeen": "2026-07-13T15:28:57.258Z",
     "description": "Google Cloud 知识目录工具和示例"
+  },
+  "AIEraDev/Clypra": {
+    "firstSeen": "2026-07-14T11:10:08.724Z",
+    "description": "使用 Tauri、React 和 TypeScript 构建的现代视频编辑器。专注于构建高级 capcut 功能的免费功能"
+  },
+  "chenyme/grok2api": {
+    "firstSeen": "2026-07-14T11:10:08.724Z",
+    "description": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关"
+  },
+  "HenryNdubuaku/maths-cs-ai-compendium": {
+    "firstSeen": "2026-07-14T11:10:08.724Z",
+    "description": "成为一名出色的 AI/ML 研究工程师"
   }
 }
