@@ -1654,5 +1654,17 @@
   "1c7/chinese-independent-developer": {
     "firstSeen": "2026-07-14T16:47:35.895Z",
     "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么"
+  },
+  "openinterpreter/openinterpreter": {
+    "firstSeen": "2026-07-15T11:12:42.789Z",
+    "description": "低成本模型的编码代理"
+  },
+  "HKUDS/DeepTutor": {
+    "firstSeen": "2026-07-15T11:12:42.789Z",
+    "description": "DeepTutor：终身个性化辅导。 https://deeptutor.info/。"
+  },
+  "YimMenu/YimMenuV2": {
+    "firstSeen": "2026-07-15T11:12:42.789Z",
+    "description": "GTA 5 的实验菜单：增强"
   }
 }
