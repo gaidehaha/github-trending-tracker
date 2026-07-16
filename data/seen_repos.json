@@ -1670,5 +1670,37 @@
   "injaneity/pi-computer-use": {
     "firstSeen": "2026-07-16T08:56:32.278Z",
     "description": "让 Pi 控制您在 MacOS 和 Windows 上的应用程序"
+  },
+  "apache/ossie": {
+    "firstSeen": "2026-07-16T11:19:42.041Z",
+    "description": "Apache Ossie，行业范围内的规范工作，旨在标准化我们在分析、AI 和 BI 平台之间交换语义元数据的方式，为语义数据提供供应商中立的单一事实来源"
+  },
+  "PostHog/posthog": {
+    "firstSeen": "2026-07-16T11:19:42.041Z",
+    "description": "🦔 PostHog 是一个用于构建成功产品的一体化开发者平台。我们提供产品分析、网络分析、会话重播、错误跟踪、功能标记、实验、调查、数据仓库、CDP 和 AI 产品助手，以帮助调试您的代码、更快地发布功能，并将您的所有使用情况和客户数据保存在一个堆栈中。"
+  },
+  "PrismML-Eng/Bonsai-demo": {
+    "firstSeen": "2026-07-16T11:19:42.041Z",
+    "description": "盆景演示"
+  },
+  "lobehub/lobehub": {
+    "firstSeen": "2026-07-16T11:19:42.041Z",
+    "description": "🤯 LobeHub 是您的首席代理运营商，通过招聘、调度和报告整个 AI 团队，将您的代理组织为 7×24 小时运营。"
+  },
+  "ibelick/ui-skills": {
+    "firstSeen": "2026-07-16T11:19:42.042Z",
+    "description": "设计工程师的技能"
+  },
+  "ossu/computer-science": {
+    "firstSeen": "2026-07-16T11:19:42.042Z",
+    "description": "🎓 计算机科学免费自学教育之路！"
+  },
+  "kangarooking/cangjie-skill": {
+    "firstSeen": "2026-07-16T11:19:46.797Z",
+    "description": "把书籍、长视频、播客等高价值内容提升为执行人员的技能"
+  },
+  "jrouwe/JoltPhysics": {
+    "firstSeen": "2026-07-16T11:19:46.797Z",
+    "description": "多核友好的刚体物理和碰撞检测库。用 C++ 编写。适用于游戏和VR应用。被《地平线：西部禁区》和《死亡搁浅 2》所使用。"
   }
 }
