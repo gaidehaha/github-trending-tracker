@@ -1666,5 +1666,9 @@
   "YimMenu/YimMenuV2": {
     "firstSeen": "2026-07-15T11:12:42.789Z",
     "description": "GTA 5 的实验菜单：增强"
+  },
+  "injaneity/pi-computer-use": {
+    "firstSeen": "2026-07-16T08:56:32.278Z",
+    "description": "让 Pi 控制您在 MacOS 和 Windows 上的应用程序"
   }
 }
