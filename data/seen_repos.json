@@ -1702,5 +1702,25 @@
   "jrouwe/JoltPhysics": {
     "firstSeen": "2026-07-16T11:19:46.797Z",
     "description": "多核友好的刚体物理和碰撞检测库。用 C++ 编写。适用于游戏和VR应用。被《地平线：西部禁区》和《死亡搁浅 2》所使用。"
+  },
+  "anthropics/cwc-workshops": {
+    "firstSeen": "2026-07-17T11:08:03.218Z",
+    "description": ""
+  },
+  "protocolbuffers/protobuf": {
+    "firstSeen": "2026-07-17T11:08:03.218Z",
+    "description": "Protocol Buffers - Google 的数据交换格式"
+  },
+  "tirth8205/code-review-graph": {
+    "firstSeen": "2026-07-17T11:08:03.218Z",
+    "description": "MCP 和 CLI 的本地优先代码智能图。构建代码库的持久地图，以便 AI 编码工具仅读取重要内容，并在评论和大型存储库工作流程上进行基准上下文缩减。"
+  },
+  "docusealco/docuseal": {
+    "firstSeen": "2026-07-17T11:08:03.218Z",
+    "description": "开源 DocuSign 替代方案。创建、填写和签署数字文档 ✍️"
+  },
+  "vercel-labs/native": {
+    "firstSeen": "2026-07-17T11:08:08.828Z",
+    "description": "用于构建本机桌面应用程序的工具包"
   }
 }
