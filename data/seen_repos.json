@@ -1722,5 +1722,21 @@
   "vercel-labs/native": {
     "firstSeen": "2026-07-17T11:08:08.828Z",
     "description": "用于构建本机桌面应用程序的工具包"
+  },
+  "elder-plinius/G0DM0D3": {
+    "firstSeen": "2026-07-18T14:01:33.399Z",
+    "description": "自由的人工智能聊天"
+  },
+  "KnockOutEZ/wigolo": {
+    "firstSeen": "2026-07-18T14:01:33.399Z",
+    "description": "AI 编码代理的首选网络 — 通过 MCP 进行本地优先搜索、获取、爬网和研究。没有 API 密钥，没有云，每次查询 0 美元。公开测试版。"
+  },
+  "MoonshotAI/kimi-cli": {
+    "firstSeen": "2026-07-18T14:01:33.399Z",
+    "description": "Kimi Code CLI 是您的下一个 CLI 代理。"
+  },
+  "openai/codex": {
+    "firstSeen": "2026-07-18T14:01:38.112Z",
+    "description": "在您的终端中运行的轻量级编码代理"
   }
 }
