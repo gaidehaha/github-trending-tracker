@@ -1762,5 +1762,9 @@
   "PKUFlyingPig/cs-self-learning": {
     "firstSeen": "2026-07-19T10:56:19.899Z",
     "description": "计算机自学指南"
+  },
+  "bojieli/ai-agent-book": {
+    "firstSeen": "2026-07-19T22:29:08.613Z",
+    "description": "《深入理解AI Agent：设计原理与工程实践》（李博杰着）开源主仓库：全书正文、编译版PDF与按章安装代码"
   }
 }
