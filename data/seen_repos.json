@@ -1738,5 +1738,29 @@
   "openai/codex": {
     "firstSeen": "2026-07-18T14:01:38.112Z",
     "description": "在您的终端中运行的轻量级编码代理"
+  },
+  "kvcache-ai/ktransformers": {
+    "firstSeen": "2026-07-19T10:56:19.899Z",
+    "description": "用于体验异构 LLM 推理/微调优化的灵活框架"
+  },
+  "andrewrabert/jellium-desktop": {
+    "firstSeen": "2026-07-19T10:56:19.899Z",
+    "description": "Jellyfin 的非官方桌面客户端"
+  },
+  "microsoft/terminal": {
+    "firstSeen": "2026-07-19T10:56:19.899Z",
+    "description": "新的 Windows 终端和原来的 Windows 控制台主机都在同一个地方！"
+  },
+  "AstrBotDevs/AstrBot": {
+    "firstSeen": "2026-07-19T10:56:19.899Z",
+    "description": "AI Agent Assistant & 开发框架，集成了大量 IM 平台、LLM、插件和 AI 功能，可以成为您的 openclaw 替代方案。 ✨"
+  },
+  "Canner/WrenAI": {
+    "firstSeen": "2026-07-19T10:56:19.899Z",
+    "description": "适用于 AI 代理的 GenBI（生成式 BI）是一种开源的、通过开放上下文层进行管理的文本到 SQL 的工具，可将自然语言问题转换为跨 20 多个数据源（例如 BigQuery、Snowflake、PostgreSQL、ClickHouse、Amazon Redshift、Databricks 等）的可信仪表板、图表和 SQL。"
+  },
+  "PKUFlyingPig/cs-self-learning": {
+    "firstSeen": "2026-07-19T10:56:19.899Z",
+    "description": "计算机自学指南"
   }
 }
