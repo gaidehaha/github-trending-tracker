@@ -1766,5 +1766,29 @@
   "bojieli/ai-agent-book": {
     "firstSeen": "2026-07-19T22:29:08.613Z",
     "description": "《深入理解AI Agent：设计原理与工程实践》（李博杰着）开源主仓库：全书正文、编译版PDF与按章安装代码"
+  },
+  "PrefectHQ/fastmcp": {
+    "firstSeen": "2026-07-20T14:51:08.451Z",
+    "description": "🚀 构建 MCP 服务器和客户端的快速、Python 方式。"
+  },
+  "tokio-rs/topcoat": {
+    "firstSeen": "2026-07-20T14:51:08.452Z",
+    "description": "用于构建 Web 应用程序的包含电池的框架"
+  },
+  "oblien/openship": {
+    "firstSeen": "2026-07-20T14:51:08.452Z",
+    "description": "自托管部署平台"
+  },
+  "microsoft/Ontology-Playground": {
+    "firstSeen": "2026-07-20T14:51:08.452Z",
+    "description": "免费的开源 Web 应用程序，用于了解本体和 Microsoft Fabric IQ。探索预构建本体的目录，设计您自己的可视化本体，导出为 RDF/XML，并共享交互式图表。零后端，完全静态。"
+  },
+  "handy-computer/transcribe.cpp": {
+    "firstSeen": "2026-07-20T14:51:08.452Z",
+    "description": "适用于 16 多个模型系列的 ggml 语音到文本推理"
+  },
+  "moonshine-ai/moonshine": {
+    "firstSeen": "2026-07-20T14:51:08.452Z",
+    "description": "极低延迟的语音转文本、意图识别和文本转语音，用于构建语音代理和界面"
   }
 }
