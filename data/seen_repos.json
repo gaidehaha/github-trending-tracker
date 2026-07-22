@@ -1838,5 +1838,9 @@
   "HKUDS/nanobot": {
     "firstSeen": "2026-07-21T11:25:59.966Z",
     "description": "适用于您的工具、聊天和工作流程的轻量级开源 AI 代理。"
+  },
+  "MoonshotAI/kimi-code": {
+    "firstSeen": "2026-07-22T09:12:17.327Z",
+    "description": "Kimi Code CLI — 下一代代理的起点"
   }
 }
