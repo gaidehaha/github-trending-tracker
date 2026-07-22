@@ -1842,5 +1842,21 @@
   "MoonshotAI/kimi-code": {
     "firstSeen": "2026-07-22T09:12:17.327Z",
     "description": "Kimi Code CLI — 下一代代理的起点"
+  },
+  "likec4/likec4": {
+    "firstSeen": "2026-07-22T11:26:40.504Z",
+    "description": "使用代码中始终真实的实时图表来可视化、协作和发展软件架构"
+  },
+  "ComposioHQ/awesome-claude-skills": {
+    "firstSeen": "2026-07-22T11:26:40.504Z",
+    "description": "用于定制 Claude AI 工作流程的精彩 Claude 技能、资源和工具的精选列表"
+  },
+  "dreamhunter2333/cloudflare_temp_email": {
+    "firstSeen": "2026-07-22T11:26:40.504Z",
+    "description": "CloudFlare 免费临时域名电子邮件 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot"
+  },
+  "Pumpkin-MC/Pumpkin": {
+    "firstSeen": "2026-07-22T11:26:40.504Z",
+    "description": "使每个人都能托管快速高效的 Minecraft 服务器。"
   }
 }
