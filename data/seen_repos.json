@@ -1874,5 +1874,9 @@
   "Automattic/harper": {
     "firstSeen": "2026-07-23T11:27:22.939Z",
     "description": "离线、隐私优先的语法检查器。快速、开源、由 Rust 驱动"
+  },
+  "Julian-adv/OpenMMO": {
+    "firstSeen": "2026-07-23T14:51:36.616Z",
+    "description": ""
   }
 }
