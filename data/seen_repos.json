@@ -1858,5 +1858,21 @@
   "Pumpkin-MC/Pumpkin": {
     "firstSeen": "2026-07-22T11:26:40.504Z",
     "description": "使每个人都能托管快速高效的 Minecraft 服务器。"
+  },
+  "block/buzz": {
+    "firstSeen": "2026-07-23T11:27:22.938Z",
+    "description": "蜂巢思维交流平台"
+  },
+  "citrolabs/ego-lite": {
+    "firstSeen": "2026-07-23T11:27:22.938Z",
+    "description": "最适合您和您的 AI 代理并行工作的浏览器。"
+  },
+  "alibaba/open-code-review": {
+    "firstSeen": "2026-07-23T11:27:22.939Z",
+    "description": "开源且免费——经过阿里巴巴规模的实战考验。混合架构代码审查工具：确定性管道 + LLM Agent、精确的行级注释、内置微调规则集（NPE、线程安全、XSS、SQL 注入）、OpenAI 和 Anthropic 兼容。"
+  },
+  "Automattic/harper": {
+    "firstSeen": "2026-07-23T11:27:22.939Z",
+    "description": "离线、隐私优先的语法检查器。快速、开源、由 Rust 驱动"
   }
 }
