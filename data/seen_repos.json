@@ -1878,5 +1878,17 @@
   "Julian-adv/OpenMMO": {
     "firstSeen": "2026-07-23T14:51:36.616Z",
     "description": ""
+  },
+  "yorukot/superfile": {
+    "firstSeen": "2026-07-24T11:19:57.707Z",
+    "description": "非常漂亮和现代的终端文件管理器"
+  },
+  "Lordog/dive-into-llms": {
+    "firstSeen": "2026-07-24T11:19:57.708Z",
+    "description": "《动手学大模型深入LLM》系列编程实践教程"
+  },
+  "OtterMind/Chat2DB": {
+    "firstSeen": "2026-07-24T11:19:57.708Z",
+    "description": "🔥🔥🔥 AI驱动的数据库工具和SQL客户端，最热门的GUI客户端，支持MySQL、Oracle、PostgreSQL、DB2、SQL Server、DB2、SQLite、H2、ClickHouse等。"
   }
 }
