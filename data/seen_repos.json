@@ -1890,5 +1890,9 @@
   "OtterMind/Chat2DB": {
     "firstSeen": "2026-07-24T11:19:57.708Z",
     "description": "🔥🔥🔥 AI驱动的数据库工具和SQL客户端，最热门的GUI客户端，支持MySQL、Oracle、PostgreSQL、DB2、SQL Server、DB2、SQLite、H2、ClickHouse等。"
+  },
+  "permissionlesstech/bitchat": {
+    "firstSeen": "2026-07-25T14:13:18.269Z",
+    "description": "蓝牙网状聊天、IRC 氛围"
   }
 }
