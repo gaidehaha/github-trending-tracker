@@ -1906,5 +1906,13 @@
   "amnezia-vpn/amnezia-client": {
     "firstSeen": "2026-07-26T11:04:59.089Z",
     "description": "Amnezia VPN 客户端（桌面+移动）"
+  },
+  "vudovn/ag-kit": {
+    "firstSeen": "2026-07-27T15:26:10.481Z",
+    "description": ""
+  },
+  "apache/cassandra": {
+    "firstSeen": "2026-07-27T15:26:10.481Z",
+    "description": "开源事务分布式数据库。在商用硬件或云基础设施上提供线性可扩展性和经过验证的容错能力，而不会影响性能。"
   }
 }
