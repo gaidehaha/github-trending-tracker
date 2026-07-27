@@ -1914,5 +1914,9 @@
   "apache/cassandra": {
     "firstSeen": "2026-07-27T15:26:10.481Z",
     "description": "开源事务分布式数据库。在商用硬件或云基础设施上提供线性可扩展性和经过验证的容错能力，而不会影响性能。"
+  },
+  "emilkowalski/skills": {
+    "firstSeen": "2026-07-27T17:19:50.650Z",
+    "description": "设计工程师的技能。"
   }
 }
