@@ -1918,5 +1918,9 @@
   "emilkowalski/skills": {
     "firstSeen": "2026-07-27T17:19:50.650Z",
     "description": "设计工程师的技能。"
+  },
+  "opengeos/GeoLibre": {
+    "firstSeen": "2026-07-27T20:07:16.272Z",
+    "description": "一个轻量级的云原生 GIS 平台，用于可视化、探索和分析地理空间数据。它可以在 Web 浏览器、桌面、移动设备和 Jupyter 笔记本中运行。"
   }
 }
