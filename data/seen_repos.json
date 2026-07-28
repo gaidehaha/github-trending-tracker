@@ -1922,5 +1922,17 @@
   "opengeos/GeoLibre": {
     "firstSeen": "2026-07-27T20:07:16.272Z",
     "description": "一个轻量级的云原生 GIS 平台，用于可视化、探索和分析地理空间数据。它可以在 Web 浏览器、桌面、移动设备和 Jupyter 笔记本中运行。"
+  },
+  "virgiliojr94/book-to-skill": {
+    "firstSeen": "2026-07-28T11:36:58.964Z",
+    "description": "将任何 PDF 技术书籍转化为 Claude Code 技能 — 可供您在工作时学习、参考和使用。"
+  },
+  "paperswithbacktest/awesome-systematic-trading": {
+    "firstSeen": "2026-07-28T11:36:58.964Z",
+    "description": "一系列很棒的库、软件包、策略、书籍、博客、系统交易教程。"
+  },
+  "UditAkhourii/adhd": {
+    "firstSeen": "2026-07-28T11:37:04.838Z",
+    "description": "ADHD——编码代理的一项技能。带修剪的思想树，基于 Claude & Codex Agent SDK 构建。在不同的认知框架、分数、修剪陷阱下扇出平行的发散思维，加深幸存者。创造性和跨学科工作的简单技能。"
   }
 }
