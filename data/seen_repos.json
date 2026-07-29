@@ -1938,5 +1938,25 @@
   "hello245m/free-stockdb": {
     "firstSeen": "2026-07-29T03:53:03.056Z",
     "description": "面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。"
+  },
+  "grokability/snipe-it": {
+    "firstSeen": "2026-07-29T11:47:31.558Z",
+    "description": "免费的开源 IT 资产/许可证管理系统"
+  },
+  "deepfakes/faceswap": {
+    "firstSeen": "2026-07-29T11:47:31.558Z",
+    "description": "适合所有人的 Deepfakes 软件"
+  },
+  "different-ai/openwork": {
+    "firstSeen": "2026-07-29T11:47:31.558Z",
+    "description": "Claude Cowork 的开源替代方案（由 opencode 提供支持）"
+  },
+  "MoonshotAI/FlashKDA": {
+    "firstSeen": "2026-07-29T11:47:31.558Z",
+    "description": "FlashKDA：高性能 Kimi Delta Attention 内核"
+  },
+  "maderix/ANE": {
+    "firstSeen": "2026-07-29T11:47:31.558Z",
+    "description": "通过逆向工程私有 API 在 Apple Neural Engine 上训练神经网络"
   }
 }
