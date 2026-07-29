@@ -1934,5 +1934,9 @@
   "UditAkhourii/adhd": {
     "firstSeen": "2026-07-28T11:37:04.838Z",
     "description": "ADHD——编码代理的一项技能。带修剪的思想树，基于 Claude & Codex Agent SDK 构建。在不同的认知框架、分数、修剪陷阱下扇出平行的发散思维，加深幸存者。创造性和跨学科工作的简单技能。"
+  },
+  "hello245m/free-stockdb": {
+    "firstSeen": "2026-07-29T03:53:03.056Z",
+    "description": "面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。"
   }
 }
