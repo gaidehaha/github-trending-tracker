@@ -1958,5 +1958,13 @@
   "maderix/ANE": {
     "firstSeen": "2026-07-29T11:47:31.558Z",
     "description": "通过逆向工程私有 API 在 Apple Neural Engine 上训练神经网络"
+  },
+  "WhiskeySockets/Baileys": {
+    "firstSeen": "2026-07-30T11:30:34.779Z",
+    "description": "用于 WhatsApp Web 的基于套接字的 TS/JavaScript API"
+  },
+  "agavra/tuicr": {
+    "firstSeen": "2026-07-30T11:30:34.779Z",
+    "description": "使用 vim 键绑定进行代码审查 TUI"
   }
 }
