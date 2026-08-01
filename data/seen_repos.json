@@ -1982,5 +1982,29 @@
   "erincatto/box3d": {
     "firstSeen": "2026-07-31T11:39:33.427Z",
     "description": "Box3D 是一款游戏 3D 物理引擎"
+  },
+  "microsoft/generative-ai-for-beginners": {
+    "firstSeen": "2026-08-01T14:08:30.945Z",
+    "description": "21 节课程，开始使用生成式 AI 进行构建"
+  },
+  "github/gh-stack": {
+    "firstSeen": "2026-08-01T14:08:30.945Z",
+    "description": "GitHub 堆叠 PR"
+  },
+  "abus-aikorea/voice-pro": {
+    "firstSeen": "2026-08-01T14:08:30.945Z",
+    "description": "面向创作者和开发者的 Gradio WebUI，具有关键 TTS（Edge-TTS、kokoro）和零样本语音克隆（E2 和 F5-TTS、CosyVoice），以及 Whisper 音频处理、YouTube 下载、Demucs 声音隔离和多语言翻译。"
+  },
+  "iv-org/invidious": {
+    "firstSeen": "2026-08-01T14:08:30.945Z",
+    "description": "Invidious 是 YouTube 的替代前端"
+  },
+  "microsoft/TRELLIS.2": {
+    "firstSeen": "2026-08-01T14:08:30.945Z",
+    "description": "用于 3D 生成的原生紧凑结构化潜在模型"
+  },
+  "NomaDamas/k-skill": {
+    "firstSeen": "2026-08-01T14:08:30.945Z",
+    "description": "한국인을 위한 스킬 모음집 - 한국인으로"
   }
 }
