@@ -2006,5 +2006,17 @@
   "NomaDamas/k-skill": {
     "firstSeen": "2026-08-01T14:08:30.945Z",
     "description": "한국인을 위한 스킬 모음집 - 한국인으로"
+  },
+  "HarbourMasters/Lighthouse": {
+    "firstSeen": "2026-08-02T11:03:47.019Z",
+    "description": ""
+  },
+  "antirez/ds4": {
+    "firstSeen": "2026-08-02T11:03:47.019Z",
+    "description": "适用于 Metal、CUDA 和 ROCm 的 DeepSeek 4 Flash 和 PRO 本地推理引擎"
+  },
+  "Emily2040/seedance-2.0": {
+    "firstSeen": "2026-08-02T11:04:02.680Z",
+    "description": "使用 Seedance 2.0 进行四模式 AI 电影制作的综合制作流程"
   }
 }
