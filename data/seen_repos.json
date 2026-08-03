@@ -2018,5 +2018,17 @@
   "Emily2040/seedance-2.0": {
     "firstSeen": "2026-08-02T11:04:02.680Z",
     "description": "使用 Seedance 2.0 进行四模式 AI 电影制作的综合制作流程"
+  },
+  "firecrawl/pdf-inspector": {
+    "firstSeen": "2026-08-03T15:27:11.589Z",
+    "description": "用于 PDF 检查、分类和文本提取的快速 Rust 库。智能检测扫描 PDF 与基于文本的 PDF，以实现智能路由决策。"
+  },
+  "donnemartin/system-design-primer": {
+    "firstSeen": "2026-08-03T15:27:11.589Z",
+    "description": "了解如何设计大型系统。准备系统设计面试。包括 Anki 抽认卡。"
+  },
+  "livekit/agents": {
+    "firstSeen": "2026-08-03T15:27:11.589Z",
+    "description": "用于构建实时语音 AI 代理的框架🤖🎙️📹"
   }
 }
