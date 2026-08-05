@@ -2050,5 +2050,17 @@
   "tailwindlabs/tailwindcss": {
     "firstSeen": "2026-08-04T11:44:37.668Z",
     "description": "用于快速 UI 开发的实用程序优先 CSS 框架。"
+  },
+  "huangruiteng/loopx": {
+    "firstSeen": "2026-08-05T11:38:11.865Z",
+    "description": "适用于长期运行的 AI 代理团队的轻量级循环工程状态内核。跨 Codex、Claude Code 和其他编码代理的代理循环不可知，具有持久目标、配额感知自动唤醒、可执行待办事项、证据日志和可验证的切换。"
+  },
+  "woosal1337/blog": {
+    "firstSeen": "2026-08-05T11:38:16.790Z",
+    "description": "我的博客网站。"
+  },
+  "DataExpert-io/data-engineer-handbook": {
+    "firstSeen": "2026-08-05T11:38:16.790Z",
+    "description": "这是一个存储库，其中包含您想要了解的有关数据工程的所有内容的链接"
   }
 }
