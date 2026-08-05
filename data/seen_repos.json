@@ -2062,5 +2062,9 @@
   "DataExpert-io/data-engineer-handbook": {
     "firstSeen": "2026-08-05T11:38:16.790Z",
     "description": "这是一个存储库，其中包含您想要了解的有关数据工程的所有内容的链接"
+  },
+  "cloudflare/computer": {
+    "firstSeen": "2026-08-05T14:58:19.514Z",
+    "description": "给你的代理人一台电脑👾"
   }
 }
