@@ -2066,5 +2066,21 @@
   "cloudflare/computer": {
     "firstSeen": "2026-08-05T14:58:19.514Z",
     "description": "给你的代理人一台电脑👾"
+  },
+  "goauthentik/authentik": {
+    "firstSeen": "2026-08-06T11:48:58.209Z",
+    "description": "您需要的认证胶水。"
+  },
+  "google/guava": {
+    "firstSeen": "2026-08-06T11:48:58.209Z",
+    "description": "Google Java 核心库"
+  },
+  "Significant-Gravitas/AutoGPT": {
+    "firstSeen": "2026-08-06T11:48:58.209Z",
+    "description": "AutoGPT 的愿景是为每个人提供易于使用和构建的人工智能。我们的使命是提供工具，以便您可以专注于重要的事情。"
+  },
+  "embabel/embabel-agent": {
+    "firstSeen": "2026-08-06T11:49:03.841Z",
+    "description": "JVM 的代理框架。发音为 Em-BAY-bel /ɛmˈbeɪbəl/"
   }
 }
