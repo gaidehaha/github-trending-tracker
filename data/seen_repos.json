@@ -2082,5 +2082,29 @@
   "embabel/embabel-agent": {
     "firstSeen": "2026-08-06T11:49:03.841Z",
     "description": "JVM 的代理框架。发音为 Em-BAY-bel /ɛmˈbeɪbəl/"
+  },
+  "PrimeIntellect-ai/prime-agent": {
+    "firstSeen": "2026-08-07T13:53:38.719Z",
+    "description": "用于编码工作流程和长时间运行的自主任务的自我改进 RLM 代理。"
+  },
+  "semantica-agi/semantica": {
+    "firstSeen": "2026-08-07T13:53:38.719Z",
+    "description": "用于上下文和负责任的人工智能系统的图本机基础设施"
+  },
+  "jdx/mise": {
+    "firstSeen": "2026-08-07T13:53:38.719Z",
+    "description": "开发工具、环境变量、任务运行程序"
+  },
+  "unclebob/swarm-forge": {
+    "firstSeen": "2026-08-07T13:53:38.719Z",
+    "description": "一个用于协调多个人工智能代理的简单工具。"
+  },
+  "denoland/celld": {
+    "firstSeen": "2026-08-07T13:53:38.719Z",
+    "description": "自托管、分布式持久对象"
+  },
+  "K2SOsint/Legendary_OSINT": {
+    "firstSeen": "2026-08-07T13:53:38.719Z",
+    "description": "面向（欺诈）调查人员、CTI 分析师、KYC、AML 等的 OSINT 工具和资源列表。"
   }
 }
