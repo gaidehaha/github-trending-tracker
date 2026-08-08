@@ -2106,5 +2106,17 @@
   "K2SOsint/Legendary_OSINT": {
     "firstSeen": "2026-08-07T13:53:38.719Z",
     "description": "面向（欺诈）调查人员、CTI 分析师、KYC、AML 等的 OSINT 工具和资源列表。"
+  },
+  "LadybirdBrowser/ladybird": {
+    "firstSeen": "2026-08-08T13:28:44.988Z",
+    "description": "真正独立的网络浏览器"
+  },
+  "litu54/DevOps-Interview-Guide": {
+    "firstSeen": "2026-08-08T13:28:44.988Z",
+    "description": "DevOps 面试指南"
+  },
+  "Comfy-Org/ComfyUI": {
+    "firstSeen": "2026-08-08T13:28:48.988Z",
+    "description": "最强大的模块化扩散模型 GUI、API 和带有图形/节点接口的后端。"
   }
 }
