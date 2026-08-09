@@ -2118,5 +2118,21 @@
   "Comfy-Org/ComfyUI": {
     "firstSeen": "2026-08-08T13:28:48.988Z",
     "description": "最强大的模块化扩散模型 GUI、API 和带有图形/节点接口的后端。"
+  },
+  "vitali87/code-graph-rag": {
+    "firstSeen": "2026-08-09T13:32:51.950Z",
+    "description": "适合您的单一存储库的终极 RAG。借助人工智能和知识图的力量查询、理解和编辑多语言代码库"
+  },
+  "google-deepmind/weathernext": {
+    "firstSeen": "2026-08-09T13:32:51.950Z",
+    "description": ""
+  },
+  "harveyai/harvey-labs": {
+    "firstSeen": "2026-08-09T13:32:51.950Z",
+    "description": "旨在评估和提高代理人支持法律工作的能力而建立的基准。"
+  },
+  "drawdb-io/drawdb": {
+    "firstSeen": "2026-08-09T13:32:56.427Z",
+    "description": "免费、简单、直观的在线数据库图表编辑器和 SQL 生成器。"
   }
 }
