@@ -2134,5 +2134,17 @@
   "drawdb-io/drawdb": {
     "firstSeen": "2026-08-09T13:32:56.427Z",
     "description": "免费、简单、直观的在线数据库图表编辑器和 SQL 生成器。"
+  },
+  "paperclipai/paperclip": {
+    "firstSeen": "2026-08-10T14:00:05.228Z",
+    "description": "每个人都用它来管理工作中的座席的开源应用程序"
+  },
+  "danielmiessler/LifeOS": {
+    "firstSeen": "2026-08-10T14:00:05.228Z",
+    "description": "⛰️一款通用爬山AI安全带，帮助您从生活和工作的现状迈向理想状态。"
+  },
+  "opa334/Dopamine": {
+    "firstSeen": "2026-08-10T14:00:05.228Z",
+    "description": "Dopamine 是一款针对 iOS 15 至 26(.0.1) 的半自由越狱工具"
   }
 }
