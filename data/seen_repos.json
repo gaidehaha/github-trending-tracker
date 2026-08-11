@@ -2166,5 +2166,9 @@
   "practical-tutorials/project-based-learning": {
     "firstSeen": "2026-08-11T14:01:18.810Z",
     "description": "基于项目的教程精选列表"
+  },
+  "cathrynlavery/diagram-design": {
+    "firstSeen": "2026-08-11T16:28:01.651Z",
+    "description": "Claude Code 的 29 种编辑图表类型。独立的 HTML + SVG。没有阴影，没有美人鱼的污迹。"
   }
 }
