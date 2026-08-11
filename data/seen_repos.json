@@ -2146,5 +2146,25 @@
   "opa334/Dopamine": {
     "firstSeen": "2026-08-10T14:00:05.228Z",
     "description": "Dopamine 是一款针对 iOS 15 至 26(.0.1) 的半自由越狱工具"
+  },
+  "nvm-sh/nvm": {
+    "firstSeen": "2026-08-11T14:01:18.810Z",
+    "description": "Node Version Manager - 符合 POSIX 标准的 bash 脚本，用于管理多个活动的 Node.js 版本"
+  },
+  "3b1b/manim": {
+    "firstSeen": "2026-08-11T14:01:18.810Z",
+    "description": "用于解释数学视频的动画引擎"
+  },
+  "huggingface/transformers": {
+    "firstSeen": "2026-08-11T14:01:18.810Z",
+    "description": "🤗 Transformers：文本、视觉、音频和多模态模型中最先进的机器学习模型的模型定义框架，用于推理和训练。"
+  },
+  "jaywcjlove/awesome-mac": {
+    "firstSeen": "2026-08-11T14:01:18.810Z",
+    "description": " 本项目致力于收集优质 macOS 软件，并按不同类别进行系统整理，方便查找和使用。"
+  },
+  "practical-tutorials/project-based-learning": {
+    "firstSeen": "2026-08-11T14:01:18.810Z",
+    "description": "基于项目的教程精选列表"
   }
 }
