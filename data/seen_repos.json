@@ -2174,5 +2174,29 @@
   "kunchenguid/firstmate": {
     "firstSeen": "2026-08-12T05:16:16.784Z",
     "description": "与一位代理人交谈。与船员一起航行。"
+  },
+  "macro-inc/macro": {
+    "firstSeen": "2026-08-12T14:01:25.688Z",
+    "description": "Macro 是一个面向团队的统一工作空间：电子邮件、聊天、文档、任务、代理、呼叫和 CRM — 通过共享 AI 内存 @ 链接在一起。"
+  },
+  "infiniflow/ragflow": {
+    "firstSeen": "2026-08-12T14:01:25.688Z",
+    "description": "RAGFlow 是一款领先的开源检索增强生成 (RAG) 引擎，它将尖端的 RAG 与代理功能相融合，为法学硕士创建卓越的上下文层"
+  },
+  "NVIDIA-NeMo/Switchyard": {
+    "firstSeen": "2026-08-12T14:01:25.688Z",
+    "description": ""
+  },
+  "ZuodaoTech/everyone-can-use-english": {
+    "firstSeen": "2026-08-12T14:01:25.688Z",
+    "description": "人人都能用英语"
+  },
+  "localsend/localsend": {
+    "firstSeen": "2026-08-12T14:01:25.688Z",
+    "description": "AirDrop 的开源跨平台替代品"
+  },
+  "cactus-compute/needle": {
+    "firstSeen": "2026-08-12T14:01:25.688Z",
+    "description": "适用于微型设备的 14MB 基础模型；手机、可穿戴设备、智能家居和机器人。"
   }
 }
