@@ -2198,5 +2198,25 @@
   "cactus-compute/needle": {
     "firstSeen": "2026-08-12T14:01:25.688Z",
     "description": "适用于微型设备的 14MB 基础模型；手机、可穿戴设备、智能家居和机器人。"
+  },
+  "unslothai/unsloth": {
+    "firstSeen": "2026-08-13T14:02:59.348Z",
+    "description": "用于运行和训练 LLM 和扩散模型的本地 UI，包括 Qwen3.8、Kimi K3、MiniMax-H3、Gemma 4、DeepSeek-V4、FLUX 等。"
+  },
+  "megadose/holehe": {
+    "firstSeen": "2026-08-13T14:02:59.348Z",
+    "description": "holehe 允许您检查邮件是否在 Twitter、Instagram 等不同网站上使用，并且会通过忘记密码功能检索网站上的信息。"
+  },
+  "holaboss-ai/holaOS": {
+    "firstSeen": "2026-08-13T14:02:59.348Z",
+    "description": "开源全合一 AI 代理工作区。使用共享内存在您的工具（100 多个集成 + MCP）、应用程序、浏览器和文件中运行任何代理 - Claude Code、Codex。内置模型或 BYOK。"
+  },
+  "kepano/obsidian-skills": {
+    "firstSeen": "2026-08-13T14:02:59.348Z",
+    "description": "黑曜石的代理技能。教您的代理使用 Obsidian CLI 和开放格式，包括 Markdown、Bases、JSON Canvas。"
+  },
+  "lightningpixel/modly": {
+    "firstSeen": "2026-08-13T14:02:59.348Z",
+    "description": "使用本地 AI 从图像生成 3D 模型的桌面应用程序 — 完全在您的 GPU 上运行"
   }
 }
