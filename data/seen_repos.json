@@ -2218,5 +2218,17 @@
   "lightningpixel/modly": {
     "firstSeen": "2026-08-13T14:02:59.348Z",
     "description": "使用本地 AI 从图像生成 3D 模型的桌面应用程序 — 完全在您的 GPU 上运行"
+  },
+  "deepseek-ai/awesome-deepseek-agent": {
+    "firstSeen": "2026-08-14T13:57:54.581Z",
+    "description": ""
+  },
+  "rustdesk/rustdesk": {
+    "firstSeen": "2026-08-14T13:57:54.581Z",
+    "description": "一款专为自托管而设计的开源远程桌面应用程序，作为 TeamViewer 的替代品。"
+  },
+  "ToolJet/ToolJet": {
+    "firstSeen": "2026-08-14T13:57:54.581Z",
+    "description": "ToolJet 是 ToolJet AI 的开源基础 - ToolJet AI 是用于构建内部工具、仪表板、业务应用程序、工作流程和 AI 代理的企业应用程序生成平台 🚀"
   }
 }
