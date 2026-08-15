@@ -2230,5 +2230,17 @@
   "ToolJet/ToolJet": {
     "firstSeen": "2026-08-14T13:57:54.581Z",
     "description": "ToolJet 是 ToolJet AI 的开源基础 - ToolJet AI 是用于构建内部工具、仪表板、业务应用程序、工作流程和 AI 代理的企业应用程序生成平台 🚀"
+  },
+  "cordiverse/cordis": {
+    "firstSeen": "2026-08-15T13:10:06.893Z",
+    "description": "时空可组合性元框架"
+  },
+  "public-apis/public-apis": {
+    "firstSeen": "2026-08-15T13:10:06.893Z",
+    "description": "免费 API 集合列表"
+  },
+  "MakazhanAlpamys/Soup": {
+    "firstSeen": "2026-08-15T13:10:06.893Z",
+    "description": "从一个 YAML 微调 LLM。层流在 4 GB 笔记本电脑 GPU 上训练 8B 模型。"
   }
 }
