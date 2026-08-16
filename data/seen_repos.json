@@ -2242,5 +2242,13 @@
   "MakazhanAlpamys/Soup": {
     "firstSeen": "2026-08-15T13:10:06.893Z",
     "description": "从一个 YAML 微调 LLM。层流在 4 GB 笔记本电脑 GPU 上训练 8B 模型。"
+  },
+  "basecamp/omarchy": {
+    "firstSeen": "2026-08-16T13:12:31.982Z",
+    "description": "美丽、现代、有主见的 Linux"
+  },
+  "akitaonrails/ai-memory": {
+    "firstSeen": "2026-08-16T13:12:31.982Z",
+    "description": "用于代理编码 CLI 的长期记忆解决方案，并促进不同代理供应商之间的切换"
   }
 }
