@@ -2250,5 +2250,13 @@
   "akitaonrails/ai-memory": {
     "firstSeen": "2026-08-16T13:12:31.982Z",
     "description": "用于代理编码 CLI 的长期记忆解决方案，并促进不同代理供应商之间的切换"
+  },
+  "jundot/omlx": {
+    "firstSeen": "2026-08-17T13:23:08.394Z",
+    "description": "LLM 推理服务器，具有适用于 Apple Silicon 的连续批处理和 SSD 缓存 - 从 macOS 菜单栏进行管理"
+  },
+  "agalwood/Motrix": {
+    "firstSeen": "2026-08-17T13:23:08.394Z",
+    "description": "功能齐全的下载管理器。"
   }
 }
