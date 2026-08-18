@@ -2258,5 +2258,25 @@
   "agalwood/Motrix": {
     "firstSeen": "2026-08-17T13:23:08.394Z",
     "description": "功能齐全的下载管理器。"
+  },
+  "chaitanyagiri/munder-difflin": {
+    "firstSeen": "2026-08-18T13:25:46.831Z",
+    "description": "本地多智能体利用"
+  },
+  "volcengine/OpenViking": {
+    "firstSeen": "2026-08-18T13:25:46.831Z",
+    "description": "人工智能代理的自我进化上下文数据库。统一代理记忆、知识 RAG 和技能。"
+  },
+  "NawfalMotii79/PLFM_RADAR": {
+    "firstSeen": "2026-08-18T13:25:46.831Z",
+    "description": "开源、低成本 10.5 GHz PLFM 相控阵雷达系统"
+  },
+  "genlayerlabs/genlayer-project-boilerplate": {
+    "firstSeen": "2026-08-18T13:25:46.831Z",
+    "description": ""
+  },
+  "superradcompany/microsandbox": {
+    "firstSeen": "2026-08-18T13:25:50.513Z",
+    "description": "🧱 简单快速的本地优先 microVM 运行时和库"
   }
 }
