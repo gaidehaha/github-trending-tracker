@@ -2278,5 +2278,17 @@
   "superradcompany/microsandbox": {
     "firstSeen": "2026-08-18T13:25:50.513Z",
     "description": "🧱 简单快速的本地优先 microVM 运行时和库"
+  },
+  "amadeusprotocol/node": {
+    "firstSeen": "2026-08-19T15:59:52.859Z",
+    "description": ""
+  },
+  "marceloprates/prettymaps": {
+    "firstSeen": "2026-08-19T15:59:52.859Z",
+    "description": "从 OpenStreetMap 数据绘制漂亮的地图！使用 osmnx +matplotlib + shapely 构建"
+  },
+  "CodebuffAI/freebuff": {
+    "firstSeen": "2026-08-19T15:59:57.177Z",
+    "description": "免费编码代理"
   }
 }
