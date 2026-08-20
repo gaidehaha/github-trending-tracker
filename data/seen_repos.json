@@ -2290,5 +2290,25 @@
   "CodebuffAI/freebuff": {
     "firstSeen": "2026-08-19T15:59:57.177Z",
     "description": "免费编码代理"
+  },
+  "modular/modular": {
+    "firstSeen": "2026-08-20T13:28:57.787Z",
+    "description": "模块化平台（包括 MAX 和 Mojo）"
+  },
+  "AprilNEA/OpenLogi": {
+    "firstSeen": "2026-08-20T13:28:57.787Z",
+    "description": "⚡️Logitech Options+ 的原生、本地优先替代方案，用 Rust 编写 - 重新映射按钮、DPI 和 HID++ 上的 SmartShift。没有帐户，没有遥测。"
+  },
+  "agent-substrate/substrate": {
+    "firstSeen": "2026-08-20T13:28:57.787Z",
+    "description": "Agent Substrate：核心系统"
+  },
+  "mahlernim/google-timeline-visualizer": {
+    "firstSeen": "2026-08-20T13:28:57.787Z",
+    "description": "使用您的 Google 位置记录（时间轴）数据可视化您这一年的旅行情况"
+  },
+  "Tencent/AI-Infra-Guard": {
+    "firstSeen": "2026-08-20T13:28:57.787Z",
+    "description": "全栈 AI 红队平台通过代理扫描、技能扫描、MCP 扫描、AI 基础设施扫描和 LLM 越狱评估来保护 AI 生态系统。"
   }
 }
