@@ -2322,5 +2322,17 @@
   "microsoft/onnxruntime": {
     "firstSeen": "2026-08-21T21:53:43.790Z",
     "description": "ONNX Runtime：跨平台、高性能机器学习推理和训练加速器"
+  },
+  "Wei-Shaw/sub2api": {
+    "firstSeen": "2026-08-22T13:11:54.106Z",
+    "description": "Sub2API一站式开源中转服务，让Claude、Openai、Gemini、Grok订阅统一接入，支持拼车共享，更高效分配成本，原创工具无缝使用。"
+  },
+  "n8n-io/n8n": {
+    "firstSeen": "2026-08-22T13:11:54.106Z",
+    "description": "具有原生 AI 功能的公平代码工作流程自动化平台。将可视化构建与自定义代码、自托管或云、400 多个集成相结合。"
+  },
+  "eneskirca/nodeterm": {
+    "firstSeen": "2026-08-22T13:11:58.184Z",
+    "description": "用于 AI 编码代理的基于节点的终端管理器 — tmux 支持的终端和并行代理会话，作为无限平移/缩放画布上的可拖动节点。 macOS、Linux 和浏览器服务器版。"
   }
 }
