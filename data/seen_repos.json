@@ -2334,5 +2334,21 @@
   "eneskirca/nodeterm": {
     "firstSeen": "2026-08-22T13:11:58.184Z",
     "description": "用于 AI 编码代理的基于节点的终端管理器 — tmux 支持的终端和并行代理会话，作为无限平移/缩放画布上的可拖动节点。 macOS、Linux 和浏览器服务器版。"
+  },
+  "freestylefly/awesome-gpt-image-2": {
+    "firstSeen": "2026-08-23T13:16:16.141Z",
+    "description": "提示代码 | GPT-Image2工业级提示词引擎与模板库，470+个逆向案例向工程，20+套工业级模板，并提炼出技能，持续更新中"
+  },
+  "VoltAgent/awesome-agent-skills": {
+    "firstSeen": "2026-08-23T13:16:16.142Z",
+    "description": "来自官方开发团队和社区的 1000 多种代理技能精选集合，与 Claude Code、Codex、Gemini CLI、Cursor 等兼容。"
+  },
+  "dani-garcia/vaultwarden": {
+    "firstSeen": "2026-08-23T13:16:16.142Z",
+    "description": "用 Rust 编写的非官方 Bitwarden 兼容服务器，以前称为 bitwarden_rs"
+  },
+  "anthropics/claude-plugins-community": {
+    "firstSeen": "2026-08-23T13:16:16.142Z",
+    "description": "Claude Cowork 和 Claude Code 的社区插件市场。只读镜像 — 在 clau.de/plugin-directory-submission 提交插件。"
   }
 }
