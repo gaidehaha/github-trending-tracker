@@ -2350,5 +2350,17 @@
   "anthropics/claude-plugins-community": {
     "firstSeen": "2026-08-23T13:16:16.142Z",
     "description": "Claude Cowork 和 Claude Code 的社区插件市场。只读镜像 — 在 clau.de/plugin-directory-submission 提交插件。"
+  },
+  "openclaw/openclaw": {
+    "firstSeen": "2026-08-24T13:32:35.559Z",
+    "description": "您自己的私人人工智能助理。任何操作系统。任何平台。龙虾方式。 🦞"
+  },
+  "AgriciDaniel/claude-obsidian": {
+    "firstSeen": "2026-08-24T13:32:35.559Z",
+    "description": "Obsidian + Claude Code 的自组织 AI 第二大脑。放下任何源代码，Claude 就会读取、链接并将其归档到您拥有的纯 Markdown 的连接知识图中。 AI 笔记、个人知识管理 (PKM) 和开源 Notion 替代方案。基于 Karpathy 的 LLM Wiki 模式。"
+  },
+  "vorssaint/vorssaint-utils": {
+    "firstSeen": "2026-08-24T13:32:35.559Z",
+    "description": "免费开源 macOS 菜单栏工具包。"
   }
 }
