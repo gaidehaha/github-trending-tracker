@@ -2366,5 +2366,17 @@
   "liustack/modlens": {
     "firstSeen": "2026-08-25T04:18:46.906Z",
     "description": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网最强 DeepSeek Harness 外挂视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。"
+  },
+  "marin-community/marin": {
+    "firstSeen": "2026-08-25T13:30:44.959Z",
+    "description": "Open-source framework for the research and development of foundation models."
+  },
+  "DietrichGebert/ponytail": {
+    "firstSeen": "2026-08-25T13:30:44.959Z",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote."
+  },
+  "asciimoo/hister": {
+    "firstSeen": "2026-08-25T13:30:44.959Z",
+    "description": "Your own search engine"
   }
 }
