@@ -2378,5 +2378,17 @@
   "asciimoo/hister": {
     "firstSeen": "2026-08-25T13:30:44.959Z",
     "description": "Your own search engine"
+  },
+  "ConardLi/garden-skills": {
+    "firstSeen": "2026-08-26T13:36:22.882Z",
+    "description": "ConardLi 的开源技能集合，包括网页设计、知识检索、图像生成等。"
+  },
+  "browser-use/browser-use": {
+    "firstSeen": "2026-08-26T13:36:22.882Z",
+    "description": "🌐 让 AI 代理可以访问网站。轻松在线自动化任务。"
+  },
+  "bookorbit/bookorbit": {
+    "firstSeen": "2026-08-26T13:36:29.978Z",
+    "description": "BookOrbit：您的阅读空间"
   }
 }
