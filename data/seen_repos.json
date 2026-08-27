@@ -2390,5 +2390,21 @@
   "bookorbit/bookorbit": {
     "firstSeen": "2026-08-26T13:36:29.978Z",
     "description": "BookOrbit：您的阅读空间"
+  },
+  "zedeus/nitter": {
+    "firstSeen": "2026-08-27T14:34:23.202Z",
+    "description": "替代 Twitter 前端"
+  },
+  "JetBrains/go-modern-guidelines": {
+    "firstSeen": "2026-08-27T14:34:23.202Z",
+    "description": "帮助 AI 编码代理编写现代 Go"
+  },
+  "google/googletest": {
+    "firstSeen": "2026-08-27T14:34:23.202Z",
+    "description": "GoogleTest - Google 测试和模拟框架"
+  },
+  "securo-finance/securo": {
+    "firstSeen": "2026-08-27T14:34:28.372Z",
+    "description": "开源个人理财经理。自托管，隐私第一。"
   }
 }
