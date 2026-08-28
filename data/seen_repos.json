@@ -2426,5 +2426,9 @@
   "NationalSecurityAgency/ghidra": {
     "firstSeen": "2026-08-28T12:11:21.515Z",
     "description": "Ghidra 是一个软件逆向工程 (SRE) 框架"
+  },
+  "swoole/typephp": {
+    "firstSeen": "2026-08-28T22:35:00.722Z",
+    "description": "Compile PHP to Native Binaries"
   }
 }
