@@ -2406,5 +2406,9 @@
   "securo-finance/securo": {
     "firstSeen": "2026-08-27T14:34:28.372Z",
     "description": "开源个人理财经理。自托管，隐私第一。"
+  },
+  "bilawalsidhu/gods-eye-view": {
+    "firstSeen": "2026-08-28T00:34:20.630Z",
+    "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe."
   }
 }
