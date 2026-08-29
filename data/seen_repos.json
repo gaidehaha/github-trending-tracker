@@ -2430,5 +2430,9 @@
   "swoole/typephp": {
     "firstSeen": "2026-08-28T22:35:00.722Z",
     "description": "Compile PHP to Native Binaries"
+  },
+  "omacom/omarchy": {
+    "firstSeen": "2026-08-29T14:40:21.070Z",
+    "description": "美丽、现代、有主见的 Linux"
   }
 }
