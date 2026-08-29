@@ -2434,5 +2434,25 @@
   "omacom/omarchy": {
     "firstSeen": "2026-08-29T14:40:21.070Z",
     "description": "美丽、现代、有主见的 Linux"
+  },
+  "THU-MAIC/OpenMAIC": {
+    "firstSeen": "2026-08-29T23:34:15.215Z",
+    "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click"
+  },
+  "bigskysoftware/htmx": {
+    "firstSeen": "2026-08-29T23:34:15.215Z",
+    "description": "&lt;/&gt; htmx - high power tools for HTML"
+  },
+  "Osmantic/ODS": {
+    "firstSeen": "2026-08-29T23:34:15.215Z",
+    "description": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation."
+  },
+  "kaifcodec/user-scanner": {
+    "firstSeen": "2026-08-29T23:34:15.216Z",
+    "description": "🕵️‍♂️ (2-in-1) Email &amp; Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 455+ actively maintained scan vectors (175+ email / 280+ username) for security research, investigations, and digital footprinting."
+  },
+  "workweave/router": {
+    "firstSeen": "2026-08-29T23:34:15.216Z",
+    "description": "Model router for agentic systems. Routes every prompt to the right model in &lt;50ms. Cut costs 40-70% with just an endpoint change."
   }
 }
