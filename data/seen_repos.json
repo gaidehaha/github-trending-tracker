@@ -2454,5 +2454,37 @@
   "workweave/router": {
     "firstSeen": "2026-08-29T23:34:15.216Z",
     "description": "Model router for agentic systems. Routes every prompt to the right model in &lt;50ms. Cut costs 40-70% with just an endpoint change."
+  },
+  "Lakr233/vphone-cli": {
+    "firstSeen": "2026-08-30T12:10:23.021Z",
+    "description": ""
+  },
+  "majd/ipatool": {
+    "firstSeen": "2026-08-30T12:10:23.021Z",
+    "description": "命令行工具，允许从 App Store 搜索和下载 iOS、iPadOS、tvOS 和 VisionOS 的应用程序包（称为 ipa 文件）。"
+  },
+  "punkpeye/awesome-mcp-servers": {
+    "firstSeen": "2026-08-30T12:10:23.021Z",
+    "description": "MCP 服务器的集合。"
+  },
+  "checkstyle/checkstyle": {
+    "firstSeen": "2026-08-30T12:10:23.021Z",
+    "description": "Checkstyle 是一种开发工具，可帮助程序员编写符合编码标准的 Java 代码。默认情况下，它支持 Google Java 样式指南和 Sun 代码约定，但可高度配置。可以使用 ANT 任务和命令行程序来调用它。"
+  },
+  "pollen-robotics/microduck_rl": {
+    "firstSeen": "2026-08-30T12:10:23.021Z",
+    "description": "Microduck 的 RL 训练环境 (mjlab)"
+  },
+  "handsomestWei/patent-disclosure-skill": {
+    "firstSeen": "2026-08-30T12:10:23.021Z",
+    "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，感知探秘策略动向，辅助审查答复。"
+  },
+  "corsairdev/corsair": {
+    "firstSeen": "2026-08-30T12:10:23.021Z",
+    "description": "将您的用户连接到他们的应用程序"
+  },
+  "colinhacks/zod": {
+    "firstSeen": "2026-08-30T12:10:23.021Z",
+    "description": "使用静态类型推断进行 TypeScript 优先模式验证"
   }
 }
