@@ -2486,5 +2486,9 @@
   "colinhacks/zod": {
     "firstSeen": "2026-08-30T12:10:23.021Z",
     "description": "使用静态类型推断进行 TypeScript 优先模式验证"
+  },
+  "jingyaogong/minimind": {
+    "firstSeen": "2026-08-31T14:21:34.945Z",
+    "description": "🧠 只需 2 小时从头开始训练 64M 参数的 LLM！"
   }
 }
