@@ -2490,5 +2490,21 @@
   "jingyaogong/minimind": {
     "firstSeen": "2026-08-31T14:21:34.945Z",
     "description": "🧠 只需 2 小时从头开始训练 64M 参数的 LLM！"
+  },
+  "Gitlawb/openclaude": {
+    "firstSeen": "2026-09-01T14:15:51.599Z",
+    "description": "跑到任何地方。使用任何东西"
+  },
+  "debpalash/VoiceStudio": {
+    "firstSeen": "2026-09-01T14:15:51.599Z",
+    "description": "VoiceStudio 是 ElevenLabs 的开源、完全本地化替代方案 — 提供 646 种语言的语音克隆、语音设计、视频配音、听写、转录和有声读物创建。"
+  },
+  "averygan/reclip": {
+    "firstSeen": "2026-09-01T14:15:51.599Z",
+    "description": "从几乎任何网站下载视频。轻量级、自托管媒体下载器，具有干净的 Web UI。"
+  },
+  "youssofal/MTPLX": {
+    "firstSeen": "2026-09-01T14:16:02.483Z",
+    "description": "MLX 速度提高 3 倍 |酷文3.8 27B | Apple Silicon 上的本机 MTP 推测解码，无需外部起草器。"
   }
 }
