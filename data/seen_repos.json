@@ -2506,5 +2506,33 @@
   "youssofal/MTPLX": {
     "firstSeen": "2026-09-01T14:16:02.483Z",
     "description": "MLX 速度提高 3 倍 |酷文3.8 27B | Apple Silicon 上的本机 MTP 推测解码，无需外部起草器。"
+  },
+  "fmtlib/fmt": {
+    "firstSeen": "2026-09-02T16:49:29.651Z",
+    "description": "现代格式库"
+  },
+  "sngyai/Sequoia-X": {
+    "firstSeen": "2026-09-02T16:49:29.651Z",
+    "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书"
+  },
+  "superlinked/sie": {
+    "firstSeen": "2026-09-02T16:49:29.651Z",
+    "description": "适用于代理所需的所有模型的开源推理服务器和生产集群。"
+  },
+  "pacifio/atlas": {
+    "firstSeen": "2026-09-02T16:49:29.651Z",
+    "description": "代理商的源头控制。使用多个编码代理，跟踪它们的更改并在一处查询它们"
+  },
+  "zyronon/TypeWords": {
+    "firstSeen": "2026-09-02T16:49:29.652Z",
+    "description": "练习英语，一击，前进一步； 练习英语，一次敲击一点，进步；"
+  },
+  "vercel-labs/portless": {
+    "firstSeen": "2026-09-02T16:49:29.652Z",
+    "description": "将端口号替换为稳定的、命名的本地 URL。对于人类和特工来说。"
+  },
+  "blader/humanizer": {
+    "firstSeen": "2026-09-02T16:49:29.652Z",
+    "description": "代理技能可消除文本中人工智能生成的书写痕迹"
   }
 }
