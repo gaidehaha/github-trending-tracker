@@ -1,0 +1,866 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub 趋势内参 - 2026-09-03</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: rgba(30, 41, 59, 0.7);
+            --primary: #38bdf8;
+            --accent: #818cf8;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --warning: #eab308;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            background-image: radial-gradient(circle at 0% 0%, #1e1b4b 0%, transparent 50%),
+                              radial-gradient(circle at 100% 100%, #1e3a8a 0%, transparent 50%);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+        .container { max-width: 1000px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 3rem; font-weight: 700; margin-bottom: 10px; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .subtitle { color: var(--text-muted); font-size: 1.1rem; }
+        
+        /* 控制器样式 */
+        .controls {
+            position: sticky;
+            top: 20px;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 40px;
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(20px);
+            padding: 12px;
+            border-radius: 99px;
+            border: 1px solid rgba(255,255,255,0.1);
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 10px 25px -5px rgba(0,0,0,0.3);
+        }
+        .btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 8px 20px;
+            border-radius: 99px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .btn.active {
+            background: var(--primary);
+            color: var(--bg);
+        }
+        .btn:hover:not(.active) {
+            background: rgba(255,255,255,0.05);
+            color: var(--text);
+        }
+
+        .section-title { font-size: 1.8rem; margin: 40px 0 20px; display: flex; align-items: center; gap: 10px; }
+        .section-title::after { content: ''; flex: 1; height: 1px; background: rgba(255,255,255,0.1); }
+
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+        
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 24px;
+            transition: all 0.3s ease;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover { transform: translateY(-5px); border-color: var(--primary); box-shadow: 0 10px 30px -10px rgba(56, 189, 248, 0.3); }
+        
+        /* 隐藏逻辑 */
+        body.hide-seen .card:not(.has-new-badge) { display: none; }
+        .card.is-dismissed .badge-new { display: none; }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 99px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .badge-core { background: rgba(56, 189, 248, 0.2); color: var(--primary); border: 1px solid var(--primary); }
+        .badge-ai { background: rgba(129, 140, 248, 0.2); color: var(--accent); border: 1px solid var(--accent); }
+        .badge-normal { background: rgba(255, 255, 255, 0.05); color: var(--text-muted); }
+        .badge-new { 
+            background: rgba(234, 179, 8, 0.2); 
+            color: var(--warning); 
+            border: 1px solid var(--warning);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .badge-new:hover { background: var(--warning); color: var(--bg); }
+
+        .repo-name { font-size: 1.25rem; font-weight: 600; margin-bottom: 8px; color: var(--text); text-decoration: none; display: block; }
+        .repo-name:hover { color: var(--primary); }
+        
+        .desc { font-size: 0.95rem; color: var(--text-muted); flex-grow: 1; margin-bottom: 20px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+        
+        .footer-meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.05); margin-top: auto; padding-top: 15px;}
+        .stars { display: flex; align-items: center; gap: 4px; color: #fbbf24; }
+        
+        .tag { background: rgba(255,255,255,0.05); padding: 2px 8px; border-radius: 4px; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GitHub 趋势内参</h1>
+            <p class="subtitle">专注于自媒体创作与 AI 生产力 · 2026-09-03</p>
+        </header>
+
+        <div class="controls">
+            <button class="btn active" onclick="setView('all')" id="btn-all">显示全部</button>
+            <button class="btn" onclick="setView('new')" id="btn-new">只看新发现</button>
+            <button class="btn" onclick="clearCacheAndReset()" style="border: 1px dashed rgba(255,255,255,0.15);" title="清除本地已读记忆并强刷页面">🔄 重置缓存</button>
+        </div>
+
+        
+              <div class="section-group">
+                <div class="section-title">🔥 今日趋势</div>
+                <div class="grid">
+                    
+                        <div class="card " data-repo="debpalash/VoiceStudio">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-core">⭐ 核心推荐</span>
+                                
+                            </div>
+                            <a href="https://github.com/debpalash/VoiceStudio" class="repo-name" target="_blank">debpalash/VoiceStudio</a>
+                            <p class="desc">VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 15,095</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="google-research/timesfm">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/google-research/timesfm" class="repo-name" target="_blank">google-research/timesfm</a>
+                            <p class="desc">TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 30,082</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="DietrichGebert/ponytail">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/DietrichGebert/ponytail" class="repo-name" target="_blank">DietrichGebert/ponytail</a>
+                            <p class="desc">Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 122,014</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="sngyai/Sequoia-X">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/sngyai/Sequoia-X" class="repo-name" target="_blank">sngyai/Sequoia-X</a>
+                            <p class="desc">A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 6,236</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="ChromeDevTools/chrome-devtools-mcp">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" class="repo-name" target="_blank">ChromeDevTools/chrome-devtools-mcp</a>
+                            <p class="desc">Chrome DevTools for coding agents</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 50,709</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="NousResearch/hermes-agent">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/NousResearch/hermes-agent" class="repo-name" target="_blank">NousResearch/hermes-agent</a>
+                            <p class="desc">The agent that grows with you</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 240,250</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="superlinked/sie">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/superlinked/sie" class="repo-name" target="_blank">superlinked/sie</a>
+                            <p class="desc">Open-source inference server and production cluster for all the models your agent needs.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 3,110</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="pacifio/atlas">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/pacifio/atlas" class="repo-name" target="_blank">pacifio/atlas</a>
+                            <p class="desc">Source control for agents. Use multiple coding agents, track their changes and query them in one place</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 2,988</span>
+                                <span class="tag">Rust</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="affaan-m/ECC">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/affaan-m/ECC" class="repo-name" target="_blank">affaan-m/ECC</a>
+                            <p class="desc">The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 246,473</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="vercel-labs/portless">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/vercel-labs/portless" class="repo-name" target="_blank">vercel-labs/portless</a>
+                            <p class="desc">Replace port numbers with stable, named local URLs. For humans and agents.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 11,860</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="blader/humanizer">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/blader/humanizer" class="repo-name" target="_blank">blader/humanizer</a>
+                            <p class="desc">Agent skill that removes signs of AI-generated writing from text</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 40,618</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="mattpocock/skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/mattpocock/skills" class="repo-name" target="_blank">mattpocock/skills</a>
+                            <p class="desc">Skills for Real Engineers. Straight from my .agents directory.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 245,477</span>
+                                <span class="tag">Shell</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="fmtlib/fmt">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/fmtlib/fmt" class="repo-name" target="_blank">fmtlib/fmt</a>
+                            <p class="desc">A modern formatting library</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 24,420</span>
+                                <span class="tag">C++</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="zyronon/TypeWords">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/zyronon/TypeWords" class="repo-name" target="_blank">zyronon/TypeWords</a>
+                            <p class="desc">Practice English, one strike, one step forward; 练习英语，一次敲击，一点进步；</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 9,417</span>
+                                <span class="tag">Vue</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="Imbad0202/academic-research-skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/Imbad0202/academic-research-skills" class="repo-name" target="_blank">Imbad0202/academic-research-skills</a>
+                            <p class="desc">Academic Research Skills for Claude Code: research → write → review → revise → finalize</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 45,656</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                </div>
+              </div>
+            
+              <div class="section-group">
+                <div class="section-title">📅 本周趋势</div>
+                <div class="grid">
+                    
+                        <div class="card " data-repo="tt-a1i/archify">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-core">⭐ 核心推荐</span>
+                                
+                            </div>
+                            <a href="https://github.com/tt-a1i/archify" class="repo-name" target="_blank">tt-a1i/archify</a>
+                            <p class="desc">Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 44,258</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="calesthio/OpenMontage">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-core">⭐ 核心推荐</span>
+                                
+                            </div>
+                            <a href="https://github.com/calesthio/OpenMontage" class="repo-name" target="_blank">calesthio/OpenMontage</a>
+                            <p class="desc">World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 55,750</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="THU-MAIC/OpenMAIC">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/THU-MAIC/OpenMAIC" class="repo-name" target="_blank">THU-MAIC/OpenMAIC</a>
+                            <p class="desc">Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 30,665</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="freestylefly/awesome-gpt-image-2">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/freestylefly/awesome-gpt-image-2" class="repo-name" target="_blank">freestylefly/awesome-gpt-image-2</a>
+                            <p class="desc">Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 27,480</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="K-Dense-AI/scientific-agent-skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/K-Dense-AI/scientific-agent-skills" class="repo-name" target="_blank">K-Dense-AI/scientific-agent-skills</a>
+                            <p class="desc">Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 42,159</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="jingyaogong/minimind">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/jingyaogong/minimind" class="repo-name" target="_blank">jingyaogong/minimind</a>
+                            <p class="desc">🧠 Train a 64M-parameter LLM from scratch in just 2h!</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 57,920</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="tashfeenahmed/freellmapi">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/tashfeenahmed/freellmapi" class="repo-name" target="_blank">tashfeenahmed/freellmapi</a>
+                            <p class="desc">7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 23,937</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="p-e-w/heretic">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/p-e-w/heretic" class="repo-name" target="_blank">p-e-w/heretic</a>
+                            <p class="desc">Fully automatic censorship removal for language models</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 30,209</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="rohitg00/ai-engineering-from-scratch">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/rohitg00/ai-engineering-from-scratch" class="repo-name" target="_blank">rohitg00/ai-engineering-from-scratch</a>
+                            <p class="desc">Learn it. Build it. Ship it for others.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 52,115</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="abi/screenshot-to-code">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/abi/screenshot-to-code" class="repo-name" target="_blank">abi/screenshot-to-code</a>
+                            <p class="desc">Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 77,226</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="MadsLorentzen/ai-job-search">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/MadsLorentzen/ai-job-search" class="repo-name" target="_blank">MadsLorentzen/ai-job-search</a>
+                            <p class="desc">The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 40,357</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="bilawalsidhu/gods-eye-view">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/bilawalsidhu/gods-eye-view" class="repo-name" target="_blank">bilawalsidhu/gods-eye-view</a>
+                            <p class="desc">A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 16,310</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="zedeus/nitter">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/zedeus/nitter" class="repo-name" target="_blank">zedeus/nitter</a>
+                            <p class="desc">Alternative Twitter front-end</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 14,080</span>
+                                <span class="tag">Nim</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="omacom/omarchy">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/omacom/omarchy" class="repo-name" target="_blank">omacom/omarchy</a>
+                            <p class="desc">Beautiful, Modern &amp; Opinionated Linux</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 37,406</span>
+                                <span class="tag">Shell</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="every-app/open-seo">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/every-app/open-seo" class="repo-name" target="_blank">every-app/open-seo</a>
+                            <p class="desc">Open source alternative to Semrush and Ahrefs</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 16,448</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                </div>
+              </div>
+            
+              <div class="section-group">
+                <div class="section-title">🏆 本月趋势</div>
+                <div class="grid">
+                    
+                        <div class="card " data-repo="3b1b/manim">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-core">⭐ 核心推荐</span>
+                                
+                            </div>
+                            <a href="https://github.com/3b1b/manim" class="repo-name" target="_blank">3b1b/manim</a>
+                            <p class="desc">Animation engine for explanatory math videos</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 92,897</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="semantica-agi/semantica">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/semantica-agi/semantica" class="repo-name" target="_blank">semantica-agi/semantica</a>
+                            <p class="desc">Graph-Native Infrastructure for Context and Accountable AI Systems</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 11,750</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="volcengine/OpenViking">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/volcengine/OpenViking" class="repo-name" target="_blank">volcengine/OpenViking</a>
+                            <p class="desc">Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 35,223</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="TencentCloud/TencentDB-Agent-Memory">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/TencentCloud/TencentDB-Agent-Memory" class="repo-name" target="_blank">TencentCloud/TencentDB-Agent-Memory</a>
+                            <p class="desc">TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 25,741</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="cloudflare/computer">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/cloudflare/computer" class="repo-name" target="_blank">cloudflare/computer</a>
+                            <p class="desc">Give your agent a computer 👾</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 8,923</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="huangruiteng/loopx">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/huangruiteng/loopx" class="repo-name" target="_blank">huangruiteng/loopx</a>
+                            <p class="desc">Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 5,475</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="ayghri/i-have-adhd">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/ayghri/i-have-adhd" class="repo-name" target="_blank">ayghri/i-have-adhd</a>
+                            <p class="desc">A skill to stop your coding agent from burying the answer. ADHD-friendly output.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 26,761</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="cactus-compute/needle">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/cactus-compute/needle" class="repo-name" target="_blank">cactus-compute/needle</a>
+                            <p class="desc">14MB foundation model for tiny devices; phones, wearables, smart home, and robots.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 10,124</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="apache/maka">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/apache/maka" class="repo-name" target="_blank">apache/maka</a>
+                            <p class="desc">Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 4,582</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="unclebob/swarm-forge">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/unclebob/swarm-forge" class="repo-name" target="_blank">unclebob/swarm-forge</a>
+                            <p class="desc">A simple tool for coordinating several AI agents.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 3,657</span>
+                                <span class="tag">Clojure</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="google/skills">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-ai">🤖 AI 工具</span>
+                                
+                            </div>
+                            <a href="https://github.com/google/skills" class="repo-name" target="_blank">google/skills</a>
+                            <p class="desc">Agent Skills for Google products and technologies</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 19,296</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="AprilNEA/OpenLogi">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/AprilNEA/OpenLogi" class="repo-name" target="_blank">AprilNEA/OpenLogi</a>
+                            <p class="desc">⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 18,628</span>
+                                <span class="tag">Rust</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="modular/modular">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/modular/modular" class="repo-name" target="_blank">modular/modular</a>
+                            <p class="desc">The Modular Platform (includes MAX &amp; Mojo)</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 29,492</span>
+                                <span class="tag">Mojo</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="donnemartin/system-design-primer">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/donnemartin/system-design-primer" class="repo-name" target="_blank">donnemartin/system-design-primer</a>
+                            <p class="desc">Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 367,568</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                        <div class="card " data-repo="youssofal/MTPLX">
+                            <div style="display: flex; gap: 8px;">
+                                <span class="badge badge-normal">🔹 热门项目</span>
+                                
+                            </div>
+                            <a href="https://github.com/youssofal/MTPLX" class="repo-name" target="_blank">youssofal/MTPLX</a>
+                            <p class="desc">3x faster speeds on MLX | Qwen 3.8 27B | Native MTP Speculative Decoding On Apple Silicon With No External Drafter.</p>
+                            <div class="footer-meta">
+                                <span class="stars">★ 1,965</span>
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                      
+                </div>
+              </div>
+            
+        
+        <!-- 空状态提示卡片 -->
+        <div id="empty-state" style="display: none; text-align: center; padding: 60px 20px; background: rgba(30, 41, 59, 0.4); border-radius: 20px; border: 1px dashed rgba(255,255,255,0.15); margin-top: 40px; backdrop-filter: blur(10px); box-shadow: 0 10px 30px -10px rgba(0,0,0,0.3);">
+            <div style="font-size: 3rem; margin-bottom: 20px; filter: drop-shadow(0 0 10px var(--primary));">🎉</div>
+            <h3 style="font-size: 1.5rem; margin-bottom: 10px; color: var(--primary); font-weight: 700;">你已全部掌握！</h3>
+            <p style="color: var(--text-muted); margin-bottom: 25px; font-size: 0.95rem; max-width: 400px; margin-left: auto; margin-right: auto;">今天上榜的所有热门项目都在你的“已读名单”中了，今日暂无新上榜的黑马项目。</p>
+            <button onclick="setView('all')" style="background: var(--primary); color: var(--bg); border: none; font-weight: 600; padding: 10px 28px; border-radius: 99px; cursor: pointer; transition: all 0.3s; box-shadow: 0 4px 14px 0 rgba(56, 189, 248, 0.4);" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">显示今日全部热门</button>
+        </div>
+
+        <footer style="margin-top: 80px; text-align: center; color: var(--text-muted); font-size: 0.9rem;">
+            生成于 2026/9/3 04:57:25 · 自动化驱动
+        </footer>
+    </div>
+
+    <script>
+        const dismissedKey = 'gh-trending-dismissed';
+        let dismissed = [];
+        try {
+            dismissed = JSON.parse(localStorage.getItem(dismissedKey) || '[]');
+        } catch (e) {
+            console.warn("LocalStorage not available:", e);
+        }
+
+        function clearCacheAndReset() {
+            if (confirm("是否清除本地已读记忆并重新加载所有项目？")) {
+                try {
+                    localStorage.removeItem(dismissedKey);
+                    localStorage.removeItem('gh-view-mode');
+                } catch (e) {}
+                location.reload(true);
+            }
+        }
+
+        function setView(mode) {
+            document.body.classList.toggle('hide-seen', mode === 'new');
+            document.getElementById('btn-all').classList.toggle('active', mode === 'all');
+            document.getElementById('btn-new').classList.toggle('active', mode === 'new');
+            try { localStorage.setItem('gh-view-mode', mode); } catch (e) {}
+            checkEmptyState(mode);
+        }
+
+        function checkEmptyState(mode) {
+            const emptyState = document.getElementById('empty-state');
+            if (!emptyState) return;
+
+            if (mode === 'new') {
+                const visibleCards = Array.from(document.querySelectorAll('.card')).filter(card => {
+                    return card.classList.contains('has-new-badge') && !card.classList.contains('is-dismissed');
+                });
+                
+                const isEmpty = visibleCards.length === 0;
+                emptyState.style.display = isEmpty ? 'block' : 'none';
+                
+                // 隐藏或显示所有标题组
+                const sections = document.querySelectorAll('.section-group');
+                sections.forEach(s => {
+                    const cardsInSection = Array.from(s.querySelectorAll('.card')).filter(card => {
+                        return card.classList.contains('has-new-badge') && !card.classList.contains('is-dismissed');
+                    });
+                    s.style.display = cardsInSection.length === 0 ? 'none' : 'block';
+                });
+            } else {
+                emptyState.style.display = 'none';
+                const sections = document.querySelectorAll('.section-group');
+                sections.forEach(s => {
+                    s.style.display = 'block';
+                    const cards = s.querySelectorAll('.card');
+                    cards.forEach(card => card.style.display = 'flex');
+                });
+            }
+        }
+
+        function dismissNew(btnElem, repo, event) {
+            if (event) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            const card = btnElem.closest('.card');
+            if (card) {
+                // 强制隐藏标签
+                btnElem.style.display = 'none';
+                card.classList.add('is-dismissed');
+                card.classList.remove('has-new-badge');
+                
+                if (!dismissed.includes(repo)) {
+                    dismissed.push(repo);
+                    try { localStorage.setItem(dismissedKey, JSON.stringify(dismissed)); } catch (e) {}
+                }
+                
+                if (document.body.classList.contains('hide-seen')) {
+                    card.style.display = 'none';
+                }
+
+                let savedMode = 'new';
+                try { savedMode = localStorage.getItem('gh-view-mode') || 'new'; } catch (e) {}
+                checkEmptyState(savedMode);
+            }
+        }
+
+        window.onload = () => {
+            // 恢复记忆
+            dismissed.forEach(repo => {
+                const cards = document.querySelectorAll('.card');
+                cards.forEach(card => {
+                    if (card.getAttribute('data-repo') === repo) {
+                        card.classList.add('is-dismissed');
+                        card.classList.remove('has-new-badge');
+                        const badge = card.querySelector('.badge-new');
+                        if (badge) badge.style.display = 'none';
+                    }
+                });
+            });
+
+            let savedMode = 'new';
+            try { savedMode = localStorage.getItem('gh-view-mode') || 'new'; } catch (e) {}
+            setView(savedMode);
+        };
+    </script>
+</body>
+</html>
+  
