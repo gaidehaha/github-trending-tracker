@@ -2534,5 +2534,17 @@
   "blader/humanizer": {
     "firstSeen": "2026-09-02T16:49:29.652Z",
     "description": "代理技能可消除文本中人工智能生成的书写痕迹"
+  },
+  "magnitudedev/magnitude": {
+    "firstSeen": "2026-09-03T11:39:38.614Z",
+    "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline."
+  },
+  "f/prompts.chat": {
+    "firstSeen": "2026-09-03T11:39:38.615Z",
+    "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
+  },
+  "cloudflare/cloudflare-os": {
+    "firstSeen": "2026-09-03T11:40:02.795Z",
+    "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems."
   }
 }
