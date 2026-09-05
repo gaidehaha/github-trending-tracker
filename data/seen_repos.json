@@ -2566,5 +2566,17 @@
   "OpenWhispr/openwhispr": {
     "firstSeen": "2026-09-04T11:41:03.885Z",
     "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform."
+  },
+  "humanlayer/skills": {
+    "firstSeen": "2026-09-05T10:53:04.789Z",
+    "description": ""
+  },
+  "BraveOPotato/FckSignups": {
+    "firstSeen": "2026-09-05T10:53:04.789Z",
+    "description": "A list of tools that are open-source, in-browser, and require no-signups!"
+  },
+  "WorldFlowAI/everything-claude-code": {
+    "firstSeen": "2026-09-05T10:53:04.789Z",
+    "description": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development"
   }
 }
