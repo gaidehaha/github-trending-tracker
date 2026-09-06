@@ -2578,5 +2578,21 @@
   "WorldFlowAI/everything-claude-code": {
     "firstSeen": "2026-09-05T10:53:04.789Z",
     "description": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development"
+  },
+  "openai/skills": {
+    "firstSeen": "2026-09-06T15:43:11.198Z",
+    "description": "法典技能目录"
+  },
+  "llvm/llvm-project": {
+    "firstSeen": "2026-09-06T15:43:11.198Z",
+    "description": "LLVM 项目是模块化、可重用的编译器和工具链技术的集合。"
+  },
+  "aipoch/open-science": {
+    "firstSeen": "2026-09-06T15:43:11.198Z",
+    "description": "Open Science by AIPOCH 是一个开源、本地优先、与模型无关的 AI 研究工作台，适用于 macOS、Windows 和 Linux，具有科学代理、Python/R 笔记本、数据连接器和可重复的出处。"
+  },
+  "The-Swarm-Corporation/AutoHedge": {
+    "firstSeen": "2026-09-06T15:43:11.198Z",
+    "description": "在几分钟内建立您的自主对冲基金。 AutoHedge 利用群体智能和人工智能代理的力量来自动化市场分析、风险管理和交易执行。"
   }
 }
