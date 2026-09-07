@@ -2594,5 +2594,37 @@
   "The-Swarm-Corporation/AutoHedge": {
     "firstSeen": "2026-09-06T15:43:11.198Z",
     "description": "在几分钟内建立您的自主对冲基金。 AutoHedge 利用群体智能和人工智能代理的力量来自动化市场分析、风险管理和交易执行。"
+  },
+  "mksglu/context-mode": {
+    "firstSeen": "2026-09-07T12:58:14.584Z",
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+  },
+  "jo-inc/camofox-browser": {
+    "firstSeen": "2026-09-07T12:58:14.584Z",
+    "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement."
+  },
+  "MoonTechLab/LunaTV": {
+    "firstSeen": "2026-09-07T12:58:14.584Z",
+    "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源"
+  },
+  "lightpanda-io/browser": {
+    "firstSeen": "2026-09-07T12:58:14.584Z",
+    "description": "Lightpanda: the headless browser designed for AI and automation"
+  },
+  "shiaho777/web-to-app": {
+    "firstSeen": "2026-09-07T12:58:14.584Z",
+    "description": "The most full featured web-to-app toolkit on Android, a complete APK workshop that runs entirely on your phone"
+  },
+  "zubair-trabzada/geo-seo-claude": {
+    "firstSeen": "2026-09-07T12:58:25.032Z",
+    "description": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If you want learn how to sell this to real businesses, check out the skool community"
+  },
+  "advaitpaliwal/feynman": {
+    "firstSeen": "2026-09-07T12:58:25.032Z",
+    "description": "The open source AI research agent."
+  },
+  "roboflow/rf-detr": {
+    "firstSeen": "2026-09-07T12:58:25.032Z",
+    "description": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026]"
   }
 }
