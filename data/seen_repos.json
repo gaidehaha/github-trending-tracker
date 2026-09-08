@@ -2626,5 +2626,17 @@
   "roboflow/rf-detr": {
     "firstSeen": "2026-09-07T12:58:25.032Z",
     "description": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026]"
+  },
+  "viarotel-org/escrcpy": {
+    "firstSeen": "2026-09-08T11:41:02.683Z",
+    "description": "📱 使用 scrcpy 以图形方式显示和控制您的 Android 设备。"
+  },
+  "facebook/zstd": {
+    "firstSeen": "2026-09-08T11:41:07.729Z",
+    "description": "Zstandard - 快速实时压缩算法"
+  },
+  "MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark": {
+    "firstSeen": "2026-09-08T11:41:13.713Z",
+    "description": "DeepSeek-v4-Flash 0731 2x DGX Sparks 配方"
   }
 }
