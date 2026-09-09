@@ -2638,5 +2638,25 @@
   "MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark": {
     "firstSeen": "2026-09-08T11:41:13.713Z",
     "description": "DeepSeek-v4-Flash 0731 2x DGX Sparks 配方"
+  },
+  "Tencent/teamai-cli": {
+    "firstSeen": "2026-09-09T11:47:22.845Z",
+    "description": "Make Every Team AI Native"
+  },
+  "liquidslr/system-design-notes": {
+    "firstSeen": "2026-09-09T11:47:22.845Z",
+    "description": "Notes of the book System Desgin Interview - An Insider's Guide"
+  },
+  "vastsa/PI-Desktop": {
+    "firstSeen": "2026-09-09T11:47:22.845Z",
+    "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins"
+  },
+  "petergyang/no-ai-slop": {
+    "firstSeen": "2026-09-09T11:47:34.113Z",
+    "description": "Removes 20+ patterns of AI slop from any piece of writing."
+  },
+  "titanwings/distilly": {
+    "firstSeen": "2026-09-09T11:47:47.061Z",
+    "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）."
   }
 }
