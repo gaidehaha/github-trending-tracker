@@ -2658,5 +2658,25 @@
   "titanwings/distilly": {
     "firstSeen": "2026-09-09T11:47:47.061Z",
     "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）."
+  },
+  "alsk1992/CloddsBot": {
+    "firstSeen": "2026-09-10T11:44:45.958Z",
+    "description": "开源人工智能交易代理，在 1000 多个市场中自主运营 - Polymarket、Kalshi、Binance、Hyperliquid、Solana DEX、5 个 EVM 链。扫描边缘，立即执行，在您睡觉时管理风险。用于机器对机器支付的代理商务协议。自托管。建立在克劳德."
+  },
+  "armory3d/armorpaint": {
+    "firstSeen": "2026-09-10T11:44:45.958Z",
+    "description": "图形创建工具"
+  },
+  "JustVugg/colibri": {
+    "firstSeen": "2026-09-10T11:44:45.958Z",
+    "description": "在您已经拥有的硬件上运行前沿 MoE 模型 - 纯 C、零依赖、从磁盘流式传输的专家。微小的发动机，巨大的模型。 🐦"
+  },
+  "nashsu/llm_wiki": {
+    "firstSeen": "2026-09-10T11:44:45.958Z",
+    "description": "LLM Wiki 是一个跨平台桌面应用程序，可自动将您的文档转变为有组织的、相互关联的知识库。法学硕士不是传统的 RAG（每次从头开始检索并回答），而是从您的来源逐步构建和维护持久的 wiki。"
+  },
+  "vercel-labs/skills": {
+    "firstSeen": "2026-09-10T11:44:45.958Z",
+    "description": "开放代理技能工具——npx技能"
   }
 }
