@@ -2678,5 +2678,41 @@
   "vercel-labs/skills": {
     "firstSeen": "2026-09-10T11:44:45.958Z",
     "description": "开放代理技能工具——npx技能"
+  },
+  "nab138/iloader": {
+    "firstSeen": "2026-09-11T11:44:29.819Z",
+    "description": "用户友好的侧装载机"
+  },
+  "melgarafael/DeskcommCRM": {
+    "firstSeen": "2026-09-11T11:44:29.819Z",
+    "description": "开源人工智能销售操作系统——带有原生人工智能代理的自托管 CRM + WhatsApp (WAHA)。为任何通过聊天进行销售的企业提供 Kommo、Octadesk 和 Intercom 的开放替代方案。 MCP 就绪、多租户、LGPD。"
+  },
+  "Sonarr/Sonarr": {
+    "firstSeen": "2026-09-11T11:44:29.819Z",
+    "description": "适用于新闻组和 BitTorrent 用户的智能 PVR。"
+  },
+  "jihe520/MathModelAgent": {
+    "firstSeen": "2026-09-11T11:44:29.819Z",
+    "description": "🤖📐专为数学建模设计的代理和技能，自动完成数学建模，生成一份完整的可以直接提交的论文。 专为数学建模而设计的代理，自动完成数学模型并生成完整的论文以供提交。"
+  },
+  "p1neappleXpress/OpenFlux": {
+    "firstSeen": "2026-09-11T11:44:29.819Z",
+    "description": "网络堆栈研究工具。具有可插拔传输的 TCP 隧道。"
+  },
+  "jordan-gibbs/hyperresearch": {
+    "firstSeen": "2026-09-11T11:44:29.819Z",
+    "description": "代理驱动的研究知识库。代理收集、搜索网络研究并将其综合到持久的、可搜索的维基百科中。"
+  },
+  "alphaXiv/OpenResearch": {
+    "firstSeen": "2026-09-11T11:44:29.819Z",
+    "description": "使用任何模型运行并行研究代理"
+  },
+  "Tencent/WeKnora": {
+    "firstSeen": "2026-09-11T11:44:35.535Z",
+    "description": "开源LLM知识平台：将原始文档变成可查询的RAG、自主推理代理和自我维护的Wiki。"
+  },
+  "jakubkrehel/skills": {
+    "firstSeen": "2026-09-11T11:44:35.535Z",
+    "description": "一系列代理技能可帮助您构建出色的界面。"
   }
 }
