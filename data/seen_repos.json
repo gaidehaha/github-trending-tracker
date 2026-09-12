@@ -2714,5 +2714,21 @@
   "jakubkrehel/skills": {
     "firstSeen": "2026-09-11T11:44:35.535Z",
     "description": "一系列代理技能可帮助您构建出色的界面。"
+  },
+  "yuliskov/SmartTube": {
+    "firstSeen": "2026-09-12T11:12:11.330Z",
+    "description": "在 Android TV 上按照您自己的规则浏览媒体内容"
+  },
+  "SnailSploit/Claude-Red": {
+    "firstSeen": "2026-09-12T11:12:11.330Z",
+    "description": "claude-red 是一个专为 Claude 技能系统设计的进攻性安全技能库。每项技能都是一个结构化的 SKILL.md 文件，为 Claude 提供针对特定攻击面的专家级方法——从 SQLi 到 shellcode，从 EDR 规避到漏洞利用开发。"
+  },
+  "multimodal-art-projection/YuE": {
+    "firstSeen": "2026-09-12T11:12:11.330Z",
+    "description": "YuE2：具有象征性规划、零镜头翻唱和代理音乐编辑的前沿音乐生成。"
+  },
+  "max-sixty/worktrunk": {
+    "firstSeen": "2026-09-12T11:12:11.330Z",
+    "description": "Worktrunk 是一个用于 Git 工作树管理的 CLI，专为并行 AI 代理工作流程而设计"
   }
 }
