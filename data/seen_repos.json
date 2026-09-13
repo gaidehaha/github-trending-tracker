@@ -2730,5 +2730,21 @@
   "max-sixty/worktrunk": {
     "firstSeen": "2026-09-12T11:12:11.330Z",
     "description": "Worktrunk 是一个用于 Git 工作树管理的 CLI，专为并行 AI 代理工作流程而设计"
+  },
+  "ever-co/ever-gauzy": {
+    "firstSeen": "2026-09-13T12:14:33.737Z",
+    "description": "Ever® Gauzy™ - 开放式业务管理平台 (ERP/CRM/HRM/ATS/PM) - https://gauzy.co"
+  },
+  "tonhowtf/omniget": {
+    "firstSeen": "2026-09-13T12:14:33.737Z",
+    "description": "下载 Udemy 和 Hotmart 课程、YouTube 视频、音乐和书籍 — 1,800 多个网站，无需终端。适用于 Windows、macOS 和 Linux 的免费开源桌面应用程序，带有内置课程播放器、PDF/EPUB 阅读器和音乐库。由 yt-dlp 提供支持。您的文件保留在您的计算机上。"
+  },
+  "jiji262/douyin-downloader": {
+    "firstSeen": "2026-09-13T12:14:33.737Z",
+    "description": "一款实用的抖音下载器，可用于单项下载和配置文件批量下载，具有进度显示、重试、SQLite 重复数据删除和浏览器回退支持。 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。"
+  },
+  "Swordfish90/cool-retro-term": {
+    "firstSeen": "2026-09-13T12:14:33.737Z",
+    "description": "一个漂亮的终端模拟器，模仿旧的阴极显示器......"
   }
 }
