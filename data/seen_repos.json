@@ -2746,5 +2746,17 @@
   "Swordfish90/cool-retro-term": {
     "firstSeen": "2026-09-13T12:14:33.737Z",
     "description": "一个漂亮的终端模拟器，模仿旧的阴极显示器......"
+  },
+  "rlaope/oh-my-hermes": {
+    "firstSeen": "2026-09-14T13:16:07.303Z",
+    "description": "Hermes Agent 的多合一插件 ⚚ 编码智能、长期记忆系统和模型优化的工作流程包"
+  },
+  "peetzweg/opendisplay": {
+    "firstSeen": "2026-09-14T13:16:07.303Z",
+    "description": "免费、开源的 Sidecar/Duet 替代方案 - 通过 USB 或 WiFi 使用您的 iPhone 或 iPad 作为 Mac 的真正第二个显示器。低延迟 H.264、Retina HiDPI、触摸输入。"
+  },
+  "microsoft/data-formulator": {
+    "firstSeen": "2026-09-14T13:16:19.642Z",
+    "description": "🪄 Data Formulator 是一个由人工智能驱动的交互式数据分析系统，可以轻松连接、探索和可视化数据。"
   }
 }
