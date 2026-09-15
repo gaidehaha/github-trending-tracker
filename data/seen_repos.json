@@ -2758,5 +2758,21 @@
   "microsoft/data-formulator": {
     "firstSeen": "2026-09-14T13:16:19.642Z",
     "description": "🪄 Data Formulator 是一个由人工智能驱动的交互式数据分析系统，可以轻松连接、探索和可视化数据。"
+  },
+  "Homebrew/BrewUI": {
+    "firstSeen": "2026-09-15T12:02:27.825Z",
+    "description": "📺 Homebrew 的官方 macOS GUI"
+  },
+  "danny-avila/LibreChat": {
+    "firstSeen": "2026-09-15T12:02:27.825Z",
+    "description": "增强型 ChatGPT 克隆：功能代理、MCP、技能、DeepSeek、Anthropic、AWS、OpenAI、Responses API、Azure、Groq、o1、GPT-5、Mistral、OpenRouter、Vertex AI、Gemini、Artifacts、AI 模型切换、消息搜索、代码解释器、langchain、DALL-E-3、OpenAPI 操作、功能、安全多用户身份验证、预设、开源自托管。积极的"
+  },
+  "MG1937/ASC": {
+    "firstSeen": "2026-09-15T12:02:27.825Z",
+    "description": "ASC 是一款专为代理/移动研究人员设计的超快速 Android 反编译器前端。"
+  },
+  "sergebulaev/linkedin-skills": {
+    "firstSeen": "2026-09-15T12:02:43.596Z",
+    "description": "克劳德的 LinkedIn 技能。 11 项 Claude Code 和 Codex 技能，可在您的终端上编写听起来像人的 LinkedIn 帖子、撰写引人注目的评论、分析您的提要并建立发布节奏。 Creative Content Crafts 的内容工程。麻省理工学院。"
   }
 }
