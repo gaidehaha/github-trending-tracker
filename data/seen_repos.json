@@ -2774,5 +2774,21 @@
   "sergebulaev/linkedin-skills": {
     "firstSeen": "2026-09-15T12:02:43.596Z",
     "description": "克劳德的 LinkedIn 技能。 11 项 Claude Code 和 Codex 技能，可在您的终端上编写听起来像人的 LinkedIn 帖子、撰写引人注目的评论、分析您的提要并建立发布节奏。 Creative Content Crafts 的内容工程。麻省理工学院。"
+  },
+  "cloudflare/security-audit-skill": {
+    "firstSeen": "2026-09-16T11:58:44.906Z",
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+  },
+  "abue-ammar/tinycast": {
+    "firstSeen": "2026-09-16T11:58:44.906Z",
+    "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history."
+  },
+  "ankitects/anki": {
+    "firstSeen": "2026-09-16T11:58:44.906Z",
+    "description": "Anki is a smart spaced repetition flashcard program"
+  },
+  "cline/cline": {
+    "firstSeen": "2026-09-16T11:58:44.906Z",
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant."
   }
 }
