@@ -2790,5 +2790,21 @@
   "cline/cline": {
     "firstSeen": "2026-09-16T11:58:44.906Z",
     "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant."
+  },
+  "Tencent/BrowserSkill": {
+    "firstSeen": "2026-09-17T12:00:10.102Z",
+    "description": "让 AI 代理使用您真实登录的浏览器，而不会中断您的工作。 CLI + 扩展，可跨任何支持 shell 的 AI 代理实现浏览器自动化。"
+  },
+  "cilium/cilium": {
+    "firstSeen": "2026-09-17T12:00:10.103Z",
+    "description": "基于 eBPF 的网络、安全性和可观察性"
+  },
+  "TencentCloud/Octop": {
+    "firstSeen": "2026-09-17T12:00:10.103Z",
+    "description": "更智能、自托管的人工智能助手——多用户、多代理。"
+  },
+  "coder/coder": {
+    "firstSeen": "2026-09-17T12:00:10.103Z",
+    "description": "为开发人员及其代理提供安全的环境"
   }
 }
