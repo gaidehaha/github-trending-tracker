@@ -2806,5 +2806,13 @@
   "coder/coder": {
     "firstSeen": "2026-09-17T12:00:10.103Z",
     "description": "为开发人员及其代理提供安全的环境"
+  },
+  "rustfs/rustfs": {
+    "firstSeen": "2026-09-18T11:43:00.453Z",
+    "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph."
+  },
+  "ahmedkhaleel2004/gitdiagram": {
+    "firstSeen": "2026-09-18T11:43:00.453Z",
+    "description": "Free, simple, fast interactive diagrams for any GitHub repository"
   }
 }
