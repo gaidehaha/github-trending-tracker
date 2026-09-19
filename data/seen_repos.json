@@ -2814,5 +2814,25 @@
   "ahmedkhaleel2004/gitdiagram": {
     "firstSeen": "2026-09-18T11:43:00.453Z",
     "description": "Free, simple, fast interactive diagrams for any GitHub repository"
+  },
+  "higgsfield-ai/higgsfield": {
+    "firstSeen": "2026-09-19T11:26:22.680Z",
+    "description": "容错、高度可扩展的 GPU 编排以及专为训练具有数十亿至数万亿参数的模型而设计的机器学习框架"
+  },
+  "docling-project/docling": {
+    "firstSeen": "2026-09-19T11:26:22.680Z",
+    "description": "为 gen AI 准备好您的文档"
+  },
+  "cloudflare/quiche": {
+    "firstSeen": "2026-09-19T11:26:22.680Z",
+    "description": "🥧 QUIC 传输协议和 HTTP/3 的美味实现"
+  },
+  "ruanyf/weekly": {
+    "firstSeen": "2026-09-19T11:26:22.680Z",
+    "description": "科技爱好者周刊，每周五发布"
+  },
+  "yynxxxxx/Codex-X": {
+    "firstSeen": "2026-09-19T11:26:22.680Z",
+    "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API切换、会话同步、提示词注入、Skills/MCP管理、TOML配置可视化的跨平台工具。"
   }
 }
