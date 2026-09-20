@@ -2834,5 +2834,13 @@
   "yynxxxxx/Codex-X": {
     "firstSeen": "2026-09-19T11:26:22.680Z",
     "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API切换、会话同步、提示词注入、Skills/MCP管理、TOML配置可视化的跨平台工具。"
+  },
+  "mihail911/modern-software-dev-assignments": {
+    "firstSeen": "2026-09-20T11:45:25.785Z",
+    "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)"
+  },
+  "vercel-labs/json-render": {
+    "firstSeen": "2026-09-20T11:45:25.785Z",
+    "description": "The Generative UI framework"
   }
 }
