@@ -2842,5 +2842,17 @@
   "vercel-labs/json-render": {
     "firstSeen": "2026-09-20T11:45:25.785Z",
     "description": "The Generative UI framework"
+  },
+  "mvt-project/mvt": {
+    "firstSeen": "2026-09-21T13:16:01.754Z",
+    "description": "MVT（移动验证工具包）有助于对移动设备进行取证，以发现潜在危害的迹象。"
+  },
+  "zhouxiaoka/autoclip": {
+    "firstSeen": "2026-09-21T13:16:01.754Z",
+    "description": "AutoClip : AI驱动的视频剪辑和精彩片段生成 · 一款智能高光提取与剪辑的二创工具"
+  },
+  "FlashML-org/FreeToken": {
+    "firstSeen": "2026-09-21T13:16:13.113Z",
+    "description": "FreeToken 将数据中心规模的模型服务带到您的桌面。在本地快速高效地运行大规模模型。"
   }
 }
