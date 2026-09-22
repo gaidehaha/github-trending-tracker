@@ -2854,5 +2854,17 @@
   "FlashML-org/FreeToken": {
     "firstSeen": "2026-09-21T13:16:13.113Z",
     "description": "FreeToken 将数据中心规模的模型服务带到您的桌面。在本地快速高效地运行大规模模型。"
+  },
+  "dream-num/univer": {
+    "firstSeen": "2026-09-22T12:00:01.361Z",
+    "description": "AI 代理的 Office 工具 — 在一个运行时中处理电子表格、文档、幻灯片、画布、关系表和 PDF。"
+  },
+  "google/ax": {
+    "firstSeen": "2026-09-22T12:00:01.361Z",
+    "description": "Google 的开放代理编排运行时"
+  },
+  "superdesigndev/treg": {
+    "firstSeen": "2026-09-22T12:00:01.361Z",
+    "description": "用于代理工具的 OpenRouter。在此加入社区：https://discord.gg/6mQYYfFMAn"
   }
 }
