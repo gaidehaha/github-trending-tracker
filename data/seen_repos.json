@@ -2866,5 +2866,17 @@
   "superdesigndev/treg": {
     "firstSeen": "2026-09-22T12:00:01.361Z",
     "description": "用于代理工具的 OpenRouter。在此加入社区：https://discord.gg/6mQYYfFMAn"
+  },
+  "strands-agents/harness-sdk": {
+    "firstSeen": "2026-09-23T12:02:37.618Z",
+    "description": "构建代理线束并对其进行端到端控制。用于 Python 和 TypeScript 中的生产 AI 代理的开源 SDK - 任何模型、任何云。"
+  },
+  "harry7557558/spirula-studio": {
+    "firstSeen": "2026-09-23T12:02:37.618Z",
+    "description": "跨供应商 3D 高斯泼溅训练器 - 泼溅到网格、Vulkan 或 CUDA 的视频。"
+  },
+  "TNT-Likely/PanWatch": {
+    "firstSeen": "2026-09-23T12:02:37.618Z",
+    "description": "盯盘侠 PanWatch · 托管AI盯盘助手，集成TradingAgents多代理投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道人群"
   }
 }
