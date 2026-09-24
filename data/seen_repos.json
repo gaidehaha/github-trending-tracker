@@ -2878,5 +2878,9 @@
   "TNT-Likely/PanWatch": {
     "firstSeen": "2026-09-23T12:02:37.618Z",
     "description": "盯盘侠 PanWatch · 托管AI盯盘助手，集成TradingAgents多代理投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道人群"
+  },
+  "LibreChat-AI/LibreChat": {
+    "firstSeen": "2026-09-24T05:17:18.558Z",
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active"
   }
 }
