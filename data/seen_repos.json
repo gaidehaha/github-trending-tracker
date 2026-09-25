@@ -2902,5 +2902,25 @@
   "leejet/stable-diffusion.cpp": {
     "firstSeen": "2026-09-24T12:08:19.765Z",
     "description": "纯 C/C++ 中的扩散模型（SD、Flux、Wan、Qwen Image、Z-Image、...）推理"
+  },
+  "androoAGI/starnet": {
+    "firstSeen": "2026-09-25T12:07:42.000Z",
+    "description": "一个活生生的像素艺术站，真正的人工智能代理在这里做真正的工作。本地优先的桌面代理工具 - 带上您自己的钥匙，观看您的工作人员实际运行。"
+  },
+  "derv82/wifit3": {
+    "firstSeen": "2026-09-25T12:07:42.000Z",
+    "description": "Wifite，但仅限 USB 且跨平台。"
+  },
+  "kelseyhightower/kubernetes-the-hard-way": {
+    "firstSeen": "2026-09-25T12:07:42.000Z",
+    "description": "以艰难的方式引导 Kubernetes。没有脚本。"
+  },
+  "shy3130/tick-stock-panel": {
+    "firstSeen": "2026-09-25T12:07:42.000Z",
+    "description": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源"
+  },
+  "openbao/openbao": {
+    "firstSeen": "2026-09-25T12:07:42.000Z",
+    "description": "OpenBao 是一款用于管理、存储和分发敏感数据（包括机密、证书和密钥）的软件解决方案。"
   }
 }
