@@ -2942,5 +2942,25 @@
   "mobile-next/mobile-mcp": {
     "firstSeen": "2026-09-26T11:43:12.329Z",
     "description": "用于移动自动化和抓取的模型上下文协议服务器（iOS、Android、仿真器、模拟器和真实设备）"
+  },
+  "InfinityLoop1308/PipePipe": {
+    "firstSeen": "2026-09-27T17:14:10.493Z",
+    "description": "一款开源 Android 应用程序，可让您自由浏览 YouTube 和其他服务。"
+  },
+  "vercel-labs/scriptc": {
+    "firstSeen": "2026-09-27T17:14:10.493Z",
+    "description": "TypeScript 到 Native 编译器"
+  },
+  "mvschwarz/openrig": {
+    "firstSeen": "2026-09-27T17:14:10.493Z",
+    "description": "将 Claude Code 和 Codex 作为一个系统一起运行的多代理工具"
+  },
+  "willfaust/Madeira": {
+    "firstSeen": "2026-09-27T17:14:10.493Z",
+    "description": "通过 FEX-Emu + Wine + DXMT 在被监禁的 iOS 上运行 x86-64 Windows PC 游戏"
+  },
+  "miuuyy/codex-chatgpt-web": {
+    "firstSeen": "2026-09-27T17:14:18.909Z",
+    "description": "使用 ChatGPT Web（包括 Pro）作为 Codex 中的本机模型 — 具有上下文、工具、流媒体和图像，无需使用 Codex 配额。"
   }
 }
