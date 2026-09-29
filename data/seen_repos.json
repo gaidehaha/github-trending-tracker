@@ -2974,5 +2974,21 @@
   "pollen-robotics/microduck": {
     "firstSeen": "2026-09-29T10:05:48.572Z",
     "description": "小型双足鸭子机器人🦆"
+  },
+  "NVIDIA/OpenShell": {
+    "firstSeen": "2026-09-29T18:13:34.928Z",
+    "description": "OpenShell 是自主 AI 代理的安全、私有运行时。"
+  },
+  "rakyll/hey": {
+    "firstSeen": "2026-09-29T18:13:34.928Z",
+    "description": "HTTP 负载生成器、ApacheBench (ab) 替换"
+  },
+  "longbridge/gpui-kit": {
+    "firstSeen": "2026-09-29T18:13:49.699Z",
+    "description": "Rust GUI 组件，用于使用 GPUI 构建出色的跨平台桌面应用程序。"
+  },
+  "ahujasid/mcp-for-blender": {
+    "firstSeen": "2026-09-29T18:13:49.699Z",
+    "description": "用于通过您选择的任何 LLM 控制 Blender 3D 的社区插件"
   }
 }
