@@ -2990,5 +2990,13 @@
   "ahujasid/mcp-for-blender": {
     "firstSeen": "2026-09-29T18:13:49.699Z",
     "description": "用于通过您选择的任何 LLM 控制 Blender 3D 的社区插件"
+  },
+  "firebase/firebase-ios-sdk": {
+    "firstSeen": "2026-09-30T12:57:04.366Z",
+    "description": "用于 Apple 应用开发的 Firebase SDK"
+  },
+  "modelcontextprotocol/servers": {
+    "firstSeen": "2026-09-30T12:57:04.366Z",
+    "description": "模型上下文协议服务器"
   }
 }
