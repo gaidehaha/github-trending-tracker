@@ -2998,5 +2998,17 @@
   "modelcontextprotocol/servers": {
     "firstSeen": "2026-09-30T12:57:04.366Z",
     "description": "模型上下文协议服务器"
+  },
+  "tile-ai/tilelang": {
+    "firstSeen": "2026-10-01T18:32:58.478Z",
+    "description": "旨在简化高性能 GPU/CPU/加速器内核的开发的领域特定语言"
+  },
+  "pablostanley/yoinks": {
+    "firstSeen": "2026-10-01T18:32:58.478Z",
+    "description": "yoink 来自您终端的任何视频。没有阴暗的广告。"
+  },
+  "Friedrich-M/UniMate": {
+    "firstSeen": "2026-10-01T18:32:58.478Z",
+    "description": "[SIGGRAPH Asia 2026] UniMate：一种统一的模型来动画不同的骨骼"
   }
 }
