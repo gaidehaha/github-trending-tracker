@@ -3010,5 +3010,13 @@
   "Friedrich-M/UniMate": {
     "firstSeen": "2026-10-01T18:32:58.478Z",
     "description": "[SIGGRAPH Asia 2026] UniMate：一种统一的模型来动画不同的骨骼"
+  },
+  "getsentry/sentry": {
+    "firstSeen": "2026-10-02T13:05:06.408Z",
+    "description": "开发人员优先的错误跟踪和性能监控"
+  },
+  "Effect-TS/effect": {
+    "firstSeen": "2026-10-02T13:05:06.408Z",
+    "description": "在 TypeScript 中构建生产就绪的应用程序"
   }
 }
