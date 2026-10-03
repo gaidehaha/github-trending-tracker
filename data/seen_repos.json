@@ -3018,5 +3018,9 @@
   "Effect-TS/effect": {
     "firstSeen": "2026-10-02T13:05:06.408Z",
     "description": "在 TypeScript 中构建生产就绪的应用程序"
+  },
+  "meituan-longcat/LongCat-Video": {
+    "firstSeen": "2026-10-03T14:24:26.382Z",
+    "description": ""
   }
 }
