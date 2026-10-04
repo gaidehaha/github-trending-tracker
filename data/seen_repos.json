@@ -3026,5 +3026,13 @@
   "boykopovar/AnyPS5": {
     "firstSeen": "2026-10-04T00:00:21.755Z",
     "description": "自动将 PS5 可执行文件移植到 Linux 和 Windows 的工具"
+  },
+  "tester-army/e2e": {
+    "firstSeen": "2026-10-04T12:48:52.284Z",
+    "description": "适用于 Web 和移动应用程序的下一代 e2e 测试框架。"
+  },
+  "caddyserver/caddy": {
+    "firstSeen": "2026-10-04T12:48:52.284Z",
+    "description": "具有自动 HTTPS 功能的快速且可扩展的多平台 HTTP/1-2-3 Web 服务器"
   }
 }
