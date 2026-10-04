@@ -3022,5 +3022,9 @@
   "meituan-longcat/LongCat-Video": {
     "firstSeen": "2026-10-03T14:24:26.382Z",
     "description": ""
+  },
+  "boykopovar/AnyPS5": {
+    "firstSeen": "2026-10-04T00:00:21.755Z",
+    "description": "自动将 PS5 可执行文件移植到 Linux 和 Windows 的工具"
   }
 }
