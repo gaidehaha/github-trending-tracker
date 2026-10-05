@@ -3046,5 +3046,9 @@
   "Gaurav-Gosain/tuios": {
     "firstSeen": "2026-10-05T15:12:21.092Z",
     "description": "终端窗口管理器知道您的代理正在做什么。平铺窗格、工作区、重新启动后仍保留的会话以及每个编码代理的一个收件箱。"
+  },
+  "M-Abozaid/esp32-c3-adblock": {
+    "firstSeen": "2026-10-05T22:09:23.139Z",
+    "description": "2 美元 ESP32-C3（无 PSRAM）上的 Pi-hole 级 DNS 广告拦截器：537k 域作为闪存中的 40 位 FNV-1a 哈希值，进行二进制搜索。 UDP DNS 污水坑 + Web 仪表板。 https://youtube.com/shorts/RaxszOUMi8E?feature=share"
   }
 }
