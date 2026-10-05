@@ -3034,5 +3034,9 @@
   "caddyserver/caddy": {
     "firstSeen": "2026-10-04T12:48:52.284Z",
     "description": "具有自动 HTTPS 功能的快速且可扩展的多平台 HTTP/1-2-3 Web 服务器"
+  },
+  "michael-denyer/pstack-claude": {
+    "firstSeen": "2026-10-05T00:07:08.609Z",
+    "description": "Poteto pstack 的 Claude Code、Codex、Pi、OpenCode、Gemini 和 Prime Agent 版本。严格的代理工作流程，并将光标原语转换为其他线束。"
   }
 }
