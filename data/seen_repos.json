@@ -3070,5 +3070,13 @@
   "storytold/artcraft": {
     "firstSeen": "2026-10-08T10:53:14.760Z",
     "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers"
+  },
+  "BerriAI/litellm": {
+    "firstSeen": "2026-10-09T18:29:12.867Z",
+    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]"
+  },
+  "twostraws/SwiftUI-Agent-Skill": {
+    "firstSeen": "2026-10-09T18:29:12.867Z",
+    "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
   }
 }
