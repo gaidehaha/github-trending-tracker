@@ -3078,5 +3078,9 @@
   "twostraws/SwiftUI-Agent-Skill": {
     "firstSeen": "2026-10-09T18:29:12.867Z",
     "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
+  },
+  "ranxianglei/billion-context": {
+    "firstSeen": "2026-10-10T12:59:05.644Z",
+    "description": "稳定可用 一个上下文压缩插件，适用于小型上下文窗口（100K 上下文就足够了）、节省令牌（减少 5 倍的令牌）和长达一个月的单个会话（数十亿个令牌）。上下文压缩插件，兼顾上下文小窗口(100k 上下文足矣)省令牌(省 5 倍令牌)和超长会话(数月级别几十亿令牌单会话)。billion-context is all you need"
   }
 }
