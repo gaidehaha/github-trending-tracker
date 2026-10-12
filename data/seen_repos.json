@@ -3086,5 +3086,13 @@
   "danyuchn/asd-ste100-skill": {
     "firstSeen": "2026-10-11T13:25:30.344Z",
     "description": "ASD-STE100 简化技术英语规则，重新用作克劳德代码技能，用于重写面向代理的模糊英语。"
+  },
+  "open-webui/open-webui": {
+    "firstSeen": "2026-10-12T11:16:44.931Z",
+    "description": "用户友好的 AI 界面（支持 Ollama、OpenAI API...）"
+  },
+  "microsoft/BitNet": {
+    "firstSeen": "2026-10-12T11:16:44.931Z",
+    "description": "1 位 LLM 的官方推理框架"
   }
 }
