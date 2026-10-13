@@ -3094,5 +3094,9 @@
   "microsoft/BitNet": {
     "firstSeen": "2026-10-12T11:16:44.931Z",
     "description": "1 位 LLM 的官方推理框架"
+  },
+  "xtool-org/xtool": {
+    "firstSeen": "2026-10-13T11:00:31.928Z",
+    "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS."
   }
 }
