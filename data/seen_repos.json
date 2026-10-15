@@ -3114,5 +3114,13 @@
   "ntdevlabs/tiny11builder": {
     "firstSeen": "2026-10-14T12:17:45.884Z",
     "description": "WinUI app for building smaller, customized Windows 11 images."
+  },
+  "lightseekorg/tokenspeed": {
+    "firstSeen": "2026-10-15T12:00:09.634Z",
+    "description": "TokenSpeed is a speed-of-light LLM inference engine."
+  },
+  "xerj-org/xerj": {
+    "firstSeen": "2026-10-15T12:00:09.634Z",
+    "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work."
   }
 }
