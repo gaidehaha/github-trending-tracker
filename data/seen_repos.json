@@ -3122,5 +3122,9 @@
   "xerj-org/xerj": {
     "firstSeen": "2026-10-15T12:00:09.634Z",
     "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work."
+  },
+  "LibreSpark/LibreTV": {
+    "firstSeen": "2026-10-16T04:54:35.243Z",
+    "description": "一分钟搭建影视站，支持Docker等部署方式"
   }
 }
