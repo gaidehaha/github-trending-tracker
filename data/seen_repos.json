@@ -3142,5 +3142,17 @@
   "Kruk2/jasna": {
     "firstSeen": "2026-10-18T11:37:35.289Z",
     "description": "Video restoration tool"
+  },
+  "headroomlabs-ai/headroom": {
+    "firstSeen": "2026-10-19T13:51:26.014Z",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+  },
+  "withmarbleapp/os-taxonomy": {
+    "firstSeen": "2026-10-19T13:51:26.014Z",
+    "description": ""
+  },
+  "YuJunZhiXue/dsh-purge": {
+    "firstSeen": "2026-10-19T13:51:33.228Z",
+    "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分"
   }
 }
