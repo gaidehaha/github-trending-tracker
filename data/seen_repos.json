@@ -3154,5 +3154,13 @@
   "YuJunZhiXue/dsh-purge": {
     "firstSeen": "2026-10-19T13:51:33.228Z",
     "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分"
+  },
+  "sickn33/agentic-awesome-skills": {
+    "firstSeen": "2026-10-20T14:27:25.688Z",
+    "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,600+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench."
+  },
+  "vllm-project/vllm": {
+    "firstSeen": "2026-10-20T14:27:25.688Z",
+    "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
   }
 }
