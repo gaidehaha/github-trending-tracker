@@ -3166,5 +3166,9 @@
   "wshobson/agents": {
     "firstSeen": "2026-10-21T05:13:42.003Z",
     "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi"
+  },
+  "strelov1/freehire": {
+    "firstSeen": "2026-10-21T12:16:33.889Z",
+    "description": "freehire — the open-source search engine for job seekers"
   }
 }
