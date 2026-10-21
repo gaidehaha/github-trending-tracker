@@ -3162,5 +3162,9 @@
   "vllm-project/vllm": {
     "firstSeen": "2026-10-20T14:27:25.688Z",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+  },
+  "wshobson/agents": {
+    "firstSeen": "2026-10-21T05:13:42.003Z",
+    "description": "Multi-harness agentic plugin marketplace for Claude Code, Codex, Cursor, OpenCode, GitHub Copilot, Google Antigravity, and Pi"
   }
 }
