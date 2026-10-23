@@ -3182,5 +3182,13 @@
   "Meloong-Git/PCL": {
     "firstSeen": "2026-10-22T12:17:47.353Z",
     "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。"
+  },
+  "Renhuai123/ziwei-doushu": {
+    "firstSeen": "2026-10-23T12:00:06.410Z",
+    "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+  },
+  "elie222/rakazo": {
+    "firstSeen": "2026-10-23T12:00:14.610Z",
+    "description": "Open-source Grok Bot alternative. Choose your own model and sandbox."
   }
 }
