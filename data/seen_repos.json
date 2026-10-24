@@ -3190,5 +3190,17 @@
   "elie222/rakazo": {
     "firstSeen": "2026-10-23T12:00:14.610Z",
     "description": "Open-source Grok Bot alternative. Choose your own model and sandbox."
+  },
+  "google-gemini/gemini-cli": {
+    "firstSeen": "2026-10-24T11:30:23.528Z",
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal."
+  },
+  "jbiaojerry/ebook-treasure-chest": {
+    "firstSeen": "2026-10-24T11:30:23.528Z",
+    "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。"
+  },
+  "makecindy/cindy": {
+    "firstSeen": "2026-10-24T11:30:23.528Z",
+    "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
   }
 }
