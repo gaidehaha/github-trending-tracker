@@ -3202,5 +3202,17 @@
   "makecindy/cindy": {
     "firstSeen": "2026-10-24T11:30:23.528Z",
     "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。"
+  },
+  "JetBrains/thinkrail": {
+    "firstSeen": "2026-10-25T11:56:28.599Z",
+    "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need"
+  },
+  "coollabsio/coolify": {
+    "firstSeen": "2026-10-25T11:56:28.599Z",
+    "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku &amp; Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers."
+  },
+  "AgriciDaniel/claude-seo": {
+    "firstSeen": "2026-10-25T11:56:28.599Z",
+    "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data."
   }
 }
