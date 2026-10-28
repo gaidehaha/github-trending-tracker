@@ -3234,5 +3234,13 @@
   "elayadesign/ai-design-skills": {
     "firstSeen": "2026-10-28T00:41:47.983Z",
     "description": ""
+  },
+  "expo/skills": {
+    "firstSeen": "2026-10-28T18:27:45.852Z",
+    "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services"
+  },
+  "xiaolai/the-craft-of-selfteaching": {
+    "firstSeen": "2026-10-28T18:27:45.852Z",
+    "description": "One has no future if one couldn't teach themself."
   }
 }
