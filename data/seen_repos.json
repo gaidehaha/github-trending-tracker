@@ -3254,5 +3254,13 @@
   "Donchitos/Claude-Code-Game-Studios": {
     "firstSeen": "2026-10-29T13:38:09.344Z",
     "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy."
+  },
+  "Orkas-AI/Orkas": {
+    "firstSeen": "2026-10-31T12:59:17.039Z",
+    "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS &amp; Windows; built-in models or your own keys."
+  },
+  "bregman-arie/devops-exercises": {
+    "firstSeen": "2026-10-31T12:59:17.039Z",
+    "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions"
   }
 }
