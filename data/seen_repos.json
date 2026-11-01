@@ -3262,5 +3262,29 @@
   "bregman-arie/devops-exercises": {
     "firstSeen": "2026-10-31T12:59:17.039Z",
     "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions"
+  },
+  "cjpais/Handy": {
+    "firstSeen": "2026-11-01T16:16:43.705Z",
+    "description": "A free, open source, and extensible speech-to-text application that works completely offline."
+  },
+  "kornia/kornia": {
+    "firstSeen": "2026-11-01T16:16:43.705Z",
+    "description": "🐍 Geometric Computer Vision Library for Spatial AI"
+  },
+  "beenuar/AiSOC": {
+    "firstSeen": "2026-11-01T16:16:43.705Z",
+    "description": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&amp;CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue."
+  },
+  "anomalyco/hex": {
+    "firstSeen": "2026-11-01T16:16:43.705Z",
+    "description": "Local-first voice dictation for macOS. Hold a shortcut, speak, and paste into any app. Native Rust, on-device speech recognition, and a Linux beta."
+  },
+  "patchy631/ai-engineering-hub": {
+    "firstSeen": "2026-11-01T16:16:43.705Z",
+    "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications."
+  },
+  "ghostty-org/ghostty": {
+    "firstSeen": "2026-11-01T16:16:52.826Z",
+    "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
   }
 }
