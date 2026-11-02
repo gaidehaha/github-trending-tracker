@@ -3286,5 +3286,13 @@
   "ghostty-org/ghostty": {
     "firstSeen": "2026-11-01T16:16:52.826Z",
     "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
+  },
+  "vercel-labs/agent-desktop": {
+    "firstSeen": "2026-11-02T19:43:49.562Z",
+    "description": "Computer use CLI for AI agents"
+  },
+  "karpathy/nanochat": {
+    "firstSeen": "2026-11-02T19:43:49.562Z",
+    "description": "The best ChatGPT that $100 can buy."
   }
 }
