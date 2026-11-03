@@ -3294,5 +3294,13 @@
   "karpathy/nanochat": {
     "firstSeen": "2026-11-02T19:43:49.562Z",
     "description": "The best ChatGPT that $100 can buy."
+  },
+  "floci-io/floci": {
+    "firstSeen": "2026-11-03T11:16:15.719Z",
+    "description": "Light, fluffy, and always free - The AWS Local Emulator alternative"
+  },
+  "Usagi-org/ai-goofish-monitor": {
+    "firstSeen": "2026-11-03T11:16:15.719Z",
+    "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。"
   }
 }
