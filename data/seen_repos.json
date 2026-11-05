@@ -3330,5 +3330,13 @@
   "scenario-labs/skills": {
     "firstSeen": "2026-11-04T19:58:57.490Z",
     "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity."
+  },
+  "lz4/lz4": {
+    "firstSeen": "2026-11-05T11:26:45.180Z",
+    "description": "Extremely Fast Compression algorithm"
+  },
+  "vercel-labs/agent-browser": {
+    "firstSeen": "2026-11-05T11:26:45.180Z",
+    "description": "Browser automation CLI for AI agents"
   }
 }
