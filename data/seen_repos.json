@@ -3338,5 +3338,45 @@
   "vercel-labs/agent-browser": {
     "firstSeen": "2026-11-05T11:26:45.180Z",
     "description": "Browser automation CLI for AI agents"
+  },
+  "zed-industries/zed": {
+    "firstSeen": "2026-11-06T11:25:13.616Z",
+    "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+  },
+  "rails/rails": {
+    "firstSeen": "2026-11-06T11:25:13.616Z",
+    "description": "Ruby on Rails"
+  },
+  "mpv-player/mpv": {
+    "firstSeen": "2026-11-06T11:25:13.616Z",
+    "description": "🎥 Command line media player"
+  },
+  "react/react": {
+    "firstSeen": "2026-11-06T11:25:13.616Z",
+    "description": "The library for web and native user interfaces."
+  },
+  "symfony/symfony": {
+    "firstSeen": "2026-11-06T11:25:13.616Z",
+    "description": "The Symfony PHP framework"
+  },
+  "prometheus/prometheus": {
+    "firstSeen": "2026-11-06T11:25:13.616Z",
+    "description": "The Prometheus monitoring system and time series database."
+  },
+  "nushell/nushell": {
+    "firstSeen": "2026-11-06T11:25:13.616Z",
+    "description": "A new type of shell"
+  },
+  "etcd-io/etcd": {
+    "firstSeen": "2026-11-06T11:25:13.616Z",
+    "description": "Distributed reliable key-value store for the most critical data of a distributed system"
+  },
+  "openssl/openssl": {
+    "firstSeen": "2026-11-06T11:25:13.616Z",
+    "description": "General purpose TLS and crypto library"
+  },
+  "astral-sh/ruff": {
+    "firstSeen": "2026-11-06T11:25:13.616Z",
+    "description": "An extremely fast Python linter and code formatter, written in Rust."
   }
 }
