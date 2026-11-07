@@ -3378,5 +3378,21 @@
   "astral-sh/ruff": {
     "firstSeen": "2026-11-06T11:25:13.616Z",
     "description": "An extremely fast Python linter and code formatter, written in Rust."
+  },
+  "meta/astryx": {
+    "firstSeen": "2026-11-07T17:50:24.414Z",
+    "description": "An open source design system that's fully customizable and agent ready"
+  },
+  "sherlock-project/sherlock": {
+    "firstSeen": "2026-11-07T17:50:24.414Z",
+    "description": "Hunt down social media accounts by username across social networks"
+  },
+  "mbillow/localthings": {
+    "firstSeen": "2026-11-07T17:50:24.414Z",
+    "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account."
+  },
+  "dsx-ai-factory/nvke": {
+    "firstSeen": "2026-11-07T17:50:24.414Z",
+    "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal."
   }
 }
