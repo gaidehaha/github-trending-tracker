@@ -3394,5 +3394,13 @@
   "dsx-ai-factory/nvke": {
     "firstSeen": "2026-11-07T17:50:24.414Z",
     "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal."
+  },
+  "anthropics/claude-quickstarts": {
+    "firstSeen": "2026-11-08T16:15:03.902Z",
+    "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API"
+  },
+  "google-deepmind/mujoco": {
+    "firstSeen": "2026-11-08T16:15:03.902Z",
+    "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator."
   }
 }
