@@ -3402,5 +3402,13 @@
   "google-deepmind/mujoco": {
     "firstSeen": "2026-11-08T16:15:03.902Z",
     "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator."
+  },
+  "garrytan/gbrain": {
+    "firstSeen": "2026-11-09T19:59:16.141Z",
+    "description": "加里固执己见的 OpenClaw/Hermes 特工大脑"
+  },
+  "homeassistant-ai/ha-mcp": {
+    "firstSeen": "2026-11-09T19:59:16.141Z",
+    "description": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。"
   }
 }
