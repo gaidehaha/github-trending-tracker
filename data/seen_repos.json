@@ -3410,5 +3410,9 @@
   "homeassistant-ai/ha-mcp": {
     "firstSeen": "2026-11-09T19:59:16.141Z",
     "description": "使用 Claude、ChatGPT 和其他 AI 助手配置和自动化 Home Assistant。"
+  },
+  "we-promise/sure": {
+    "firstSeen": "2026-11-10T15:10:39.702Z",
+    "description": "The personal finance app for everyone (by everyone)"
   }
 }
