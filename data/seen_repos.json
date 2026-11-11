@@ -3414,5 +3414,25 @@
   "we-promise/sure": {
     "firstSeen": "2026-11-10T15:10:39.702Z",
     "description": "The personal finance app for everyone (by everyone)"
+  },
+  "GoogleChrome/modern-web-guidance-src": {
+    "firstSeen": "2026-11-11T11:24:17.144Z",
+    "description": ""
+  },
+  "shadcn/improve": {
+    "firstSeen": "2026-11-11T11:24:17.144Z",
+    "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute."
+  },
+  "openai/codex-security": {
+    "firstSeen": "2026-11-11T11:24:17.144Z",
+    "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security"
+  },
+  "TheAlgorithms/Java": {
+    "firstSeen": "2026-11-11T11:24:17.144Z",
+    "description": "All Algorithms implemented in Java"
+  },
+  "herdrdev/herdr": {
+    "firstSeen": "2026-11-11T11:24:24.625Z",
+    "description": "the runtime your coding agents live on"
   }
 }
