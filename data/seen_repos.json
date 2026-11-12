@@ -3434,5 +3434,17 @@
   "herdrdev/herdr": {
     "firstSeen": "2026-11-11T11:24:24.625Z",
     "description": "the runtime your coding agents live on"
+  },
+  "pookjw/HermesEnabler": {
+    "firstSeen": "2026-11-12T11:45:06.472Z",
+    "description": "Enable Hermès Watch Faces on any Apple Watch devices"
+  },
+  "QwenLM/qwen-code": {
+    "firstSeen": "2026-11-12T11:45:06.472Z",
+    "description": "An open-source AI coding agent that lives in your terminal."
+  },
+  "ashhart/TensorFold": {
+    "firstSeen": "2026-11-12T11:45:06.472Z",
+    "description": "LLM Inference Engine for Metal, CUDA and Vulkan."
   }
 }
