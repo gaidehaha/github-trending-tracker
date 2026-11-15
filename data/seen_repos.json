@@ -3482,5 +3482,17 @@
   "martin-olivier/airgorah": {
     "firstSeen": "2026-11-14T18:27:01.859Z",
     "description": "A WiFi security auditing software"
+  },
+  "ggml-org/ggml": {
+    "firstSeen": "2026-11-15T16:32:04.707Z",
+    "description": "Tensor library for machine learning"
+  },
+  "elementalsouls/Claude-BugHunter": {
+    "firstSeen": "2026-11-15T16:32:04.707Z",
+    "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices."
+  },
+  "NVIDIA/SkillEvaluator": {
+    "firstSeen": "2026-11-15T16:32:04.707Z",
+    "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior."
   }
 }
