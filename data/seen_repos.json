@@ -3494,5 +3494,21 @@
   "NVIDIA/SkillEvaluator": {
     "firstSeen": "2026-11-15T16:32:04.707Z",
     "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior."
+  },
+  "getarcaneapp/arcane": {
+    "firstSeen": "2026-11-16T19:47:39.790Z",
+    "description": "Modern Docker Management, Designed for Everyone"
+  },
+  "DeanChensj/jiangshan-map": {
+    "firstSeen": "2026-11-16T19:47:39.790Z",
+    "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy &amp; classical poetry routes"
+  },
+  "google-research/paper-orchestra": {
+    "firstSeen": "2026-11-16T19:47:39.790Z",
+    "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing."
+  },
+  "kajisho5/ffmpeg-skill": {
+    "firstSeen": "2026-11-16T19:47:39.790Z",
+    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys."
   }
 }
