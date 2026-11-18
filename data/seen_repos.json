@@ -3510,5 +3510,25 @@
   "kajisho5/ffmpeg-skill": {
     "firstSeen": "2026-11-16T19:47:39.790Z",
     "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys."
+  },
+  "astral-sh/uv": {
+    "firstSeen": "2026-11-18T12:09:44.398Z",
+    "description": "An extremely fast Python package and project manager, written in Rust."
+  },
+  "jquery/jquery": {
+    "firstSeen": "2026-11-18T12:09:44.398Z",
+    "description": "jQuery JavaScript Library"
+  },
+  "appwrite/appwrite": {
+    "firstSeen": "2026-11-18T12:09:44.398Z",
+    "description": "The open-source cloud for agents &amp; devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more"
+  },
+  "openvinotoolkit/openvino": {
+    "firstSeen": "2026-11-18T12:09:44.399Z",
+    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference"
+  },
+  "solidjs/solid": {
+    "firstSeen": "2026-11-18T12:09:44.399Z",
+    "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces."
   }
 }
