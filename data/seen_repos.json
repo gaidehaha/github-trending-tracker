@@ -3530,5 +3530,21 @@
   "solidjs/solid": {
     "firstSeen": "2026-11-18T12:09:44.399Z",
     "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces."
+  },
+  "mjmirza/app-store-compliance": {
+    "firstSeen": "2026-11-19T12:03:28.784Z",
+    "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents."
+  },
+  "toeverything/AFFiNE": {
+    "firstSeen": "2026-11-19T12:03:28.784Z",
+    "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use."
+  },
+  "XiaoYouChR/Ghost-Downloader-3": {
+    "firstSeen": "2026-11-19T12:03:28.784Z",
+    "description": "The only downloader you need. 下载器的集大成者。"
+  },
+  "Jakeschincariol/instagram-agent-skill": {
+    "firstSeen": "2026-11-19T12:03:44.808Z",
+    "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT."
   }
 }
