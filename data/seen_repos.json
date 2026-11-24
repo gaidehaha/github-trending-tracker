@@ -3546,5 +3546,9 @@
   "Jakeschincariol/instagram-agent-skill": {
     "firstSeen": "2026-11-19T12:03:44.808Z",
     "description": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer. Free, MIT."
+  },
+  "yetone/magpie": {
+    "firstSeen": "2026-11-24T02:31:54.249Z",
+    "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar."
   }
 }
