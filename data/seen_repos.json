@@ -3550,5 +3550,9 @@
   "yetone/magpie": {
     "firstSeen": "2026-11-24T02:31:54.249Z",
     "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar."
+  },
+  "Ebony-Vinyl/dsh-our-free-model": {
+    "firstSeen": "2026-11-25T00:03:57.554Z",
+    "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap."
   }
 }
