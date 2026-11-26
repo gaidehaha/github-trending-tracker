@@ -3558,5 +3558,9 @@
   "n8n-io/nod": {
     "firstSeen": "2026-11-25T19:32:41.005Z",
     "description": "Open source personal agent with its own computer. It chases invoices, preps your calls and cancels trials on real websites, and asks before it acts. Runs on your machine with the model you choose. By n8n."
+  },
+  "obsidianmd/obsidian-skills": {
+    "firstSeen": "2026-11-26T17:15:33.215Z",
+    "description": "Teach your agent to use Obsidian and open formats including Markdown, Bases, JSON Canvas."
   }
 }
